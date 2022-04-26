@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Web,Chrome 100.0.4896.127,,,2022-04-26 17:05:57,2022-04-26 17:07:04,1m - 6.228s,FAILED
+,,,,,,,
+Test Cases/WEB/Register,Chrome 100.0.4896.127,,,2022-04-26 17:05:58,2022-04-26 17:07:04,1m - 5.763s,FAILED
+"openBrowser("""")",Chrome 100.0.4896.127,,,2022-04-26 17:05:58,2022-04-26 17:06:02,3.613s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 100.0.4896.127,,,2022-04-26 17:06:02,2022-04-26 17:06:06,3.580s,PASSED
+"click(findTestObject(""WEB/Register/login_ico""))",Chrome 100.0.4896.127,,,2022-04-26 17:06:06,2022-04-26 17:06:06,0.570s,PASSED
+"click(findTestObject(""WEB/Register/register_a""))",Chrome 100.0.4896.127,,,2022-04-26 17:06:06,2022-04-26 17:06:07,1.148s,PASSED
+"for ([i = 1, i <= 6, (i++)])",Chrome 100.0.4896.127,,,2022-04-26 17:06:07,2022-04-26 17:07:04,56.137s,FAILED

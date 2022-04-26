@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Web" time="66.228" tests="1" failures="1" errors="0">
+   <testsuite name="TS_Web" tests="1" failures="1" errors="0" time="66.228" skipped="0" timestamp="2022-04-26 17:05:57" hostname="salsa - SALSABILA" id="Test Suites/WEB/TS_Web">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta\\final-project-qe-alta\\Reports\\20220426_170553\\WEB\\TS_Web\\20220426_170553"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta\\final-project-qe-alta\\Reports\\20220426_170553\\WEB\\TS_Web\\20220426_170553\\execution0.log"/>
+         <property name="attachments" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta\\final-project-qe-alta\\Reports\\20220426_170553\\WEB\\TS_Web\\20220426_170553\\1650967619761.png"/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.127"/>
+         <property name="hostAddress" value="192.168.35.173"/>
+         <property name="sessionId" value="cb1fd62fcf67e4fd648f289b49c8c0aa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WEB/Register" time="65.763" classname="Test Cases/WEB/Register" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WEB/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id=&quot;app&quot;]/div/main/div/div/div/div[2]/form/div[4]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id=&quot;app&quot;]/div/main/div/div/div/div[2]/form/div[4]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Register.run(Register:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650967553770.run(TempTestSuite1650967553770.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Register.run(Register:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650967553770.run(TempTestSuite1650967553770.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id=&quot;app&quot;]/div/main/div/div/div/div[2]/form/div[4]/button' not found
+	... 23 more
+"/>
+         <system-out><![CDATA[2022-04-26 17:05:58 - [TEST_CASE][FAILED] - Test Cases/WEB/Register: Test Cases/WEB/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Register.run(Register:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650967553770.run(TempTestSuite1650967553770.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Register.run(Register:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650967553770.run(TempTestSuite1650967553770.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found
+	... 23 more
+
+
+2022-04-26 17:05:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-26 17:05:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-26 17:05:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-26 17:06:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-26 17:06:02 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-04-26 17:06:06 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-04-26 17:06:06 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Register/login_ico")): Object: 'Object Repository/WEB/Register/login_ico' is clicked on
+
+2022-04-26 17:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Register/login_ico' is clicked on
+
+2022-04-26 17:06:06 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Register/register_a")): Object: 'Object Repository/WEB/Register/register_a' is clicked on
+
+2022-04-26 17:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Register/register_a' is clicked on
+
+2022-04-26 17:06:07 - [TEST_STEP][FAILED] - for ([i = 1, i <= 6, (i++)]): null
+
+2022-04-26 17:06:07 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): null
+
+2022-04-26 17:06:09 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'salsabila1@gmail.com' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:06:09 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/email_txtbox"), findTestData("WEB/Register").getValue(2, i)): Text 'salsabila1@gmail.com' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:06:10 - [MESSAGE][PASSED] - Text 'salsabila1@gmail.com' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:06:10 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsabila' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:06:10 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/password_txtbox"), findTestData("WEB/Register").getValue(3, i)): Text 'salsabila' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:06:11 - [MESSAGE][PASSED] - Text 'salsabila' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:06:11 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Register/register_btn")): Object: 'Object Repository/WEB/Register/register_btn' is clicked on
+
+2022-04-26 17:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Register/register_btn' is clicked on
+
+2022-04-26 17:06:11 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:06:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Register/register_btn"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/WEB/Register/register_btn' is present
+
+2022-04-26 17:06:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 17:06:12 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Register/register_btn' is present
+
+2022-04-26 17:06:12 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/auth/register"): Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:06:13 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:06:13 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:06:13 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/fullname_txtbox"), findTestData("WEB/Register").getValue(1, i)): Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:06:14 - [MESSAGE][PASSED] - Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:06:14 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): null
+
+2022-04-26 17:06:14 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsabila' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:06:14 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/password_txtbox"), findTestData("WEB/Register").getValue(3, i)): Text 'salsabila' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:06:15 - [MESSAGE][PASSED] - Text 'salsabila' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:06:15 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Register/register_btn")): Object: 'Object Repository/WEB/Register/register_btn' is clicked on
+
+2022-04-26 17:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Register/register_btn' is clicked on
+
+2022-04-26 17:06:15 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:06:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Register/register_btn"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/WEB/Register/register_btn' is present
+
+2022-04-26 17:06:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 17:06:16 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Register/register_btn' is present
+
+2022-04-26 17:06:16 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/auth/register"): Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:06:17 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:06:17 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:06:17 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/fullname_txtbox"), findTestData("WEB/Register").getValue(1, i)): Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:06:18 - [MESSAGE][PASSED] - Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:06:18 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'salsabila1@gmail.com' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:06:18 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/email_txtbox"), findTestData("WEB/Register").getValue(2, i)): Text 'salsabila1@gmail.com' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:06:19 - [MESSAGE][PASSED] - Text 'salsabila1@gmail.com' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:06:19 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): null
+
+2022-04-26 17:06:19 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Register/register_btn")): Object: 'Object Repository/WEB/Register/register_btn' is clicked on
+
+2022-04-26 17:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Register/register_btn' is clicked on
+
+2022-04-26 17:06:19 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:06:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Register/register_btn"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/WEB/Register/register_btn' is present
+
+2022-04-26 17:06:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 17:06:20 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Register/register_btn' is present
+
+2022-04-26 17:06:20 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/auth/register"): Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:06:21 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:06:21 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:06:21 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/fullname_txtbox"), findTestData("WEB/Register").getValue(1, i)): Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:06:22 - [MESSAGE][PASSED] - Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:06:22 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'salsa@gmail.com' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:06:22 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/email_txtbox"), findTestData("WEB/Register").getValue(2, i)): Text 'salsa@gmail.com' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:06:23 - [MESSAGE][PASSED] - Text 'salsa@gmail.com' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:06:23 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsa' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:06:23 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/password_txtbox"), findTestData("WEB/Register").getValue(3, i)): Text 'salsa' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:06:23 - [MESSAGE][PASSED] - Text 'salsa' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:06:23 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Register/register_btn")): Object: 'Object Repository/WEB/Register/register_btn' is clicked on
+
+2022-04-26 17:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Register/register_btn' is clicked on
+
+2022-04-26 17:06:24 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:06:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Register/register_btn"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/WEB/Register/register_btn' is present
+
+2022-04-26 17:06:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 17:06:25 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Register/register_btn' is present
+
+2022-04-26 17:06:25 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/auth/register"): Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:06:25 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:06:25 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:06:25 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/fullname_txtbox"), findTestData("WEB/Register").getValue(1, i)): Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:06:26 - [MESSAGE][PASSED] - Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:06:26 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'bila@123' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:06:26 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/email_txtbox"), findTestData("WEB/Register").getValue(2, i)): Text 'bila@123' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:06:27 - [MESSAGE][PASSED] - Text 'bila@123' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:06:27 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsabila' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:06:27 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/password_txtbox"), findTestData("WEB/Register").getValue(3, i)): Text 'salsabila' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:06:28 - [MESSAGE][PASSED] - Text 'salsabila' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:06:28 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Register/register_btn")): Object: 'Object Repository/WEB/Register/register_btn' is clicked on
+
+2022-04-26 17:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Register/register_btn' is clicked on
+
+2022-04-26 17:06:28 - [TEST_STEP][FAILED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): null
+
+2022-04-26 17:06:28 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("WEB/Register/register_btn"), 0, CONTINUE_ON_FAILURE): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Register.run(Register:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650967553770.run(TempTestSuite1650967553770.groovy:36)
+)
+
+2022-04-26 17:06:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 17:06:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-26 17:06:59 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Register.run(Register:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650967553770.run(TempTestSuite1650967553770.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta\\final-project-qe-alta\\Reports\\20220426_170553\\WEB\\TS_Web\\20220426_170553\\1650967619761.png]]
+
+2022-04-26 17:06:59 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/auth/register"): Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:07:00 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/auth/register' successfully
+
+2022-04-26 17:07:00 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:07:00 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/fullname_txtbox"), findTestData("WEB/Register").getValue(1, i)): Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:07:01 - [MESSAGE][PASSED] - Text 'Salsabila' is set on object 'Object Repository/WEB/Register/fullname_txtbox'
+
+2022-04-26 17:07:01 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'sabil12@gmail.com' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:07:01 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/email_txtbox"), findTestData("WEB/Register").getValue(2, i)): Text 'sabil12@gmail.com' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:07:02 - [MESSAGE][PASSED] - Text 'sabil12@gmail.com' is set on object 'Object Repository/WEB/Register/email_txtbox'
+
+2022-04-26 17:07:02 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'sabila' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:07:02 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Register/password_txtbox"), findTestData("WEB/Register").getValue(3, i)): Text 'sabila' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:07:02 - [MESSAGE][PASSED] - Text 'sabila' is set on object 'Object Repository/WEB/Register/password_txtbox'
+
+2022-04-26 17:07:02 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Register/register_btn")): Object: 'Object Repository/WEB/Register/register_btn' is clicked on
+
+2022-04-26 17:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Register/register_btn' is clicked on
+
+2022-04-26 17:07:03 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): null
+
+2022-04-26 17:07:03 - [TEST_STEP][PASSED] - else: Object 'Object Repository/WEB/Login/login_btn' is present
+
+2022-04-26 17:07:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Login/login_btn"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/WEB/Login/login_btn' is present
+
+2022-04-26 17:07:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 17:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Login/login_btn' is present]]></system-out>
+         <system-err><![CDATA[2022-04-26 17:05:58 - [TEST_CASE][FAILED] - Test Cases/WEB/Register: Test Cases/WEB/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Register.run(Register:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650967553770.run(TempTestSuite1650967553770.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Register.run(Register:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650967553770.run(TempTestSuite1650967553770.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-26 17:05:57 - [TEST_SUITE][FAILED] - TS_Web: Test Cases/WEB/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Register.run(Register:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650967553770.run(TempTestSuite1650967553770.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Register.run(Register:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650967553770.run(TempTestSuite1650967553770.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2022-04-26 17:05:57 - [TEST_SUITE][FAILED] - TS_Web: Test Cases/WEB/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Register.run(Register:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650967553770.run(TempTestSuite1650967553770.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Register.run(Register:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650967553770.run(TempTestSuite1650967553770.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Register/register_btn' located by '//*[@id="app"]/div/main/div/div/div/div[2]/form/div[4]/button' not found
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>
