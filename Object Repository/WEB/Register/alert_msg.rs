@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>fullname_txtbox</name>
+   <name>alert_msg</name>
    <tag></tag>
-   <elementGuidId>effee459-9b6e-419c-8442-95f34927acb0</elementGuidId>
+   <elementGuidId>994c95c2-7c83-44c6-9e0c-2dc74d575c44</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'input-57']</value>
+         <value>//*[@class = 'v-alert__content']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div/main/div/div/div/div[2]/form/div[1]/div/div[1]/div/input</value>
+         <value>//*[@id=&quot;app&quot;]/div/main/div/div/div/div[2]/div[1]/div/div[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>input-57</value>
+      <value>v-alert__content</value>
    </webElementProperties>
 </WebElementEntity>

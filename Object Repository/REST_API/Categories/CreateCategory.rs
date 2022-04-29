@@ -3,7 +3,7 @@
    <description></description>
    <name>CreateCategory</name>
    <tag></tag>
-   <elementGuidId>aae49a72-290e-43b0-bdde-b59ef043a57d</elementGuidId>
+   <elementGuidId>a8c59de1-844a-4b1b-9ff2-2b3ffd0d52c1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>

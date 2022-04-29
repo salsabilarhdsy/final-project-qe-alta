@@ -3,7 +3,7 @@
    <description></description>
    <name>email_txtbox</name>
    <tag></tag>
-   <elementGuidId>a7020d0a-bd5c-4e38-9aad-8e8eebbc1ec0</elementGuidId>
+   <elementGuidId>1bf9ef3a-a2f6-4fc0-9a83-2832c0ddf849</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

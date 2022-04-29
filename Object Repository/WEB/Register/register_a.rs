@@ -3,11 +3,10 @@
    <description></description>
    <name>register_a</name>
    <tag></tag>
-   <elementGuidId>0efa8065-e864-4cf6-be3f-1dd4441ca262</elementGuidId>
+   <elementGuidId>f30f29cd-dc0f-463b-815b-2b3a818b5b49</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

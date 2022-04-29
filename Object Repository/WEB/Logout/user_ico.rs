@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>fullname_txtbox</name>
+   <name>user_ico</name>
    <tag></tag>
-   <elementGuidId>effee459-9b6e-419c-8442-95f34927acb0</elementGuidId>
+   <elementGuidId>a2aa7717-8cce-426a-aaf9-3d3aa0ba671f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'input-57']</value>
+         <value>//*[@class = 'fa-user']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div/main/div/div/div/div[2]/form/div[1]/div/div[1]/div/input</value>
+         <value>/html/body/div/div/header/div/button[2]/span/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -19,8 +19,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>input-57</value>
+      <value>fa-user</value>
    </webElementProperties>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>GetAllCategories</name>
    <tag></tag>
-   <elementGuidId>ae1da8af-33c8-40ea-a51d-653e56e287b4</elementGuidId>
+   <elementGuidId>3e9f2fc7-88ed-47f2-8f62-ea21cfc69b67</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -15,7 +15,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://be-qa.alta.id/categories</restUrl>
+   <restUrl>https://be-qa.alta.id/api/categories/</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -3,7 +3,7 @@
    <description></description>
    <name>password_txtbox</name>
    <tag></tag>
-   <elementGuidId>e8ed420f-72b2-4cdc-ac3f-65085fac7b5d</elementGuidId>
+   <elementGuidId>099d1b65-cdcc-439e-bc1c-22e7e173f211</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

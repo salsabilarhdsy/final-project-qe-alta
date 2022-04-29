@@ -3,11 +3,10 @@
    <description></description>
    <name>login_btn</name>
    <tag></tag>
-   <elementGuidId>6dbe95bc-dfc0-404e-9c8f-8a75e294b4a1</elementGuidId>
+   <elementGuidId>b79a5670-eeba-4e71-83d4-3946869b00fc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

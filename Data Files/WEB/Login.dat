@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Register</name>
+   <name>Login</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>9c4486a2-efca-4b4c-a51b-a1515b6c8f64</dataFileGUID>
-   <dataSourceUrl>F:\data-test\WEB_Register.xlsx</dataSourceUrl>
+   <dataFileGUID>91709f1c-f64a-42c3-9623-ff2c0bc69d8b</dataFileGUID>
+   <dataSourceUrl>F:\data-test\WEB_Login.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

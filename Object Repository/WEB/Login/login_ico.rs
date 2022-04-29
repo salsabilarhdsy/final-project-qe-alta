@@ -3,15 +3,14 @@
    <description></description>
    <name>login_ico</name>
    <tag></tag>
-   <elementGuidId>b1678ede-67b6-4674-a946-8a1fbe0fa010</elementGuidId>
+   <elementGuidId>2807ee90-2f33-419f-97ca-f5c2c6a9c4c3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div/header/div/button[2]</value>
+         <value>//*[@id=&quot;app&quot;]/div/header/div/button[2]/span/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
