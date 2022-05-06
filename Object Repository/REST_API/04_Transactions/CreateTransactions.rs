@@ -10,11 +10,18 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;product_id\&quot;: 1,\n    \&quot;quantity\&quot;: 2\n  }\n]\n&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;text&quot;: &quot;[\n{\n  \&quot;product_id\&quot;: 1,\n  \&quot;quantity\&quot;: 2\n}\n]&quot;,
+  &quot;contentType&quot;: &quot;text/html&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
    <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>text/html</value>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

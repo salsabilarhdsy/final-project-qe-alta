@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC31_UpdateTransactionById</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e127abbf-791d-4eb2-bf6c-ad210ccb0a35</testCaseGuid>
+</TestCaseEntity>

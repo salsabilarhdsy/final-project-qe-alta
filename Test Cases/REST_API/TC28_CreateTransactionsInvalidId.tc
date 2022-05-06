@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC28_CreateTransactionsInvalidId</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e9b5b10-f5d8-4925-afb8-b2202727889d</testCaseGuid>
+</TestCaseEntity>

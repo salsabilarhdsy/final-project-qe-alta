@@ -33,7 +33,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://be-qa.alta.id/api/orders/5</restUrl>
+   <restUrl>https://be-qa.alta.id/api/orders/434</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
