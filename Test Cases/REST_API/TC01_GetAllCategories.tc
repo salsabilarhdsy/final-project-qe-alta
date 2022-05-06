@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_GetAllCategories</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be2e26dd-9b2a-4d6d-96cd-864018a1f3b8</testCaseGuid>
+</TestCaseEntity>

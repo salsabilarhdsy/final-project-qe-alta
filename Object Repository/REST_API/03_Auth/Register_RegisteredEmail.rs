@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>DeleteCategoryById</name>
+   <name>Register_RegisteredEmail</name>
    <tag></tag>
-   <elementGuidId>6a092417-eecb-4061-877b-400aa7e55679</elementGuidId>
+   <elementGuidId>2358ec0e-6909-410f-8973-ba7723fbccff</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n  \&quot;fullname\&quot;: \&quot;Alex Under\&quot;,\n  \&quot;email\&quot;: \&quot;alexunder@yahoo.com\&quot;,\n  \&quot;password\&quot;: \&quot;123123123\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
    <katalonVersion>8.2.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>https://be-qa.alta.id/api/categories/306</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://be-qa.alta.id/api/auth/register</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

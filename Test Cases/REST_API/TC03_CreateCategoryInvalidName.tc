@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CreateCategoryInvalidName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ec76852-f4fb-4814-9aea-526af4368fa2</testCaseGuid>
+</TestCaseEntity>
