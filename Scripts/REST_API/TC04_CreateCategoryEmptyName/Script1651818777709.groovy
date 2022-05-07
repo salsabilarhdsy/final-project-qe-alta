@@ -17,5 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequest(findTestObject('REST_API/01_Categories/CreateCategory_EmptyName'))
+Response = WS.sendRequest(findTestObject('REST_API/01_Categories/CreateCategory_EmptyName'))
+
+WS.verifyResponseStatusCode(Response, 500)
+
+WS.verifyElementPropertyValue(Response, 'error', 'ERROR: new row for relation "categories" violates check constraint "categories_name_check" (SQLSTATE 23514)')
 

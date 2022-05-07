@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+04_Transactions,,,,2022-05-07 13:04:01,2022-05-07 13:04:09,8.098s,FAILED
+,,,,,,,
+Test Cases/REST_API/TC31_UpdateTransactionById,,,,2022-05-07 13:04:02,2022-05-07 13:04:04,2.853s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/UpdateTransactions_ByID""))",,,,2022-05-07 13:04:02,2022-05-07 13:04:04,2.223s,PASSED
+"verifyResponseStatusCode(Response, 405)",,,,2022-05-07 13:04:04,2022-05-07 13:04:04,0.031s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC27_CreateTransactions,,,,2022-05-07 13:04:04,2022-05-07 13:04:05,0.895s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions""))",,,,2022-05-07 13:04:05,2022-05-07 13:04:05,0.357s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-07 13:04:05,2022-05-07 13:04:05,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data[0].User.ID"", 132)",,,,2022-05-07 13:04:05,2022-05-07 13:04:05,0.109s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC28_CreateTransactionsInvalidId,,,,2022-05-07 13:04:05,2022-05-07 13:04:07,1.336s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions_InvalidProductID""))",,,,2022-05-07 13:04:06,2022-05-07 13:04:07,0.713s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-07 13:04:07,2022-05-07 13:04:07,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""invalid character '!' looking for beginning of value"")",,,,2022-05-07 13:04:07,2022-05-07 13:04:07,0.045s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC29_GetTransactionsById,,,,2022-05-07 13:04:07,2022-05-07 13:04:08,0.961s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/GetTransactions_ByID""))",,,,2022-05-07 13:04:07,2022-05-07 13:04:08,0.473s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-07 13:04:08,2022-05-07 13:04:08,0.015s,PASSED
+"verifyElementPropertyValue(Response, ""data.ID"", 434)",,,,2022-05-07 13:04:08,2022-05-07 13:04:08,0.042s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC30_DeleteTransactionsById,,,,2022-05-07 13:04:08,2022-05-07 13:04:08,0.727s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/DeleteTransactions_ByID""))",,,,2022-05-07 13:04:08,2022-05-07 13:04:08,0.352s,PASSED
+"verifyResponseStatusCode(Response, 405)",,,,2022-05-07 13:04:08,2022-05-07 13:04:08,0.000s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC26_GetAllTransactions,,,,2022-05-07 13:04:08,2022-05-07 13:04:09,0.824s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/GetAllTransactions""))",,,,2022-05-07 13:04:09,2022-05-07 13:04:09,0.367s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-07 13:04:09,2022-05-07 13:04:09,0.024s,FAILED
+"verifyElementPropertyValue(Response, ""data.product"", ""Panci"")",,,,2022-05-07 13:04:09,2022-05-07 13:04:09,0.047s,FAILED

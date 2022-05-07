@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="01_Categories" time="9.742" tests="7" failures="0" errors="0">
+   <testsuite name="01_Categories" tests="7" failures="0" errors="0" time="9.742" skipped="0" timestamp="2022-05-07 12:31:45" hostname="salsa - SALSABILA" id="Test Suites/REST_API/01_Categories">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220507_123139\\REST_API\\01_Categories\\20220507_123140"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220507_123139\\REST_API\\01_Categories\\20220507_123140\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="hostAddress" value="192.168.106.173"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/REST_API/TC01_GetAllCategories" time="3.025" classname="Test Cases/REST_API/TC01_GetAllCategories" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:31:46 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC01_GetAllCategories: Test Cases/REST_API/TC01_GetAllCategories
+
+2022-05-07 12:31:46 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/01_Categories/GetAllCategories")): Send request successfully
+
+2022-05-07 12:31:48 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123139\REST_API\01_Categories\20220507_123140\requests\main\0.har
+
+2022-05-07 12:31:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:31:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-07 12:31:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 12:31:49 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[0].ID", 1): Verify element property value successfully
+
+2022-05-07 12:31:49 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC02_CreateCategory" time="1.222" classname="Test Cases/REST_API/TC02_CreateCategory" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:31:49 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC02_CreateCategory: Test Cases/REST_API/TC02_CreateCategory
+
+2022-05-07 12:31:49 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/01_Categories/CreateCategory")): Send request successfully
+
+2022-05-07 12:31:50 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123139\REST_API\01_Categories\20220507_123140\requests\main\1.har
+
+2022-05-07 12:31:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:31:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-07 12:31:50 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 12:31:50 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.Name", "health"): Verify element property value successfully
+
+2022-05-07 12:31:50 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC03_CreateCategoryInvalidName" time="0.786" classname="Test Cases/REST_API/TC03_CreateCategoryInvalidName" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:31:50 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC03_CreateCategoryInvalidName: Test Cases/REST_API/TC03_CreateCategoryInvalidName
+
+2022-05-07 12:31:50 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/01_Categories/CreateCategory_InvalidName")): Send request successfully
+
+2022-05-07 12:31:51 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123139\REST_API\01_Categories\20220507_123140\requests\main\2.har
+
+2022-05-07 12:31:51 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:31:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-07 12:31:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 12:31:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "invalid character 'h' looking for beginning of value"): Verify element property value successfully
+
+2022-05-07 12:31:51 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC04_CreateCategoryEmptyName" time="1.171" classname="Test Cases/REST_API/TC04_CreateCategoryEmptyName" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:31:51 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC04_CreateCategoryEmptyName: Test Cases/REST_API/TC04_CreateCategoryEmptyName
+
+2022-05-07 12:31:52 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/01_Categories/CreateCategory_EmptyName")): Send request successfully
+
+2022-05-07 12:31:52 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123139\REST_API\01_Categories\20220507_123140\requests\main\3.har
+
+2022-05-07 12:31:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:31:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 500): Verify response status code successfully
+
+2022-05-07 12:31:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 12:31:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "ERROR: new row for relation "categories" violates check constraint "categories_name_check" (SQLSTATE 23514)"): Verify element property value successfully
+
+2022-05-07 12:31:52 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC05_GetCategoryById" time="1.23" classname="Test Cases/REST_API/TC05_GetCategoryById" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:31:52 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC05_GetCategoryById: Test Cases/REST_API/TC05_GetCategoryById
+
+2022-05-07 12:31:52 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/01_Categories/GetCategoryById")): Send request successfully
+
+2022-05-07 12:31:53 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123139\REST_API\01_Categories\20220507_123140\requests\main\4.har
+
+2022-05-07 12:31:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:31:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-07 12:31:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 12:31:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.ID", 303): Verify element property value successfully
+
+2022-05-07 12:31:53 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC06_DeleteCategoryById" time="0.929" classname="Test Cases/REST_API/TC06_DeleteCategoryById" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:31:53 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC06_DeleteCategoryById: Test Cases/REST_API/TC06_DeleteCategoryById
+
+2022-05-07 12:31:54 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/01_Categories/DeleteCategoryById")): Send request successfully
+
+2022-05-07 12:31:54 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123139\REST_API\01_Categories\20220507_123140\requests\main\5.har
+
+2022-05-07 12:31:54 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:31:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 405): Verify response status code successfully
+
+2022-05-07 12:31:54 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC07_UpdateCategoryById" time="0.858" classname="Test Cases/REST_API/TC07_UpdateCategoryById" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:31:54 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC07_UpdateCategoryById: Test Cases/REST_API/TC07_UpdateCategoryById
+
+2022-05-07 12:31:55 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/01_Categories/UpdateCategoryById")): Send request successfully
+
+2022-05-07 12:31:55 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123139\REST_API\01_Categories\20220507_123140\requests\main\6.har
+
+2022-05-07 12:31:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:31:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 405): Verify response status code successfully
+
+2022-05-07 12:31:55 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-07 12:31:45 - [TEST_SUITE][PASSED] - 01_Categories: Test Cases/REST_API/TC07_UpdateCategoryById]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

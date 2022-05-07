@@ -17,5 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequest(findTestObject('REST_API/03_Auth/Register'))
+Response = WS.sendRequest(findTestObject('REST_API/03_Auth/Register'))
+
+WS.verifyResponseStatusCode(Response, 200)
+
+WS.verifyElementPropertyValue(Response, 'data.Fullname', 'Alex Under')
 

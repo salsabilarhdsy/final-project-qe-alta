@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="02_Products" time="14.885" tests="8" failures="1" errors="0">
+   <testsuite name="02_Products" tests="8" failures="1" errors="0" time="14.885" skipped="0" timestamp="2022-05-07 12:37:19" hostname="salsa - SALSABILA" id="Test Suites/REST_API/02_Products">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220507_123715\\REST_API\\02_Products\\20220507_123715"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220507_123715\\REST_API\\02_Products\\20220507_123715\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="hostAddress" value="192.168.106.173"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/REST_API/TC08_GetAllProduct" time="0.72" classname="Test Cases/REST_API/TC08_GetAllProduct" status="FAILED">
+         <failure type="FAILED" message="Test Cases/REST_API/TC08_GetAllProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '293' is not equal with actual property value '368'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC08_GetAllProduct.run(TC08_GetAllProduct:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1651901835413.run(TempTestSuite1651901835413.groovy:36)
+"/>
+         <system-out><![CDATA[2022-05-07 12:37:26 - [TEST_CASE][FAILED] - Test Cases/REST_API/TC08_GetAllProduct: Test Cases/REST_API/TC08_GetAllProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '293' is not equal with actual property value '368'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC08_GetAllProduct.run(TC08_GetAllProduct:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1651901835413.run(TempTestSuite1651901835413.groovy:36)
+
+
+2022-05-07 12:37:26 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/02_Products/GetAllProduct")): Send request successfully
+
+2022-05-07 12:37:27 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123715\REST_API\02_Products\20220507_123715\requests\main\3.har
+
+2022-05-07 12:37:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:37:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-07 12:37:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 12:37:27 - [TEST_STEP][FAILED] - verifyElementPropertyValue(Response, "data[0].ID", 293): Expected element property value '293' is not equal with actual property value '368'
+
+2022-05-07 12:37:27 - [MESSAGE][FAILED] - Expected element property value '293' is not equal with actual property value '368']]></system-out>
+         <system-err><![CDATA[2022-05-07 12:37:26 - [TEST_CASE][FAILED] - Test Cases/REST_API/TC08_GetAllProduct: Test Cases/REST_API/TC08_GetAllProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '293' is not equal with actual property value '368'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC08_GetAllProduct.run(TC08_GetAllProduct:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1651901835413.run(TempTestSuite1651901835413.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC09_GetProductById" time="0.806" classname="Test Cases/REST_API/TC09_GetProductById" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:37:27 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC09_GetProductById: Test Cases/REST_API/TC09_GetProductById
+
+2022-05-07 12:37:27 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/02_Products/GetProductById")): Send request successfully
+
+2022-05-07 12:37:27 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123715\REST_API\02_Products\20220507_123715\requests\main\4.har
+
+2022-05-07 12:37:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:37:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-07 12:37:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 12:37:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.ID", 293): Verify element property value successfully
+
+2022-05-07 12:37:27 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC10_GetProductByInvalidId" time="0.911" classname="Test Cases/REST_API/TC10_GetProductByInvalidId" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:37:28 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC10_GetProductByInvalidId: Test Cases/REST_API/TC10_GetProductByInvalidId
+
+2022-05-07 12:37:28 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/02_Products/GetProductById_InvalidID")): Send request successfully
+
+2022-05-07 12:37:28 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123715\REST_API\02_Products\20220507_123715\requests\main\5.har
+
+2022-05-07 12:37:28 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:37:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 404): Verify response status code successfully
+
+2022-05-07 12:37:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 12:37:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "record not found"): Verify element property value successfully
+
+2022-05-07 12:37:28 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC11_CreateProduct" time="0.968" classname="Test Cases/REST_API/TC11_CreateProduct" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:37:28 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC11_CreateProduct: Test Cases/REST_API/TC11_CreateProduct
+
+2022-05-07 12:37:29 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/02_Products/CreateProduct")): Send request successfully
+
+2022-05-07 12:37:29 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123715\REST_API\02_Products\20220507_123715\requests\main\6.har
+
+2022-05-07 12:37:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:37:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-07 12:37:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 12:37:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.Name", "Tensi Darah Elektrik"): Verify element property value successfully
+
+2022-05-07 12:37:29 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC12_CreateProductDecimalPrice" time="1.158" classname="Test Cases/REST_API/TC12_CreateProductDecimalPrice" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:37:29 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC12_CreateProductDecimalPrice: Test Cases/REST_API/TC12_CreateProductDecimalPrice
+
+2022-05-07 12:37:30 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/02_Products/CreateProduct_DecimalPrice")): Send request successfully
+
+2022-05-07 12:37:31 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123715\REST_API\02_Products\20220507_123715\requests\main\7.har
+
+2022-05-07 12:37:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:37:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-07 12:37:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 12:37:31 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "json: cannot unmarshal number 2400.00 into Go struct field ProductCreate.price of type uint"): Verify element property value successfully
+
+2022-05-07 12:37:31 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC13_CreateProductEmptyName" time="0.907" classname="Test Cases/REST_API/TC13_CreateProductEmptyName" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:37:31 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC13_CreateProductEmptyName: Test Cases/REST_API/TC13_CreateProductEmptyName
+
+2022-05-07 12:37:31 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/02_Products/CreateProduct_EmptyName")): Send request successfully
+
+2022-05-07 12:37:31 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123715\REST_API\02_Products\20220507_123715\requests\main\8.har
+
+2022-05-07 12:37:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:37:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 500): Verify response status code successfully
+
+2022-05-07 12:37:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 12:37:31 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "ERROR: new row for relation "products" violates check constraint "products_name_check" (SQLSTATE 23514)"): Verify element property value successfully
+
+2022-05-07 12:37:31 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC14_DeleteProductById" time="0.83" classname="Test Cases/REST_API/TC14_DeleteProductById" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:37:31 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC14_DeleteProductById: Test Cases/REST_API/TC14_DeleteProductById
+
+2022-05-07 12:37:32 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/02_Products/DeleteProductById")): Send request successfully
+
+2022-05-07 12:37:32 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123715\REST_API\02_Products\20220507_123715\requests\main\9.har
+
+2022-05-07 12:37:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:37:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-07 12:37:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 12:37:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data", null): Verify element property value successfully
+
+2022-05-07 12:37:32 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC15_UpdateProductById" time="1.475" classname="Test Cases/REST_API/TC15_UpdateProductById" status="PASSED">
+         <system-out><![CDATA[2022-05-07 12:37:32 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC15_UpdateProductById: Test Cases/REST_API/TC15_UpdateProductById
+
+2022-05-07 12:37:33 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/02_Products/UpdateProductById")): Send request successfully
+
+2022-05-07 12:37:34 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_123715\REST_API\02_Products\20220507_123715\requests\main\10.har
+
+2022-05-07 12:37:34 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 12:37:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 405): Verify response status code successfully
+
+2022-05-07 12:37:34 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-07 12:37:19 - [TEST_SUITE][FAILED] - 02_Products: Test Cases/REST_API/TC08_GetAllProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '293' is not equal with actual property value '368'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC08_GetAllProduct.run(TC08_GetAllProduct:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1651901835413.run(TempTestSuite1651901835413.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-05-07 12:37:19 - [TEST_SUITE][FAILED] - 02_Products: Test Cases/REST_API/TC08_GetAllProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '293' is not equal with actual property value '368'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC08_GetAllProduct.run(TC08_GetAllProduct:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1651901835413.run(TempTestSuite1651901835413.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

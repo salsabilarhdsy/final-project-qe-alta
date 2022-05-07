@@ -17,5 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequest(findTestObject('REST_API/04_Transactions/GetAllTransactions'))
+Response = WS.sendRequest(findTestObject('REST_API/04_Transactions/GetAllTransactions'))
+
+WS.verifyResponseStatusCode(Response, 200, FailureHandling.CONTINUE_ON_FAILURE)
+
+WS.verifyElementPropertyValue(Response, 'data.product', 'Panci')
 

@@ -17,5 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequest(findTestObject('REST_API/02_Products/GetProductById_InvalidID'))
+Response = WS.sendRequest(findTestObject('REST_API/02_Products/GetProductById_InvalidID'))
+
+WS.verifyResponseStatusCode(Response, 404)
+
+WS.verifyElementPropertyValue(Response, 'error', 'record not found')
 

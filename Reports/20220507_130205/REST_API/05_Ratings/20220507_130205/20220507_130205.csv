@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+05_Ratings,,,,2022-05-07 13:02:09,2022-05-07 13:02:17,7.899s,FAILED
+,,,,,,,
+Test Cases/REST_API/TC32_GetProductRatings,,,,2022-05-07 13:02:09,2022-05-07 13:02:14,4.208s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/GetProductRatings""))",,,,2022-05-07 13:02:10,2022-05-07 13:02:13,3.509s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-07 13:02:13,2022-05-07 13:02:13,0.043s,PASSED
+"verifyElementPropertyValue(Response, ""data"", 0)",,,,2022-05-07 13:02:13,2022-05-07 13:02:14,0.111s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC33_GiveRatingToProduct,,,,2022-05-07 13:02:14,2022-05-07 13:02:15,1.163s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/GiveRatingToProduct""))",,,,2022-05-07 13:02:14,2022-05-07 13:02:15,0.478s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-07 13:02:15,2022-05-07 13:02:15,0.032s,FAILED
+"verifyElementPropertyValue(Response, ""data.ID"", 216)",,,,2022-05-07 13:02:15,2022-05-07 13:02:15,0.122s,FAILED
+,,,,,,,
+Test Cases/REST_API/TC34_DeleteProductRatings,,,,2022-05-07 13:02:15,2022-05-07 13:02:16,0.908s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/DeleteProductRatings""))",,,,2022-05-07 13:02:15,2022-05-07 13:02:16,0.551s,PASSED
+"verifyResponseStatusCode(Response, 405)",,,,2022-05-07 13:02:16,2022-05-07 13:02:16,0.016s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC35_UpdateProductRatings,,,,2022-05-07 13:02:16,2022-05-07 13:02:17,1.152s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/UpdateRatingToProduct""))",,,,2022-05-07 13:02:16,2022-05-07 13:02:17,0.722s,PASSED
+"verifyResponseStatusCode(Response, 405)",,,,2022-05-07 13:02:17,2022-05-07 13:02:17,0.016s,PASSED

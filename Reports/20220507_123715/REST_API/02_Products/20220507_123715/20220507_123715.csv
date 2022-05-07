@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+02_Products,,,,2022-05-07 12:37:19,2022-05-07 12:37:34,14.885s,FAILED
+,,,,,,,
+Test Cases/REST_API/TC08_GetAllProduct,,,,2022-05-07 12:37:26,2022-05-07 12:37:27,0.720s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/GetAllProduct""))",,,,2022-05-07 12:37:26,2022-05-07 12:37:27,0.619s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-07 12:37:27,2022-05-07 12:37:27,0.016s,PASSED
+"verifyElementPropertyValue(Response, ""data[0].ID"", 293)",,,,2022-05-07 12:37:27,2022-05-07 12:37:27,0.046s,FAILED
+,,,,,,,
+Test Cases/REST_API/TC09_GetProductById,,,,2022-05-07 12:37:27,2022-05-07 12:37:28,0.806s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/GetProductById""))",,,,2022-05-07 12:37:27,2022-05-07 12:37:27,0.403s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-07 12:37:27,2022-05-07 12:37:27,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data.ID"", 293)",,,,2022-05-07 12:37:27,2022-05-07 12:37:28,0.051s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC10_GetProductByInvalidId,,,,2022-05-07 12:37:28,2022-05-07 12:37:28,0.911s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/GetProductById_InvalidID""))",,,,2022-05-07 12:37:28,2022-05-07 12:37:28,0.378s,PASSED
+"verifyResponseStatusCode(Response, 404)",,,,2022-05-07 12:37:28,2022-05-07 12:37:28,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""record not found"")",,,,2022-05-07 12:37:28,2022-05-07 12:37:28,0.047s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC11_CreateProduct,,,,2022-05-07 12:37:28,2022-05-07 12:37:29,0.968s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/CreateProduct""))",,,,2022-05-07 12:37:29,2022-05-07 12:37:29,0.515s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-07 12:37:29,2022-05-07 12:37:29,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data.Name"", ""Tensi Darah Elektrik"")",,,,2022-05-07 12:37:29,2022-05-07 12:37:29,0.041s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC12_CreateProductDecimalPrice,,,,2022-05-07 12:37:29,2022-05-07 12:37:31,1.158s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/CreateProduct_DecimalPrice""))",,,,2022-05-07 12:37:30,2022-05-07 12:37:31,0.666s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-07 12:37:31,2022-05-07 12:37:31,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""json: cannot unmarshal number 2400.00 into Go struct field ProductCreate.price of type uint"")",,,,2022-05-07 12:37:31,2022-05-07 12:37:31,0.031s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC13_CreateProductEmptyName,,,,2022-05-07 12:37:31,2022-05-07 12:37:31,0.907s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/CreateProduct_EmptyName""))",,,,2022-05-07 12:37:31,2022-05-07 12:37:31,0.361s,PASSED
+"verifyResponseStatusCode(Response, 500)",,,,2022-05-07 12:37:31,2022-05-07 12:37:31,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""ERROR: new row for relation ""products"" violates check constraint ""products_name_check"" (SQLSTATE 23514)"")",,,,2022-05-07 12:37:31,2022-05-07 12:37:31,0.041s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC14_DeleteProductById,,,,2022-05-07 12:37:31,2022-05-07 12:37:32,0.830s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/DeleteProductById""))",,,,2022-05-07 12:37:32,2022-05-07 12:37:32,0.366s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-07 12:37:32,2022-05-07 12:37:32,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data"", null)",,,,2022-05-07 12:37:32,2022-05-07 12:37:32,0.047s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC15_UpdateProductById,,,,2022-05-07 12:37:32,2022-05-07 12:37:34,1.475s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/UpdateProductById""))",,,,2022-05-07 12:37:33,2022-05-07 12:37:34,1.073s,PASSED
+"verifyResponseStatusCode(Response, 405)",,,,2022-05-07 12:37:34,2022-05-07 12:37:34,0.000s,PASSED

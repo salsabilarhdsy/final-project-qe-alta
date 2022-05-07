@@ -17,5 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequest(findTestObject('REST_API/01_Categories/CreateCategory_InvalidName'))
+Response = WS.sendRequest(findTestObject('REST_API/01_Categories/CreateCategory_InvalidName'))
+
+WS.verifyResponseStatusCode(Response, 400)
+
+WS.verifyElementPropertyValue(Response, 'error', 'invalid character \'h\' looking for beginning of value')
 

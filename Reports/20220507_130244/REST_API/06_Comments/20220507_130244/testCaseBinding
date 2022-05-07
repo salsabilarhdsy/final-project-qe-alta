@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/REST_API/TC36_GetProductComments","testCaseId":"Test Cases/REST_API/TC36_GetProductComments"}
+{"testCaseName":"Test Cases/REST_API/TC37_WriteCommentToProduct","testCaseId":"Test Cases/REST_API/TC37_WriteCommentToProduct"}
+{"testCaseName":"Test Cases/REST_API/TC38_DeleteProductComments","testCaseId":"Test Cases/REST_API/TC38_DeleteProductComments"}
+{"testCaseName":"Test Cases/REST_API/TC39_UpdateProductComments","testCaseId":"Test Cases/REST_API/TC39_UpdateProductComments"}

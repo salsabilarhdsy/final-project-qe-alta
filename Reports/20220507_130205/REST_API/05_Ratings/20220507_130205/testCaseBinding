@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/REST_API/TC32_GetProductRatings","testCaseId":"Test Cases/REST_API/TC32_GetProductRatings"}
+{"testCaseName":"Test Cases/REST_API/TC33_GiveRatingToProduct","testCaseId":"Test Cases/REST_API/TC33_GiveRatingToProduct"}
+{"testCaseName":"Test Cases/REST_API/TC34_DeleteProductRatings","testCaseId":"Test Cases/REST_API/TC34_DeleteProductRatings"}
+{"testCaseName":"Test Cases/REST_API/TC35_UpdateProductRatings","testCaseId":"Test Cases/REST_API/TC35_UpdateProductRatings"}

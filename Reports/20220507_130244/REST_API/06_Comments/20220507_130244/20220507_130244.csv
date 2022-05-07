@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+06_Comments,,,,2022-05-07 13:02:48,2022-05-07 13:02:54,6.572s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC36_GetProductComments,,,,2022-05-07 13:02:48,2022-05-07 13:02:51,3.004s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/GetProductComments""))",,,,2022-05-07 13:02:49,2022-05-07 13:02:51,2.234s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-07 13:02:51,2022-05-07 13:02:51,0.050s,PASSED
+"verifyElementPropertyValue(Response, ""data[0].Content"", ""mantap nih"")",,,,2022-05-07 13:02:51,2022-05-07 13:02:51,0.153s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC37_WriteCommentToProduct,,,,2022-05-07 13:02:51,2022-05-07 13:02:52,1.245s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/WriteCommentToProduct""))",,,,2022-05-07 13:02:52,2022-05-07 13:02:52,0.649s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-07 13:02:52,2022-05-07 13:02:52,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data.Content"", ""mantap nih gais"")",,,,2022-05-07 13:02:52,2022-05-07 13:02:52,0.064s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC38_DeleteProductComments,,,,2022-05-07 13:02:52,2022-05-07 13:02:53,1.039s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/DeleteProductComments""))",,,,2022-05-07 13:02:53,2022-05-07 13:02:53,0.527s,PASSED
+"verifyResponseStatusCode(Response, 405)",,,,2022-05-07 13:02:53,2022-05-07 13:02:53,0.000s,PASSED
+,,,,,,,
+Test Cases/REST_API/TC39_UpdateProductComments,,,,2022-05-07 13:02:53,2022-05-07 13:02:54,0.790s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/UpdateCommentToProduct""))",,,,2022-05-07 13:02:54,2022-05-07 13:02:54,0.336s,PASSED
+"verifyResponseStatusCode(Response, 405)",,,,2022-05-07 13:02:54,2022-05-07 13:02:54,0.031s,PASSED

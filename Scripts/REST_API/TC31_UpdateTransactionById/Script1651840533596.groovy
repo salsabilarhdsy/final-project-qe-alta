@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequest(findTestObject('REST_API/04_Transactions/UpdateTransactions_ByID'))
+Response = WS.sendRequest(findTestObject('REST_API/04_Transactions/UpdateTransactions_ByID'))
+
+WS.verifyResponseStatusCode(Response, 405)
 

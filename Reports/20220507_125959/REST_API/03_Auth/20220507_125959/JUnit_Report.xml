@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="03_Auth" time="13.334" tests="10" failures="0" errors="0">
+   <testsuite name="03_Auth" tests="10" failures="0" errors="0" time="13.334" skipped="0" timestamp="2022-05-07 13:00:04" hostname="salsa - SALSABILA" id="Test Suites/REST_API/03_Auth">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220507_125959\\REST_API\\03_Auth\\20220507_125959"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220507_125959\\REST_API\\03_Auth\\20220507_125959\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="hostAddress" value="192.168.106.173"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/REST_API/TC16_Register" time="3.524" classname="Test Cases/REST_API/TC16_Register" status="PASSED">
+         <system-out><![CDATA[2022-05-07 13:00:04 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC16_Register: Test Cases/REST_API/TC16_Register
+
+2022-05-07 13:00:05 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/03_Auth/Register")): Send request successfully
+
+2022-05-07 13:00:08 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_125959\REST_API\03_Auth\20220507_125959\requests\main\0.har
+
+2022-05-07 13:00:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 13:00:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-07 13:00:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 13:00:08 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.Fullname", "Alex Under"): Verify element property value successfully
+
+2022-05-07 13:00:08 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC17_RegisterEmptyEmail" time="1.183" classname="Test Cases/REST_API/TC17_RegisterEmptyEmail" status="PASSED">
+         <system-out><![CDATA[2022-05-07 13:00:08 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC17_RegisterEmptyEmail: Test Cases/REST_API/TC17_RegisterEmptyEmail
+
+2022-05-07 13:00:08 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/03_Auth/Register_EmptyEmail")): Send request successfully
+
+2022-05-07 13:00:09 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_125959\REST_API\03_Auth\20220507_125959\requests\main\1.har
+
+2022-05-07 13:00:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 13:00:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-07 13:00:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 13:00:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "email is required"): Verify element property value successfully
+
+2022-05-07 13:00:09 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC18_RegisterEmptyName" time="1.113" classname="Test Cases/REST_API/TC18_RegisterEmptyName" status="PASSED">
+         <system-out><![CDATA[2022-05-07 13:00:09 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC18_RegisterEmptyName: Test Cases/REST_API/TC18_RegisterEmptyName
+
+2022-05-07 13:00:10 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/03_Auth/Register_EmptyName")): Send request successfully
+
+2022-05-07 13:00:10 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_125959\REST_API\03_Auth\20220507_125959\requests\main\2.har
+
+2022-05-07 13:00:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 13:00:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-07 13:00:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 13:00:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "fullname is required"): Verify element property value successfully
+
+2022-05-07 13:00:10 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC19_RegisterEmptyPassword" time="1.044" classname="Test Cases/REST_API/TC19_RegisterEmptyPassword" status="PASSED">
+         <system-out><![CDATA[2022-05-07 13:00:10 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC19_RegisterEmptyPassword: Test Cases/REST_API/TC19_RegisterEmptyPassword
+
+2022-05-07 13:00:11 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/03_Auth/Register_EmptyPassword")): Send request successfully
+
+2022-05-07 13:00:11 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_125959\REST_API\03_Auth\20220507_125959\requests\main\3.har
+
+2022-05-07 13:00:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 13:00:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-07 13:00:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 13:00:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "password is required"): Verify element property value successfully
+
+2022-05-07 13:00:11 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC20_RegisterWithRegisteredEmail" time="0.927" classname="Test Cases/REST_API/TC20_RegisterWithRegisteredEmail" status="PASSED">
+         <system-out><![CDATA[2022-05-07 13:00:11 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC20_RegisterWithRegisteredEmail: Test Cases/REST_API/TC20_RegisterWithRegisteredEmail
+
+2022-05-07 13:00:12 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/03_Auth/Register_RegisteredEmail")): Send request successfully
+
+2022-05-07 13:00:12 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_125959\REST_API\03_Auth\20220507_125959\requests\main\4.har
+
+2022-05-07 13:00:12 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 13:00:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-07 13:00:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 13:00:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "ERROR: duplicate key value violates unique constraint "users_email_key" (SQLSTATE 23505)"): Verify element property value successfully
+
+2022-05-07 13:00:12 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC21_Login" time="0.975" classname="Test Cases/REST_API/TC21_Login" status="PASSED">
+         <system-out><![CDATA[2022-05-07 13:00:12 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC21_Login: Test Cases/REST_API/TC21_Login
+
+2022-05-07 13:00:13 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/03_Auth/Login")): Send request successfully
+
+2022-05-07 13:00:13 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_125959\REST_API\03_Auth\20220507_125959\requests\main\5.har
+
+2022-05-07 13:00:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 13:00:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-07 13:00:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 13:00:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFsZXggVW5kZXIiLCJFbWFpbCI6ImFsZXh1bmRlckBlbWFpbC5jb20ifQ._PyTN2Hsj6_8KFr2B1fZTR0y2HSwMl_lw27yvB1nsdQ"): Verify element property value successfully
+
+2022-05-07 13:00:13 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC22_LoginEmptyEmail" time="0.884" classname="Test Cases/REST_API/TC22_LoginEmptyEmail" status="PASSED">
+         <system-out><![CDATA[2022-05-07 13:00:13 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC22_LoginEmptyEmail: Test Cases/REST_API/TC22_LoginEmptyEmail
+
+2022-05-07 13:00:14 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/03_Auth/Login_EmptyEmail")): Send request successfully
+
+2022-05-07 13:00:14 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_125959\REST_API\03_Auth\20220507_125959\requests\main\6.har
+
+2022-05-07 13:00:14 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 13:00:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-07 13:00:14 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 13:00:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "email is required"): Verify element property value successfully
+
+2022-05-07 13:00:14 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC23_LoginEmptyPassword" time="0.842" classname="Test Cases/REST_API/TC23_LoginEmptyPassword" status="PASSED">
+         <system-out><![CDATA[2022-05-07 13:00:14 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC23_LoginEmptyPassword: Test Cases/REST_API/TC23_LoginEmptyPassword
+
+2022-05-07 13:00:14 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/03_Auth/Login_EmptyPassword")): Send request successfully
+
+2022-05-07 13:00:15 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_125959\REST_API\03_Auth\20220507_125959\requests\main\7.har
+
+2022-05-07 13:00:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 13:00:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-07 13:00:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 13:00:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "password is required"): Verify element property value successfully
+
+2022-05-07 13:00:15 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC24_LoginInvalidEmail" time="0.994" classname="Test Cases/REST_API/TC24_LoginInvalidEmail" status="PASSED">
+         <system-out><![CDATA[2022-05-07 13:00:15 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC24_LoginInvalidEmail: Test Cases/REST_API/TC24_LoginInvalidEmail
+
+2022-05-07 13:00:16 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/03_Auth/Login_InvalidEmail")): Send request successfully
+
+2022-05-07 13:00:16 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_125959\REST_API\03_Auth\20220507_125959\requests\main\8.har
+
+2022-05-07 13:00:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 13:00:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-07 13:00:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 13:00:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "record not found"): Verify element property value successfully
+
+2022-05-07 13:00:16 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/TC25_LoginInvalidPassword" time="1.086" classname="Test Cases/REST_API/TC25_LoginInvalidPassword" status="PASSED">
+         <system-out><![CDATA[2022-05-07 13:00:16 - [TEST_CASE][PASSED] - Test Cases/REST_API/TC25_LoginInvalidPassword: Test Cases/REST_API/TC25_LoginInvalidPassword
+
+2022-05-07 13:00:17 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/03_Auth/Login_InvalidPassword")): Send request successfully
+
+2022-05-07 13:00:17 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220507_125959\REST_API\03_Auth\20220507_125959\requests\main\9.har
+
+2022-05-07 13:00:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 13:00:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-07 13:00:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 13:00:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "email or password is invalid"): Verify element property value successfully
+
+2022-05-07 13:00:17 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-07 13:00:04 - [TEST_SUITE][PASSED] - 03_Auth: Test Cases/REST_API/TC25_LoginInvalidPassword]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
