@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_CreateProductInvalidCategory</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d7784d5-fcbd-4be6-af8d-9a368629a027</testCaseGuid>
+</TestCaseEntity>

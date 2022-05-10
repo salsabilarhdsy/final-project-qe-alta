@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC17_RegisterEmptyEmail</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fbe906b5-0869-4131-b5a4-81cf80d920b4</testCaseGuid>
-</TestCaseEntity>

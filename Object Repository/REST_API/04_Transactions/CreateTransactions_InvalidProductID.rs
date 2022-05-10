@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;[\n  {\n    \&quot;product_id\&quot;: !@,\n    \&quot;quantity\&quot;: 2\n  }\n]\n&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;product_id\&quot;: 12s,\n    \&quot;quantity\&quot;: 2\n  }\n]\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

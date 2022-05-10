@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC06_DeleteCategoryById</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>940ef36d-dbfe-432f-9a2a-b184927c60e6</testCaseGuid>
-</TestCaseEntity>

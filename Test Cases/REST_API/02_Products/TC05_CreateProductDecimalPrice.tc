@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CreateProductDecimalPrice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33c80e96-c7f9-4a30-a2c8-d6ef581df17b</testCaseGuid>
+</TestCaseEntity>

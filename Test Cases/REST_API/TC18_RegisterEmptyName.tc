@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC18_RegisterEmptyName</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c3cfe06d-98fd-4b9b-8dad-b4828226a0b9</testCaseGuid>
-</TestCaseEntity>

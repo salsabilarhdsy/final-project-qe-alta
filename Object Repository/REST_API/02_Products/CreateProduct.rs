@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;Tensi Darah Elektrik\&quot;,\n  \&quot;price\&quot;: 3200000,\n  \&quot;categories\&quot;: [\n    3,\n    6\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: Tensi Darah Elektrik,\n  \&quot;price\&quot;: 3200000,\n  \&quot;categories\&quot;: [\n    3,\n    6\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

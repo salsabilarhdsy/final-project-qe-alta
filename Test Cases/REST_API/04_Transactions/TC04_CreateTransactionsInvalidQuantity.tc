@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CreateTransactionsInvalidQuantity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b386b0e2-5dee-44ea-8733-a9890fa61c97</testCaseGuid>
+</TestCaseEntity>

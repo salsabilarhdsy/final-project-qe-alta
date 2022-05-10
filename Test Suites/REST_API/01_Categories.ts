@@ -15,42 +15,24 @@
       <guid>c9cff285-954f-48a7-bbfd-f6c9be1444ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API/TC01_GetAllCategories</testCaseId>
+      <testCaseId>Test Cases/REST_API/01_Categories/TC01_GetAllCategories</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>17780de8-acc5-4d4b-ac59-4aee18a0f76c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API/TC02_CreateCategory</testCaseId>
+      <testCaseId>Test Cases/REST_API/01_Categories/TC02_CreateCategory</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>38eeabd5-12ff-4b3c-ae70-f73a8bc28929</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API/TC03_CreateCategoryInvalidName</testCaseId>
+      <testCaseId>Test Cases/REST_API/01_Categories/TC03_CreateCategoryInvalidName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>80795296-0c5e-4e6a-9807-f7377d2624b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API/TC04_CreateCategoryEmptyName</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>12cb00da-efc7-4f44-a6c1-67b26d3de1fe</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API/TC05_GetCategoryById</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>822c2e14-9441-421a-955a-805d3de4a9d7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API/TC06_DeleteCategoryById</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e9c385c4-afa4-481e-9195-b4de5b8d11f8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API/TC07_UpdateCategoryById</testCaseId>
+      <testCaseId>Test Cases/REST_API/01_Categories/TC04_CreateCategoryEmptyName</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

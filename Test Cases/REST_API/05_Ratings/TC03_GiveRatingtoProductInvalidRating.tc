@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_GiveRatingtoProductInvalidRating</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ecd0767-de80-40d5-958a-c0a186fcb60e</testCaseGuid>
+</TestCaseEntity>

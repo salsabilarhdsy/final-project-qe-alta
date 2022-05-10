@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC14_DeleteProductById</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>f7d7c69b-ed30-4216-8550-dea6bff7e780</testCaseGuid>
-</TestCaseEntity>

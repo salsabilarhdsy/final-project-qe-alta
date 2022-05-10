@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_GetProductByInvalidId</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae3642e0-1f5d-48a5-97f0-475cb7c46733</testCaseGuid>
+</TestCaseEntity>

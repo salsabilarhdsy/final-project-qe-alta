@@ -15,24 +15,12 @@
       <guid>2e0c5698-946a-4451-922b-498fbc4f4dc7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API/TC32_GetProductRatings</testCaseId>
+      <testCaseId>Test Cases/REST_API/05_Ratings/TC01_GetProductRatings</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>03e20dda-10a6-4fdc-8c39-58187febe8a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API/TC33_GiveRatingToProduct</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ca7837ba-7469-43c4-b5dc-b8cae6e0c72b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API/TC34_DeleteProductRatings</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b00243da-eeb0-41ad-ac9c-7cd7f764f09b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API/TC35_UpdateProductRatings</testCaseId>
+      <testCaseId>Test Cases/REST_API/05_Ratings/TC02_GiveRatingToProduct</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
