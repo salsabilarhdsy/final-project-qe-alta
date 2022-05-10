@@ -33,7 +33,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://be-qa.alta.id/api/products/216/ratings</restUrl>
+   <restUrl>https://be-qa.alta.id/api/products/477/ratings</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
