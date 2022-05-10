@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/REST_API/03_Auth/TC01_Register","testCaseId":"Test Cases/REST_API/03_Auth/TC01_Register"}
+{"testCaseName":"Test Cases/REST_API/03_Auth/TC02_RegisterEmptyEmail","testCaseId":"Test Cases/REST_API/03_Auth/TC02_RegisterEmptyEmail"}
+{"testCaseName":"Test Cases/REST_API/03_Auth/TC03_RegisterEmptyName","testCaseId":"Test Cases/REST_API/03_Auth/TC03_RegisterEmptyName"}
+{"testCaseName":"Test Cases/REST_API/03_Auth/TC04_RegisterEmptyPassword","testCaseId":"Test Cases/REST_API/03_Auth/TC04_RegisterEmptyPassword"}
+{"testCaseName":"Test Cases/REST_API/03_Auth/TC05_RegisterWithRegisteredEmail","testCaseId":"Test Cases/REST_API/03_Auth/TC05_RegisterWithRegisteredEmail"}
+{"testCaseName":"Test Cases/REST_API/03_Auth/TC06_Login","testCaseId":"Test Cases/REST_API/03_Auth/TC06_Login"}
+{"testCaseName":"Test Cases/REST_API/03_Auth/TC07_LoginEmptyEmail","testCaseId":"Test Cases/REST_API/03_Auth/TC07_LoginEmptyEmail"}
+{"testCaseName":"Test Cases/REST_API/03_Auth/TC08_LoginEmptyPassword","testCaseId":"Test Cases/REST_API/03_Auth/TC08_LoginEmptyPassword"}
+{"testCaseName":"Test Cases/REST_API/03_Auth/TC09_LoginInvalidEmail","testCaseId":"Test Cases/REST_API/03_Auth/TC09_LoginInvalidEmail"}
+{"testCaseName":"Test Cases/REST_API/03_Auth/TC10_LoginInvalidPassword","testCaseId":"Test Cases/REST_API/03_Auth/TC10_LoginInvalidPassword"}

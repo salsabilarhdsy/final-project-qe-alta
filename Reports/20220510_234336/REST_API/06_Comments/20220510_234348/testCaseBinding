@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/REST_API/06_Comments/TC01_GetProductComments","testCaseId":"Test Cases/REST_API/06_Comments/TC01_GetProductComments"}
+{"testCaseName":"Test Cases/REST_API/06_Comments/TC02_WriteCommentToProduct","testCaseId":"Test Cases/REST_API/06_Comments/TC02_WriteCommentToProduct"}
+{"testCaseName":"Test Cases/REST_API/06_Comments/TC03_WriteCommentToProductEmptyComments","testCaseId":"Test Cases/REST_API/06_Comments/TC03_WriteCommentToProductEmptyComments"}
+{"testCaseName":"Test Cases/REST_API/06_Comments/TC04_WriteCommentToProductEmptyToken","testCaseId":"Test Cases/REST_API/06_Comments/TC04_WriteCommentToProductEmptyToken"}
+{"testCaseName":"Test Cases/REST_API/06_Comments/TC05_WriteCommentToPRoductInvalidComment","testCaseId":"Test Cases/REST_API/06_Comments/TC05_WriteCommentToPRoductInvalidComment"}
+{"testCaseName":"Test Cases/REST_API/06_Comments/TC06_WriteCommentToProductInvalidToken","testCaseId":"Test Cases/REST_API/06_Comments/TC06_WriteCommentToProductInvalidToken"}

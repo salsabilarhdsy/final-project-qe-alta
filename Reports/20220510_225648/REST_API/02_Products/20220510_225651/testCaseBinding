@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/REST_API/02_Products/TC01_GetAllProduct","testCaseId":"Test Cases/REST_API/02_Products/TC01_GetAllProduct"}
+{"testCaseName":"Test Cases/REST_API/02_Products/TC02_GetProductById","testCaseId":"Test Cases/REST_API/02_Products/TC02_GetProductById"}
+{"testCaseName":"Test Cases/REST_API/02_Products/TC03_GetProductByInvalidId","testCaseId":"Test Cases/REST_API/02_Products/TC03_GetProductByInvalidId"}
+{"testCaseName":"Test Cases/REST_API/02_Products/TC04_CreateProduct","testCaseId":"Test Cases/REST_API/02_Products/TC04_CreateProduct"}
+{"testCaseName":"Test Cases/REST_API/02_Products/TC05_CreateProductDecimalPrice","testCaseId":"Test Cases/REST_API/02_Products/TC05_CreateProductDecimalPrice"}
+{"testCaseName":"Test Cases/REST_API/02_Products/TC06_CreateProductEmptyName","testCaseId":"Test Cases/REST_API/02_Products/TC06_CreateProductEmptyName"}
+{"testCaseName":"Test Cases/REST_API/02_Products/TC07_CreateProductInvalidCategory","testCaseId":"Test Cases/REST_API/02_Products/TC07_CreateProductInvalidCategory"}

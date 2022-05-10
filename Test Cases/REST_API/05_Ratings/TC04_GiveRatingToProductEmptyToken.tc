@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_GiveRatingToProductEmptyToken</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe1ae26d-ce6f-40fb-b244-ed39bb321b2f</testCaseGuid>
+</TestCaseEntity>

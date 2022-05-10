@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+04_Transactions,,,,2022-05-10 22:57:51,2022-05-10 22:58:04,12.914s,ERROR
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC02_CreateTransactions,,,,2022-05-10 22:57:51,2022-05-10 22:57:55,3.884s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions""))",,,,2022-05-10 22:57:52,2022-05-10 22:57:55,2.749s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-10 22:57:55,2022-05-10 22:57:55,0.031s,PASSED
+"verifyElementPropertyValue(Response, ""data[0].User.ID"", 132)",,,,2022-05-10 22:57:55,2022-05-10 22:57:55,0.081s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC03_CreateTransactionsInvalidId,,,,2022-05-10 22:57:55,2022-05-10 22:57:56,1.120s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions_InvalidProductID""))",,,,2022-05-10 22:57:56,2022-05-10 22:57:56,0.422s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-10 22:57:56,2022-05-10 22:57:56,0.006s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""invalid character 's' after object key:value pair"")",,,,2022-05-10 22:57:56,2022-05-10 22:57:56,0.031s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC04_CreateTransactionsInvalidQuantity,,,,2022-05-10 22:57:56,2022-05-10 22:57:57,0.867s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions_InvalidQuantity""))",,,,2022-05-10 22:57:57,2022-05-10 22:57:57,0.398s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-10 22:57:57,2022-05-10 22:57:57,0.005s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""invalid character 'I' looking for beginning of value"")",,,,2022-05-10 22:57:57,2022-05-10 22:57:57,0.028s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC05_CreateTransactionsEmptyData,,,,2022-05-10 22:57:57,2022-05-10 22:57:58,0.923s,ERROR
+"sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions_EmptyData""))",,,,2022-05-10 22:57:58,2022-05-10 22:57:58,0.528s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-10 22:57:58,2022-05-10 22:57:58,0.027s,ERROR
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC06_GetAllTransactionsInvalidToken,,,,2022-05-10 22:57:58,2022-05-10 22:57:59,0.997s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/GetAllTransactions_InvalidToken""))",,,,2022-05-10 22:57:59,2022-05-10 22:57:59,0.545s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-10 22:57:59,2022-05-10 22:57:59,0.008s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""signature is invalid"")",,,,2022-05-10 22:57:59,2022-05-10 22:57:59,0.033s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC07_CreateTransactionsInvalidToken,,,,2022-05-10 22:57:59,2022-05-10 22:58:00,0.986s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions_InvalidToken""))",,,,2022-05-10 22:58:00,2022-05-10 22:58:00,0.625s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-10 22:58:00,2022-05-10 22:58:00,0.007s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""signature is invalid"")",,,,2022-05-10 22:58:00,2022-05-10 22:58:00,0.030s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC08_CreateTransactionsEmptyToken,,,,2022-05-10 22:58:00,2022-05-10 22:58:01,0.923s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions_EmptyToken""))",,,,2022-05-10 22:58:01,2022-05-10 22:58:01,0.433s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-10 22:58:01,2022-05-10 22:58:01,0.005s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""unauthorized"")",,,,2022-05-10 22:58:01,2022-05-10 22:58:01,0.027s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC09_GetAllTransactionsEmptyToken,,,,2022-05-10 22:58:01,2022-05-10 22:58:02,0.989s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/GetAllTransactions_EmptyToken""))",,,,2022-05-10 22:58:02,2022-05-10 22:58:02,0.383s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-10 22:58:02,2022-05-10 22:58:02,0.010s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""unauthorized"")",,,,2022-05-10 22:58:02,2022-05-10 22:58:02,0.055s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC01_GetAllTransactions,,,,2022-05-10 22:58:02,2022-05-10 22:58:04,1.643s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/GetAllTransactions""))",,,,2022-05-10 22:58:03,2022-05-10 22:58:04,1.129s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-10 22:58:04,2022-05-10 22:58:04,0.011s,FAILED
+"verifyElementPropertyValue(Response, ""data[0].Name"", ""Panci"")",,,,2022-05-10 22:58:04,2022-05-10 22:58:04,0.028s,FAILED

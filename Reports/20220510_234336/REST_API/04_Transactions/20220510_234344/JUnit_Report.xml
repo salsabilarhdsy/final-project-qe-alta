@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="04_Transactions" time="9.929" tests="9" failures="0" errors="0">
+   <testsuite name="04_Transactions" tests="9" failures="0" errors="0" time="9.929" skipped="0" timestamp="2022-05-10 23:44:40" hostname="salsa - SALSABILA" id="Test Suites/REST_API/04_Transactions">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220510_234336\\REST_API\\04_Transactions\\20220510_234344"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220510_234336\\REST_API\\04_Transactions\\20220510_234344\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="hostAddress" value="192.168.106.173"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/REST_API/04_Transactions/TC02_CreateTransactions" time="3.18" classname="Test Cases/REST_API/04_Transactions/TC02_CreateTransactions" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:44:41 - [TEST_CASE][PASSED] - Test Cases/REST_API/04_Transactions/TC02_CreateTransactions: Test Cases/REST_API/04_Transactions/TC02_CreateTransactions
+
+2022-05-10 23:44:42 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/04_Transactions/CreateTransactions")): Send request successfully
+
+2022-05-10 23:44:44 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\04_Transactions\20220510_234344\requests\main\0.har
+
+2022-05-10 23:44:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:44:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-10 23:44:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:44:44 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[0].User.ID", 45): Verify element property value successfully
+
+2022-05-10 23:44:44 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/04_Transactions/TC03_CreateTransactionsInvalidId" time="0.801" classname="Test Cases/REST_API/04_Transactions/TC03_CreateTransactionsInvalidId" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:44:44 - [TEST_CASE][PASSED] - Test Cases/REST_API/04_Transactions/TC03_CreateTransactionsInvalidId: Test Cases/REST_API/04_Transactions/TC03_CreateTransactionsInvalidId
+
+2022-05-10 23:44:45 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/04_Transactions/CreateTransactions_InvalidProductID")): Send request successfully
+
+2022-05-10 23:44:45 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\04_Transactions\20220510_234344\requests\main\1.har
+
+2022-05-10 23:44:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:44:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-10 23:44:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:44:45 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "invalid character 's' after object key:value pair"): Verify element property value successfully
+
+2022-05-10 23:44:45 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/04_Transactions/TC04_CreateTransactionsInvalidQuantity" time="0.742" classname="Test Cases/REST_API/04_Transactions/TC04_CreateTransactionsInvalidQuantity" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:44:45 - [TEST_CASE][PASSED] - Test Cases/REST_API/04_Transactions/TC04_CreateTransactionsInvalidQuantity: Test Cases/REST_API/04_Transactions/TC04_CreateTransactionsInvalidQuantity
+
+2022-05-10 23:44:45 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/04_Transactions/CreateTransactions_InvalidQuantity")): Send request successfully
+
+2022-05-10 23:44:46 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\04_Transactions\20220510_234344\requests\main\2.har
+
+2022-05-10 23:44:46 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:44:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-10 23:44:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:44:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "invalid character 'I' looking for beginning of value"): Verify element property value successfully
+
+2022-05-10 23:44:46 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/04_Transactions/TC05_CreateTransactionsEmptyData" time="0.788" classname="Test Cases/REST_API/04_Transactions/TC05_CreateTransactionsEmptyData" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:44:46 - [TEST_CASE][PASSED] - Test Cases/REST_API/04_Transactions/TC05_CreateTransactionsEmptyData: Test Cases/REST_API/04_Transactions/TC05_CreateTransactionsEmptyData
+
+2022-05-10 23:44:46 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/04_Transactions/CreateTransactions_EmptyData")): Send request successfully
+
+2022-05-10 23:44:46 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\04_Transactions\20220510_234344\requests\main\3.har
+
+2022-05-10 23:44:46 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:44:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-10 23:44:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:44:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "EOF"): Verify element property value successfully
+
+2022-05-10 23:44:47 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/04_Transactions/TC06_GetAllTransactionsInvalidToken" time="0.7" classname="Test Cases/REST_API/04_Transactions/TC06_GetAllTransactionsInvalidToken" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:44:47 - [TEST_CASE][PASSED] - Test Cases/REST_API/04_Transactions/TC06_GetAllTransactionsInvalidToken: Test Cases/REST_API/04_Transactions/TC06_GetAllTransactionsInvalidToken
+
+2022-05-10 23:44:47 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/04_Transactions/GetAllTransactions_InvalidToken")): Send request successfully
+
+2022-05-10 23:44:47 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\04_Transactions\20220510_234344\requests\main\4.har
+
+2022-05-10 23:44:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:44:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 401): Verify response status code successfully
+
+2022-05-10 23:44:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:44:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "signature is invalid"): Verify element property value successfully
+
+2022-05-10 23:44:47 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/04_Transactions/TC07_CreateTransactionsInvalidToken" time="0.737" classname="Test Cases/REST_API/04_Transactions/TC07_CreateTransactionsInvalidToken" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:44:47 - [TEST_CASE][PASSED] - Test Cases/REST_API/04_Transactions/TC07_CreateTransactionsInvalidToken: Test Cases/REST_API/04_Transactions/TC07_CreateTransactionsInvalidToken
+
+2022-05-10 23:44:48 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/04_Transactions/CreateTransactions_InvalidToken")): Send request successfully
+
+2022-05-10 23:44:48 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\04_Transactions\20220510_234344\requests\main\5.har
+
+2022-05-10 23:44:48 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:44:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 401): Verify response status code successfully
+
+2022-05-10 23:44:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:44:48 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "signature is invalid"): Verify element property value successfully
+
+2022-05-10 23:44:48 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/04_Transactions/TC08_CreateTransactionsEmptyToken" time="0.671" classname="Test Cases/REST_API/04_Transactions/TC08_CreateTransactionsEmptyToken" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:44:48 - [TEST_CASE][PASSED] - Test Cases/REST_API/04_Transactions/TC08_CreateTransactionsEmptyToken: Test Cases/REST_API/04_Transactions/TC08_CreateTransactionsEmptyToken
+
+2022-05-10 23:44:48 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/04_Transactions/CreateTransactions_EmptyToken")): Send request successfully
+
+2022-05-10 23:44:49 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\04_Transactions\20220510_234344\requests\main\6.har
+
+2022-05-10 23:44:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:44:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 401): Verify response status code successfully
+
+2022-05-10 23:44:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:44:49 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "unauthorized"): Verify element property value successfully
+
+2022-05-10 23:44:49 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/04_Transactions/TC09_GetAllTransactionsEmptyToken" time="0.878" classname="Test Cases/REST_API/04_Transactions/TC09_GetAllTransactionsEmptyToken" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:44:49 - [TEST_CASE][PASSED] - Test Cases/REST_API/04_Transactions/TC09_GetAllTransactionsEmptyToken: Test Cases/REST_API/04_Transactions/TC09_GetAllTransactionsEmptyToken
+
+2022-05-10 23:44:49 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/04_Transactions/GetAllTransactions_EmptyToken")): Send request successfully
+
+2022-05-10 23:44:50 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\04_Transactions\20220510_234344\requests\main\7.har
+
+2022-05-10 23:44:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:44:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 401): Verify response status code successfully
+
+2022-05-10 23:44:50 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:44:50 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "unauthorized"): Verify element property value successfully
+
+2022-05-10 23:44:50 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/04_Transactions/TC01_GetAllTransactions" time="0.831" classname="Test Cases/REST_API/04_Transactions/TC01_GetAllTransactions" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:44:50 - [TEST_CASE][PASSED] - Test Cases/REST_API/04_Transactions/TC01_GetAllTransactions: Test Cases/REST_API/04_Transactions/TC01_GetAllTransactions
+
+2022-05-10 23:44:50 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/04_Transactions/GetAllTransactions")): Send request successfully
+
+2022-05-10 23:44:50 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\04_Transactions\20220510_234344\requests\main\8.har
+
+2022-05-10 23:44:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:44:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-10 23:44:50 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:44:50 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data", "[]"): Verify element property value successfully
+
+2022-05-10 23:44:50 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-10 23:44:40 - [TEST_SUITE][PASSED] - 04_Transactions: Test Cases/REST_API/04_Transactions/TC01_GetAllTransactions]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

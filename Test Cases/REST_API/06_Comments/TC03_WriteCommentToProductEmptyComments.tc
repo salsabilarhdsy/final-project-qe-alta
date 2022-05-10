@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_WriteCommentToProductEmptyComments</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5333e3ae-e0c4-4984-abf9-74155a8e2cb5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="06_Comments" time="10.527" tests="6" failures="0" errors="0">
+   <testsuite name="06_Comments" tests="6" failures="0" errors="0" time="10.527" skipped="0" timestamp="2022-05-10 23:24:00" hostname="salsa - SALSABILA" id="Test Suites/REST_API/06_Comments">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220510_232231\\REST_API\\06_Comments\\20220510_232242"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220510_232231\\REST_API\\06_Comments\\20220510_232242\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="hostAddress" value="192.168.106.173"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/REST_API/06_Comments/TC01_GetProductComments" time="4.342" classname="Test Cases/REST_API/06_Comments/TC01_GetProductComments" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:24:00 - [TEST_CASE][PASSED] - Test Cases/REST_API/06_Comments/TC01_GetProductComments: Test Cases/REST_API/06_Comments/TC01_GetProductComments
+
+2022-05-10 23:24:02 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/06_Comments/GetProductComments")): Send request successfully
+
+2022-05-10 23:24:04 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_232231\REST_API\06_Comments\20220510_232242\requests\main\0.har
+
+2022-05-10 23:24:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:24:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-10 23:24:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:24:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[0].ID", 9): Verify element property value successfully
+
+2022-05-10 23:24:05 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/06_Comments/TC02_WriteCommentToProduct" time="0.802" classname="Test Cases/REST_API/06_Comments/TC02_WriteCommentToProduct" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:24:05 - [TEST_CASE][PASSED] - Test Cases/REST_API/06_Comments/TC02_WriteCommentToProduct: Test Cases/REST_API/06_Comments/TC02_WriteCommentToProduct
+
+2022-05-10 23:24:05 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/06_Comments/WriteCommentToProduct")): Send request successfully
+
+2022-05-10 23:24:05 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_232231\REST_API\06_Comments\20220510_232242\requests\main\1.har
+
+2022-05-10 23:24:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:24:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-10 23:24:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:24:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.Content", "mantap nih gais"): Verify element property value successfully
+
+2022-05-10 23:24:05 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/06_Comments/TC03_WriteCommentToProductEmptyComments" time="0.785" classname="Test Cases/REST_API/06_Comments/TC03_WriteCommentToProductEmptyComments" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:24:06 - [TEST_CASE][PASSED] - Test Cases/REST_API/06_Comments/TC03_WriteCommentToProductEmptyComments: Test Cases/REST_API/06_Comments/TC03_WriteCommentToProductEmptyComments
+
+2022-05-10 23:24:06 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/06_Comments/WriteCommentToProduct_EmptyComments")): Send request successfully
+
+2022-05-10 23:24:06 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_232231\REST_API\06_Comments\20220510_232242\requests\main\2.har
+
+2022-05-10 23:24:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:24:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 500): Verify response status code successfully
+
+2022-05-10 23:24:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:24:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "ERROR: new row for relation "comments" violates check constraint "comments_content_check" (SQLSTATE 23514)"): Verify element property value successfully
+
+2022-05-10 23:24:06 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/06_Comments/TC04_WriteCommentToProductEmptyToken" time="0.808" classname="Test Cases/REST_API/06_Comments/TC04_WriteCommentToProductEmptyToken" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:24:06 - [TEST_CASE][PASSED] - Test Cases/REST_API/06_Comments/TC04_WriteCommentToProductEmptyToken: Test Cases/REST_API/06_Comments/TC04_WriteCommentToProductEmptyToken
+
+2022-05-10 23:24:07 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/06_Comments/WriteCommentToProduct_EmptyToken")): Send request successfully
+
+2022-05-10 23:24:07 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_232231\REST_API\06_Comments\20220510_232242\requests\main\3.har
+
+2022-05-10 23:24:07 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:24:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 401): Verify response status code successfully
+
+2022-05-10 23:24:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:24:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "unauthorized"): Verify element property value successfully
+
+2022-05-10 23:24:07 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/06_Comments/TC05_WriteCommentToPRoductInvalidComment" time="2.277" classname="Test Cases/REST_API/06_Comments/TC05_WriteCommentToPRoductInvalidComment" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:24:07 - [TEST_CASE][PASSED] - Test Cases/REST_API/06_Comments/TC05_WriteCommentToPRoductInvalidComment: Test Cases/REST_API/06_Comments/TC05_WriteCommentToPRoductInvalidComment
+
+2022-05-10 23:24:08 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/06_Comments/WriteCommentToProduct_InvalidComments")): Send request successfully
+
+2022-05-10 23:24:09 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_232231\REST_API\06_Comments\20220510_232242\requests\main\4.har
+
+2022-05-10 23:24:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:24:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 500): Verify response status code successfully
+
+2022-05-10 23:24:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:24:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "ERROR: new row for relation "comments" violates check constraint "comments_content_check" (SQLSTATE 23514)"): Verify element property value successfully
+
+2022-05-10 23:24:09 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/06_Comments/TC06_WriteCommentToProductInvalidToken" time="0.743" classname="Test Cases/REST_API/06_Comments/TC06_WriteCommentToProductInvalidToken" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:24:09 - [TEST_CASE][PASSED] - Test Cases/REST_API/06_Comments/TC06_WriteCommentToProductInvalidToken: Test Cases/REST_API/06_Comments/TC06_WriteCommentToProductInvalidToken
+
+2022-05-10 23:24:10 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/06_Comments/WriteCommentToProduct_InvalidToken")): Send request successfully
+
+2022-05-10 23:24:10 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_232231\REST_API\06_Comments\20220510_232242\requests\main\5.har
+
+2022-05-10 23:24:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:24:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 401): Verify response status code successfully
+
+2022-05-10 23:24:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:24:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "signature is invalid"): Verify element property value successfully
+
+2022-05-10 23:24:10 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-10 23:24:00 - [TEST_SUITE][PASSED] - 06_Comments: Test Cases/REST_API/06_Comments/TC06_WriteCommentToProductInvalidToken]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

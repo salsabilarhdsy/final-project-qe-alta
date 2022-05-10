@@ -12,39 +12,45 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>9d682bc9-b934-4097-953f-18503f7e449b</testSuiteGuid>
    <testCaseLink>
-      <guid>94cb2365-db15-4bd1-9b81-ec00be98b0f1</guid>
+      <guid>0d28e0e5-5566-41d6-8539-907a3af1a38e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/REST_API/02_Products/TC01_GetAllProduct</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d60f96ac-88ae-464e-9146-72b0200805c2</guid>
+      <guid>c8235a3e-f8a8-457b-bef9-9bb2b24b48ae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/REST_API/02_Products/TC02_GetProductById</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>36c055be-acdf-4b0a-a483-be2cdd62527d</guid>
+      <guid>f4a0d12a-b437-4596-9da6-05282e6d47a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/REST_API/02_Products/TC03_GetProductByInvalidId</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1eede278-38a3-493a-952d-9a4cee30695d</guid>
+      <guid>846656c5-1ff3-42de-9868-28160d28d893</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/REST_API/02_Products/TC04_CreateProduct</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f044fd8c-67f3-46fe-9f08-2696c9c5cba4</guid>
+      <guid>503f2bbc-e566-4b13-838b-4ee69688c036</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/REST_API/02_Products/TC05_CreateProductDecimalPrice</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ad89a80e-eae0-4e2e-96e5-1d23c4dcd7c2</guid>
+      <guid>5b6e759b-1ce6-4553-9bc9-52015d38b8f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/REST_API/02_Products/TC06_CreateProductEmptyName</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0e70364c-f909-43d4-97e4-b161951f2cb5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/REST_API/02_Products/TC07_CreateProductInvalidCategory</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

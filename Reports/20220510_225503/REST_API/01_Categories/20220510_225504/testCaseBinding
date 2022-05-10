@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/REST_API/01_Categories/TC01_GetAllCategories","testCaseId":"Test Cases/REST_API/01_Categories/TC01_GetAllCategories"}
+{"testCaseName":"Test Cases/REST_API/01_Categories/TC02_CreateCategory","testCaseId":"Test Cases/REST_API/01_Categories/TC02_CreateCategory"}
+{"testCaseName":"Test Cases/REST_API/01_Categories/TC03_CreateCategoryInvalidName","testCaseId":"Test Cases/REST_API/01_Categories/TC03_CreateCategoryInvalidName"}
+{"testCaseName":"Test Cases/REST_API/01_Categories/TC04_CreateCategoryEmptyName","testCaseId":"Test Cases/REST_API/01_Categories/TC04_CreateCategoryEmptyName"}
+{"testCaseName":"Test Cases/REST_API/01_Categories/TC05_CreateCategory_EmptyData","testCaseId":"Test Cases/REST_API/01_Categories/TC05_CreateCategory_EmptyData"}

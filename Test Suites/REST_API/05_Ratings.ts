@@ -23,4 +23,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/REST_API/05_Ratings/TC02_GiveRatingToProduct</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>2e442c26-2625-4a00-8e9d-489c4f48783e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/REST_API/05_Ratings/TC03_GiveRatingtoProductInvalidRating</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6ab033dd-4f11-4ded-95f7-0a8424b38d52</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/REST_API/05_Ratings/TC04_GiveRatingToProductEmptyToken</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>50bc5435-b9a3-4972-8a7c-b627cb091bc5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/REST_API/05_Ratings/TC05_GiveRatingToProductInvalidToken</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

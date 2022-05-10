@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+01_Categories,,,,2022-05-10 22:52:43,2022-05-10 22:52:51,7.821s,PASSED
+,,,,,,,
+Test Cases/REST_API/01_Categories/TC01_GetAllCategories,,,,2022-05-10 22:52:44,2022-05-10 22:52:46,2.848s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/01_Categories/GetAllCategories""))",,,,2022-05-10 22:52:44,2022-05-10 22:52:46,2.167s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-10 22:52:46,2022-05-10 22:52:46,0.033s,PASSED
+"verifyElementPropertyValue(Response, ""data[0].ID"", 1)",,,,2022-05-10 22:52:46,2022-05-10 22:52:46,0.109s,PASSED
+,,,,,,,
+Test Cases/REST_API/01_Categories/TC02_CreateCategory,,,,2022-05-10 22:52:46,2022-05-10 22:52:48,1.466s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/01_Categories/CreateCategory""))",,,,2022-05-10 22:52:47,2022-05-10 22:52:48,0.885s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-10 22:52:48,2022-05-10 22:52:48,0.015s,PASSED
+"verifyElementPropertyValue(Response, ""data.Name"", ""health"")",,,,2022-05-10 22:52:48,2022-05-10 22:52:48,0.057s,PASSED
+,,,,,,,
+Test Cases/REST_API/01_Categories/TC03_CreateCategoryInvalidName,,,,2022-05-10 22:52:48,2022-05-10 22:52:49,1.316s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/01_Categories/CreateCategory_InvalidName""))",,,,2022-05-10 22:52:48,2022-05-10 22:52:49,0.871s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-10 22:52:49,2022-05-10 22:52:49,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""invalid character 'h' looking for beginning of value"")",,,,2022-05-10 22:52:49,2022-05-10 22:52:49,0.042s,PASSED
+,,,,,,,
+Test Cases/REST_API/01_Categories/TC04_CreateCategoryEmptyName,,,,2022-05-10 22:52:49,2022-05-10 22:52:50,0.854s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/01_Categories/CreateCategory_EmptyName""))",,,,2022-05-10 22:52:50,2022-05-10 22:52:50,0.431s,PASSED
+"verifyResponseStatusCode(Response, 500)",,,,2022-05-10 22:52:50,2022-05-10 22:52:50,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""ERROR: new row for relation ""categories"" violates check constraint ""categories_name_check"" (SQLSTATE 23514)"")",,,,2022-05-10 22:52:50,2022-05-10 22:52:50,0.052s,PASSED
+,,,,,,,
+Test Cases/REST_API/01_Categories/TC05_CreateCategory_EmptyData,,,,2022-05-10 22:52:50,2022-05-10 22:52:51,0.886s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/01_Categories/CreateCategory_EmptyData""))",,,,2022-05-10 22:52:50,2022-05-10 22:52:51,0.511s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-10 22:52:51,2022-05-10 22:52:51,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""EOF"")",,,,2022-05-10 22:52:51,2022-05-10 22:52:51,0.031s,PASSED

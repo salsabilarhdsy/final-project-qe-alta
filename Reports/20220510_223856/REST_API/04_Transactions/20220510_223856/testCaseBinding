@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/REST_API/04_Transactions/TC01_GetAllTransactions","testCaseId":"Test Cases/REST_API/04_Transactions/TC01_GetAllTransactions"}
+{"testCaseName":"Test Cases/REST_API/04_Transactions/TC02_CreateTransactions","testCaseId":"Test Cases/REST_API/04_Transactions/TC02_CreateTransactions"}
+{"testCaseName":"Test Cases/REST_API/04_Transactions/TC03_CreateTransactionsInvalidId","testCaseId":"Test Cases/REST_API/04_Transactions/TC03_CreateTransactionsInvalidId"}
+{"testCaseName":"Test Cases/REST_API/04_Transactions/TC04_CreateTransactionsInvalidQuantity","testCaseId":"Test Cases/REST_API/04_Transactions/TC04_CreateTransactionsInvalidQuantity"}
+{"testCaseName":"Test Cases/REST_API/04_Transactions/TC05_CreateTransactionsEmptyData","testCaseId":"Test Cases/REST_API/04_Transactions/TC05_CreateTransactionsEmptyData"}
+{"testCaseName":"Test Cases/REST_API/04_Transactions/TC06_GetAllTransactionsInvalidToken","testCaseId":"Test Cases/REST_API/04_Transactions/TC06_GetAllTransactionsInvalidToken"}
+{"testCaseName":"Test Cases/REST_API/04_Transactions/TC07_CreateTransactionsInvalidToken","testCaseId":"Test Cases/REST_API/04_Transactions/TC07_CreateTransactionsInvalidToken"}
+{"testCaseName":"Test Cases/REST_API/04_Transactions/TC08_CreateTransactionsEmptyToken","testCaseId":"Test Cases/REST_API/04_Transactions/TC08_CreateTransactionsEmptyToken"}
+{"testCaseName":"Test Cases/REST_API/04_Transactions/TC09_GetAllTransactionsEmptyToken","testCaseId":"Test Cases/REST_API/04_Transactions/TC09_GetAllTransactionsEmptyToken"}

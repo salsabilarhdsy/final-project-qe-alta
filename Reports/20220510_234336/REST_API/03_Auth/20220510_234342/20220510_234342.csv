@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+03_Auth,,,,2022-05-10 23:44:26,2022-05-10 23:44:36,10.324s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC01_Register,,,,2022-05-10 23:44:26,2022-05-10 23:44:29,2.784s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Register""))",,,,2022-05-10 23:44:27,2022-05-10 23:44:29,2.052s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-10 23:44:29,2022-05-10 23:44:29,0.030s,PASSED
+"verifyElementPropertyValue(Response, ""data.Fullname"", ""Alex Under"")",,,,2022-05-10 23:44:29,2022-05-10 23:44:29,0.117s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC02_RegisterEmptyEmail,,,,2022-05-10 23:44:29,2022-05-10 23:44:30,1.003s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Register_EmptyEmail""))",,,,2022-05-10 23:44:29,2022-05-10 23:44:30,0.387s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-10 23:44:30,2022-05-10 23:44:30,0.007s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""email is required"")",,,,2022-05-10 23:44:30,2022-05-10 23:44:30,0.034s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC03_RegisterEmptyName,,,,2022-05-10 23:44:30,2022-05-10 23:44:31,0.851s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Register_EmptyName""))",,,,2022-05-10 23:44:30,2022-05-10 23:44:31,0.449s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-10 23:44:31,2022-05-10 23:44:31,0.006s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""fullname is required"")",,,,2022-05-10 23:44:31,2022-05-10 23:44:31,0.027s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC04_RegisterEmptyPassword,,,,2022-05-10 23:44:31,2022-05-10 23:44:32,0.766s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Register_EmptyPassword""))",,,,2022-05-10 23:44:31,2022-05-10 23:44:32,0.363s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-10 23:44:32,2022-05-10 23:44:32,0.010s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""password is required"")",,,,2022-05-10 23:44:32,2022-05-10 23:44:32,0.034s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC05_RegisterWithRegisteredEmail,,,,2022-05-10 23:44:32,2022-05-10 23:44:32,0.671s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Register_RegisteredEmail""))",,,,2022-05-10 23:44:32,2022-05-10 23:44:32,0.327s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-10 23:44:32,2022-05-10 23:44:32,0.005s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""ERROR: duplicate key value violates unique constraint ""users_email_key"" (SQLSTATE 23505)"")",,,,2022-05-10 23:44:32,2022-05-10 23:44:32,0.030s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC06_Login,,,,2022-05-10 23:44:32,2022-05-10 23:44:33,0.723s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Login""))",,,,2022-05-10 23:44:33,2022-05-10 23:44:33,0.335s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-10 23:44:33,2022-05-10 23:44:33,0.004s,PASSED
+"verifyElementPropertyValue(Response, ""data"", ""eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IiAiLCJFbWFpbCI6InNhbHNhYmlsYUBnbWFpbC5jb20ifQ.bFDWh__G0S0QFNpiprotKPnDgDwgZS6ZOiS8Z7108AQ"")",,,,2022-05-10 23:44:33,2022-05-10 23:44:33,0.024s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC07_LoginEmptyEmail,,,,2022-05-10 23:44:33,2022-05-10 23:44:34,0.708s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Login_EmptyEmail""))",,,,2022-05-10 23:44:33,2022-05-10 23:44:34,0.351s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-10 23:44:34,2022-05-10 23:44:34,0.003s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""email is required"")",,,,2022-05-10 23:44:34,2022-05-10 23:44:34,0.031s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC08_LoginEmptyPassword,,,,2022-05-10 23:44:34,2022-05-10 23:44:35,0.829s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Login_EmptyPassword""))",,,,2022-05-10 23:44:34,2022-05-10 23:44:35,0.332s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-10 23:44:35,2022-05-10 23:44:35,0.004s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""password is required"")",,,,2022-05-10 23:44:35,2022-05-10 23:44:35,0.032s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC09_LoginInvalidEmail,,,,2022-05-10 23:44:35,2022-05-10 23:44:35,0.775s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Login_InvalidEmail""))",,,,2022-05-10 23:44:35,2022-05-10 23:44:35,0.370s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-10 23:44:35,2022-05-10 23:44:35,0.004s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""record not found"")",,,,2022-05-10 23:44:35,2022-05-10 23:44:35,0.021s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC10_LoginInvalidPassword,,,,2022-05-10 23:44:35,2022-05-10 23:44:36,0.659s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Login_InvalidPassword""))",,,,2022-05-10 23:44:36,2022-05-10 23:44:36,0.333s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-10 23:44:36,2022-05-10 23:44:36,0.003s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""email or password is invalid"")",,,,2022-05-10 23:44:36,2022-05-10 23:44:36,0.021s,PASSED

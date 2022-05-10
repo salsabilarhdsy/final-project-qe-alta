@@ -21,5 +21,5 @@ Response = WS.sendRequest(findTestObject('REST_API/04_Transactions/GetAllTransac
 
 WS.verifyResponseStatusCode(Response, 200)
 
-WS.verifyElementPropertyValue(Response, 'data[0].Name', 'Panci')
+WS.verifyElementPropertyValue(Response, 'data', '[]')
 

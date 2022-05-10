@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+05_Ratings,,,,2022-05-10 22:40:56,2022-05-10 22:41:05,8.403s,FAILED
+,,,,,,,
+Test Cases/REST_API/05_Ratings/TC01_GetProductRatings,,,,2022-05-10 22:40:57,2022-05-10 22:41:01,3.608s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/GetProductRatings""))",,,,2022-05-10 22:40:58,2022-05-10 22:41:00,2.729s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-10 22:41:00,2022-05-10 22:41:00,0.081s,FAILED
+"verifyElementPropertyValue(Response, ""data"", 5)",,,,2022-05-10 22:41:00,2022-05-10 22:41:01,0.152s,FAILED
+,,,,,,,
+Test Cases/REST_API/05_Ratings/TC02_GiveRatingToProduct,,,,2022-05-10 22:41:01,2022-05-10 22:41:02,1.091s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/GiveRatingToProduct""))",,,,2022-05-10 22:41:01,2022-05-10 22:41:02,0.528s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-10 22:41:02,2022-05-10 22:41:02,0.021s,FAILED
+"verifyElementPropertyValue(Response, ""data.ID"", 478)",,,,2022-05-10 22:41:02,2022-05-10 22:41:02,0.042s,FAILED
+,,,,,,,
+Test Cases/REST_API/05_Ratings/TC03_GiveRatingtoProductInvalidRating,,,,2022-05-10 22:41:02,2022-05-10 22:41:03,1.179s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/GiveRatingToProduct_InvalidRating""))",,,,2022-05-10 22:41:02,2022-05-10 22:41:03,0.730s,PASSED
+"verifyResponseStatusCode(Response, 500)",,,,2022-05-10 22:41:03,2022-05-10 22:41:03,0.021s,FAILED
+"verifyElementPropertyValue(Response, ""error"", ""ERROR: new row for relation ""ratings"" violates check constraint ""ratings_count_check"" (SQLSTATE 23514)"")",,,,2022-05-10 22:41:03,2022-05-10 22:41:03,0.049s,FAILED
+,,,,,,,
+Test Cases/REST_API/05_Ratings/TC04_GiveRatingToProductEmptyToken,,,,2022-05-10 22:41:03,2022-05-10 22:41:04,0.915s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/GiveRatingToProduct_EmptyToken""))",,,,2022-05-10 22:41:03,2022-05-10 22:41:04,0.369s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-10 22:41:04,2022-05-10 22:41:04,0.004s,FAILED
+"verifyElementPropertyValue(Response, ""error"", ""unauthorized"")",,,,2022-05-10 22:41:04,2022-05-10 22:41:04,0.031s,FAILED
+,,,,,,,
+Test Cases/REST_API/05_Ratings/TC05_GiveRatingToProductInvalidToken,,,,2022-05-10 22:41:04,2022-05-10 22:41:05,0.860s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/GiveRatingToProduct_InvalidToken""))",,,,2022-05-10 22:41:04,2022-05-10 22:41:05,0.401s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-10 22:41:05,2022-05-10 22:41:05,0.006s,FAILED
+"verifyElementPropertyValue(Response, ""error"", ""signature is invalid"")",,,,2022-05-10 22:41:05,2022-05-10 22:41:05,0.035s,FAILED

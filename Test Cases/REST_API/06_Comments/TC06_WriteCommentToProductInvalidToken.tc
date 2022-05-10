@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_WriteCommentToProductInvalidToken</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c70ddd7d-4997-4956-9db6-778f2ab16348</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+06_Comments,,,,2022-05-10 22:54:12,2022-05-10 22:54:22,9.832s,FAILED
+,,,,,,,
+Test Cases/REST_API/06_Comments/TC01_GetProductComments,,,,2022-05-10 22:54:13,2022-05-10 22:54:17,4.278s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/GetProductComments""))",,,,2022-05-10 22:54:13,2022-05-10 22:54:17,3.386s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-10 22:54:17,2022-05-10 22:54:17,0.084s,FAILED
+"verifyElementPropertyValue(Response, ""data[0].ID"", 9)",,,,2022-05-10 22:54:17,2022-05-10 22:54:17,0.199s,FAILED
+,,,,,,,
+Test Cases/REST_API/06_Comments/TC02_WriteCommentToProduct,,,,2022-05-10 22:54:17,2022-05-10 22:54:18,1.289s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/WriteCommentToProduct""))",,,,2022-05-10 22:54:18,2022-05-10 22:54:18,0.628s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-10 22:54:18,2022-05-10 22:54:18,0.015s,FAILED
+"verifyElementPropertyValue(Response, ""data.Content"", ""mantap nih gais"")",,,,2022-05-10 22:54:18,2022-05-10 22:54:18,0.045s,FAILED
+,,,,,,,
+Test Cases/REST_API/06_Comments/TC03_WriteCommentToProductEmptyComments,,,,2022-05-10 22:54:18,2022-05-10 22:54:19,0.865s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/WriteCommentToProduct_EmptyComments""))",,,,2022-05-10 22:54:19,2022-05-10 22:54:19,0.420s,PASSED
+"verifyResponseStatusCode(Response, 500)",,,,2022-05-10 22:54:19,2022-05-10 22:54:19,0.011s,FAILED
+"verifyElementPropertyValue(Response, ""error"", ""ERROR: new row for relation ""comments"" violates check constraint ""comments_content_check"" (SQLSTATE 23514)"")",,,,2022-05-10 22:54:19,2022-05-10 22:54:19,0.042s,FAILED
+,,,,,,,
+Test Cases/REST_API/06_Comments/TC04_WriteCommentToProductEmptyToken,,,,2022-05-10 22:54:19,2022-05-10 22:54:20,0.925s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/WriteCommentToProduct_EmptyToken""))",,,,2022-05-10 22:54:20,2022-05-10 22:54:20,0.422s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-10 22:54:20,2022-05-10 22:54:20,0.004s,FAILED
+"verifyElementPropertyValue(Response, ""error"", ""unauthorized"")",,,,2022-05-10 22:54:20,2022-05-10 22:54:20,0.032s,FAILED
+,,,,,,,
+Test Cases/REST_API/06_Comments/TC05_WriteCommentToPRoductInvalidComment,,,,2022-05-10 22:54:20,2022-05-10 22:54:21,0.930s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/WriteCommentToProduct_InvalidComments""))",,,,2022-05-10 22:54:20,2022-05-10 22:54:21,0.481s,PASSED
+"verifyResponseStatusCode(Response, 500)",,,,2022-05-10 22:54:21,2022-05-10 22:54:21,0.004s,FAILED
+"verifyElementPropertyValue(Response, ""error"", ""ERROR: new row for relation ""comments"" violates check constraint ""comments_content_check"" (SQLSTATE 23514)"")",,,,2022-05-10 22:54:21,2022-05-10 22:54:21,0.036s,FAILED
+,,,,,,,
+Test Cases/REST_API/06_Comments/TC06_WriteCommentToProductInvalidToken,,,,2022-05-10 22:54:21,2022-05-10 22:54:22,1.083s,FAILED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/WriteCommentToProduct_InvalidToken""))",,,,2022-05-10 22:54:22,2022-05-10 22:54:22,0.515s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-10 22:54:22,2022-05-10 22:54:22,0.005s,FAILED
+"verifyElementPropertyValue(Response, ""error"", ""signature is invalid"")",,,,2022-05-10 22:54:22,2022-05-10 22:54:22,0.036s,FAILED

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="05_Ratings" time="6.83" tests="5" failures="0" errors="0">
+   <testsuite name="05_Ratings" tests="5" failures="0" errors="0" time="6.83" skipped="0" timestamp="2022-05-10 23:44:55" hostname="salsa - SALSABILA" id="Test Suites/REST_API/05_Ratings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220510_234336\\REST_API\\05_Ratings\\20220510_234346"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220510_234336\\REST_API\\05_Ratings\\20220510_234346\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="hostAddress" value="192.168.106.173"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/REST_API/05_Ratings/TC01_GetProductRatings" time="2.744" classname="Test Cases/REST_API/05_Ratings/TC01_GetProductRatings" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:44:55 - [TEST_CASE][PASSED] - Test Cases/REST_API/05_Ratings/TC01_GetProductRatings: Test Cases/REST_API/05_Ratings/TC01_GetProductRatings
+
+2022-05-10 23:44:56 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/05_Ratings/GetProductRatings")): Send request successfully
+
+2022-05-10 23:44:58 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\05_Ratings\20220510_234346\requests\main\0.har
+
+2022-05-10 23:44:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:44:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-10 23:44:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:44:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data", 5): Verify element property value successfully
+
+2022-05-10 23:44:58 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/05_Ratings/TC02_GiveRatingToProduct" time="0.963" classname="Test Cases/REST_API/05_Ratings/TC02_GiveRatingToProduct" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:44:58 - [TEST_CASE][PASSED] - Test Cases/REST_API/05_Ratings/TC02_GiveRatingToProduct: Test Cases/REST_API/05_Ratings/TC02_GiveRatingToProduct
+
+2022-05-10 23:44:59 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/05_Ratings/GiveRatingToProduct")): Send request successfully
+
+2022-05-10 23:44:59 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\05_Ratings\20220510_234346\requests\main\1.har
+
+2022-05-10 23:44:59 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:44:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-10 23:44:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:44:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.ID", 478): Verify element property value successfully
+
+2022-05-10 23:44:59 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/05_Ratings/TC03_GiveRatingtoProductInvalidRating" time="0.863" classname="Test Cases/REST_API/05_Ratings/TC03_GiveRatingtoProductInvalidRating" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:44:59 - [TEST_CASE][PASSED] - Test Cases/REST_API/05_Ratings/TC03_GiveRatingtoProductInvalidRating: Test Cases/REST_API/05_Ratings/TC03_GiveRatingtoProductInvalidRating
+
+2022-05-10 23:44:59 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/05_Ratings/GiveRatingToProduct_InvalidRating")): Send request successfully
+
+2022-05-10 23:45:00 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\05_Ratings\20220510_234346\requests\main\2.har
+
+2022-05-10 23:45:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:45:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 500): Verify response status code successfully
+
+2022-05-10 23:45:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:45:00 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "ERROR: new row for relation "ratings" violates check constraint "ratings_count_check" (SQLSTATE 23514)"): Verify element property value successfully
+
+2022-05-10 23:45:00 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/05_Ratings/TC04_GiveRatingToProductEmptyToken" time="0.852" classname="Test Cases/REST_API/05_Ratings/TC04_GiveRatingToProductEmptyToken" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:45:00 - [TEST_CASE][PASSED] - Test Cases/REST_API/05_Ratings/TC04_GiveRatingToProductEmptyToken: Test Cases/REST_API/05_Ratings/TC04_GiveRatingToProductEmptyToken
+
+2022-05-10 23:45:00 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/05_Ratings/GiveRatingToProduct_EmptyToken")): Send request successfully
+
+2022-05-10 23:45:01 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\05_Ratings\20220510_234346\requests\main\3.har
+
+2022-05-10 23:45:01 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:45:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 401): Verify response status code successfully
+
+2022-05-10 23:45:01 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:45:01 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "unauthorized"): Verify element property value successfully
+
+2022-05-10 23:45:01 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST_API/05_Ratings/TC05_GiveRatingToProductInvalidToken" time="0.875" classname="Test Cases/REST_API/05_Ratings/TC05_GiveRatingToProductInvalidToken" status="PASSED">
+         <system-out><![CDATA[2022-05-10 23:45:01 - [TEST_CASE][PASSED] - Test Cases/REST_API/05_Ratings/TC05_GiveRatingToProductInvalidToken: Test Cases/REST_API/05_Ratings/TC05_GiveRatingToProductInvalidToken
+
+2022-05-10 23:45:01 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REST_API/05_Ratings/GiveRatingToProduct_InvalidToken")): Send request successfully
+
+2022-05-10 23:45:02 - [MESSAGE][INFO] - HAR: F:\1. UNNES\6. Semester 6\2 - MSIB\final-project-qe-alta4\final-project-qe-alta\Reports\20220510_234336\REST_API\05_Ratings\20220510_234346\requests\main\4.har
+
+2022-05-10 23:45:02 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-10 23:45:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 401): Verify response status code successfully
+
+2022-05-10 23:45:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-10 23:45:02 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "error", "signature is invalid"): Verify element property value successfully
+
+2022-05-10 23:45:02 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-10 23:44:55 - [TEST_SUITE][PASSED] - 05_Ratings: Test Cases/REST_API/05_Ratings/TC05_GiveRatingToProductInvalidToken]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
