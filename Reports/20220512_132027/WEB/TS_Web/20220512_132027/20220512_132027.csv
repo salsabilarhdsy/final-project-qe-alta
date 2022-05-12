@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Web,Chrome 101.0.4951.54,,,2022-05-12 13:20:30,2022-05-12 13:20:58,27.205s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/DetailProduct,Chrome 101.0.4951.54,,,2022-05-12 13:20:31,2022-05-12 13:20:43,11.781s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-12 13:20:32,2022-05-12 13:20:35,3.271s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-12 13:20:35,2022-05-12 13:20:37,2.454s,PASSED
+"name = getText(findTestObject(""WEB/Homepage/DetailProduct/HP_name""))",Chrome 101.0.4951.54,,,2022-05-12 13:20:37,2022-05-12 13:20:41,3.461s,PASSED
+"click(findTestObject(""WEB/Homepage/DetailProduct/button_Detail""))",Chrome 101.0.4951.54,,,2022-05-12 13:20:41,2022-05-12 13:20:41,0.518s,PASSED
+"d_name = getText(findTestObject(""WEB/Homepage/DetailProduct/Detail_name""))",Chrome 101.0.4951.54,,,2022-05-12 13:20:41,2022-05-12 13:20:43,1.405s,PASSED
+"verifyEqual(name, d_name)",Chrome 101.0.4951.54,,,2022-05-12 13:20:43,2022-05-12 13:20:43,0.050s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/FilterByCategory,Chrome 101.0.4951.54,,,2022-05-12 13:20:43,2022-05-12 13:20:53,9.781s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-12 13:20:43,2022-05-12 13:20:45,2.369s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-12 13:20:45,2022-05-12 13:20:47,1.963s,PASSED
+"click(findTestObject(""WEB/Homepage/SelectCategory/select_category""))",Chrome 101.0.4951.54,,,2022-05-12 13:20:47,2022-05-12 13:20:51,3.501s,PASSED
+"click(findTestObject(""WEB/Homepage/SelectCategory/div_kesehatan""))",Chrome 101.0.4951.54,,,2022-05-12 13:20:51,2022-05-12 13:20:52,0.705s,PASSED
+"verifyElementPresent(findTestObject(""WEB/Homepage/SelectCategory/product_empty""), 0)",Chrome 101.0.4951.54,,,2022-05-12 13:20:52,2022-05-12 13:20:53,0.877s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/CloseSelectCategory,Chrome 101.0.4951.54,,,2022-05-12 13:20:53,2022-05-12 13:20:58,5.156s,PASSED
+"click(findTestObject(""WEB/Homepage/SelectCategory/close_category""))",Chrome 101.0.4951.54,,,2022-05-12 13:20:53,2022-05-12 13:20:53,0.412s,PASSED
+"verifyElementPresent(findTestObject(""WEB/Homepage/SelectCategory/product_element_nocategory""), 0)",Chrome 101.0.4951.54,,,2022-05-12 13:20:53,2022-05-12 13:20:58,4.384s,PASSED

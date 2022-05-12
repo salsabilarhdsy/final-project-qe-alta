@@ -1,0 +1,2044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Web" time="539.978" tests="13" failures="3" errors="0">
+   <testsuite name="TS_Web" tests="13" failures="3" errors="0" time="539.978" skipped="0" timestamp="2022-05-12 14:24:38" hostname="salsa - SALSABILA" id="Test Suites/WEB/TS_Web">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\execution0.log"/>
+         <property name="attachments" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340333607.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340364927.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340398839.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340402167.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340487816.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340554443.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340620510.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340686478.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340752656.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340818681.png"/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.54"/>
+         <property name="hostAddress" value="192.168.159.173"/>
+         <property name="sessionId" value="2428edbbf725abb5287af3ee3c545af5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WEB/Homepage/DetailProduct" time="16.339" classname="Test Cases/WEB/Homepage/DetailProduct" status="PASSED">
+         <system-out><![CDATA[2022-05-12 14:24:39 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/DetailProduct: Test Cases/WEB/Homepage/DetailProduct
+
+2022-05-12 14:24:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-12 14:24:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 14:24:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 14:24:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-12 14:24:43 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 14:24:47 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 14:24:47 - [TEST_STEP][PASSED] - name = getText(findTestObject("WEB/Homepage/DetailProduct/HP_name")): Text of object 'Object Repository/WEB/Homepage/DetailProduct/HP_name' is: 'Stetoskop'
+
+2022-05-12 14:24:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/DetailProduct/HP_name' is: 'Stetoskop'
+
+2022-05-12 14:24:52 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/DetailProduct/button_Detail")): Object: 'Object Repository/WEB/Homepage/DetailProduct/button_Detail' is clicked on
+
+2022-05-12 14:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/DetailProduct/button_Detail' is clicked on
+
+2022-05-12 14:24:53 - [TEST_STEP][PASSED] - d_name = getText(findTestObject("WEB/Homepage/DetailProduct/Detail_name")): Text of object 'Object Repository/WEB/Homepage/DetailProduct/Detail_name' is: 'Stetoskop'
+
+2022-05-12 14:24:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/DetailProduct/Detail_name' is: 'Stetoskop'
+
+2022-05-12 14:24:55 - [TEST_STEP][PASSED] - verifyEqual(name, d_name): Actual object 'Stetoskop' and expected object 'Stetoskop' are equal
+
+2022-05-12 14:24:55 - [MESSAGE][PASSED] - Actual object 'Stetoskop' and expected object 'Stetoskop' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/FilterByCategory" time="69.331" classname="Test Cases/WEB/Homepage/FilterByCategory" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WEB/Homepage/FilterByCategory FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' located by '/html/body/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652288354928.run(Script1652288354928.groovy:26)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' located by '/html/body/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-05-12 14:24:55 - [TEST_CASE][FAILED] - Test Cases/WEB/Homepage/FilterByCategory: Test Cases/WEB/Homepage/FilterByCategory FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' located by '/html/body/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652288354928.run(Script1652288354928.groovy:26)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' located by '/html/body/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-05-12 14:24:56 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2022-05-12 14:24:56 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2022-05-12 14:24:56 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://qa.alta.id/"): NOT_RUN: navigateToUrl("https://qa.alta.id/")
+
+2022-05-12 14:24:56 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://qa.alta.id/")
+
+2022-05-12 14:24:56 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/SelectCategory/select_category")): Object: 'Object Repository/WEB/Homepage/SelectCategory/select_category' is clicked on
+
+2022-05-12 14:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/SelectCategory/select_category' is clicked on
+
+2022-05-12 14:24:56 - [TEST_STEP][FAILED] - click(findTestObject("WEB/Homepage/SelectCategory/div_kesehatan")): Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' located by '/html/body/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652288354928.run(Script1652288354928.groovy:26)
+	... 13 more
+)
+
+2022-05-12 14:25:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[2]/div/div[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:25:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'. Try using Self-healing.
+
+2022-05-12 14:25:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[2]/div/div[135]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:25:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'kesehatan' or . = 'kesehatan')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:25:31 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-05-12 14:25:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'list-item-1733-0']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:25:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #list-item-1797-134 > div.v-list-item__content'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:25:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' located by '/html/body/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652288354928.run(Script1652288354928.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340333607.png]]
+
+2022-05-12 14:25:33 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("WEB/Homepage/SelectCategory/product_empty"), 0): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/product_empty' located by '/html/body/div/div[1]/main/div/div/div[2]/div/div[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/product_empty' located by '/html/body/div/div[1]/main/div/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+
+2022-05-12 14:25:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 14:26:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/main/div/div/div[2]/div/div[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:26:05 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/product_empty' located by '/html/body/div/div[1]/main/div/div/div[2]/div/div[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/product_empty' located by '/html/body/div/div[1]/main/div/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340364927.png]]]]></system-out>
+         <system-err><![CDATA[2022-05-12 14:24:55 - [TEST_CASE][FAILED] - Test Cases/WEB/Homepage/FilterByCategory: Test Cases/WEB/Homepage/FilterByCategory FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' located by '/html/body/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652288354928.run(Script1652288354928.groovy:26)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' located by '/html/body/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/CloseSelectCategory" time="37.205" classname="Test Cases/WEB/Homepage/CloseSelectCategory" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WEB/Homepage/CloseSelectCategory FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/close_category' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/close_category'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CloseSelectCategory.run(CloseSelectCategory:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/close_category' located by '/html/body/div/div[1]/main/div/div/div[1]/div/div[1]/div[1]/div[2]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652288375434.run(Script1652288375434.groovy:20)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CloseSelectCategory.run(CloseSelectCategory:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/close_category'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/close_category' located by '/html/body/div/div[1]/main/div/div/div[1]/div/div[1]/div[1]/div[2]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-05-12 14:26:05 - [TEST_CASE][FAILED] - Test Cases/WEB/Homepage/CloseSelectCategory: Test Cases/WEB/Homepage/CloseSelectCategory FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/close_category' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/close_category'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CloseSelectCategory.run(CloseSelectCategory:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/close_category' located by '/html/body/div/div[1]/main/div/div/div[1]/div/div[1]/div[1]/div[2]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652288375434.run(Script1652288375434.groovy:20)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CloseSelectCategory.run(CloseSelectCategory:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/close_category'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/close_category' located by '/html/body/div/div[1]/main/div/div/div[1]/div/div[1]/div[1]/div[2]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-05-12 14:26:05 - [TEST_STEP][FAILED] - click(findTestObject("WEB/Homepage/SelectCategory/close_category")): Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/close_category' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/close_category'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CloseSelectCategory.run(CloseSelectCategory:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/close_category' located by '/html/body/div/div[1]/main/div/div/div[1]/div/div[1]/div[1]/div[2]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652288375434.run(Script1652288375434.groovy:20)
+	... 13 more
+)
+
+2022-05-12 14:26:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/main/div/div/div[1]/div/div[1]/div[1]/div[2]/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:26:36 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/WEB/Homepage/SelectCategory/close_category'. Try using Self-healing.
+
+2022-05-12 14:26:37 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-05-12 14:26:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:26:38 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-05-12 14:26:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/close_category' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/close_category'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CloseSelectCategory.run(CloseSelectCategory:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/close_category' located by '/html/body/div/div[1]/main/div/div/div[1]/div/div[1]/div[1]/div[2]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652288375434.run(Script1652288375434.groovy:20)
+	... 13 more
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340398839.png]]
+
+2022-05-12 14:26:38 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("WEB/Homepage/SelectCategory/product_element_nocategory"), 2): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/product_element_nocategory' located by '/html/body/div/div[1]/main/div/div/div[2]/div/div[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/product_element_nocategory' located by '/html/body/div/div[1]/main/div/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at CloseSelectCategory.run(CloseSelectCategory:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+
+2022-05-12 14:26:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/main/div/div/div[2]/div/div[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:26:42 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/product_element_nocategory' located by '/html/body/div/div[1]/main/div/div/div[2]/div/div[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/product_element_nocategory' located by '/html/body/div/div[1]/main/div/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at CloseSelectCategory.run(CloseSelectCategory:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340402167.png]]]]></system-out>
+         <system-err><![CDATA[2022-05-12 14:26:05 - [TEST_CASE][FAILED] - Test Cases/WEB/Homepage/CloseSelectCategory: Test Cases/WEB/Homepage/CloseSelectCategory FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/close_category' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/close_category'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CloseSelectCategory.run(CloseSelectCategory:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/close_category' located by '/html/body/div/div[1]/main/div/div/div[1]/div/div[1]/div[1]/div[2]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652288375434.run(Script1652288375434.groovy:20)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at CloseSelectCategory.run(CloseSelectCategory:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/close_category'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/close_category' located by '/html/body/div/div[1]/main/div/div/div[1]/div/div[1]/div[1]/div[2]/div/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Auth/Login_Success" time="20.404" classname="Test Cases/WEB/Auth/Login_Success" status="PASSED">
+         <system-out><![CDATA[2022-05-12 14:26:42 - [TEST_CASE][PASSED] - Test Cases/WEB/Auth/Login_Success: Test Cases/WEB/Auth/Login_Success
+
+2022-05-12 14:26:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-12 14:26:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-12 14:26:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 14:26:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 14:26:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-12 14:26:45 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 14:26:47 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 14:26:47 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Auth/Login/login_ico")): Object: 'Object Repository/WEB/Auth/Login/login_ico' is clicked on
+
+2022-05-12 14:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Auth/Login/login_ico' is clicked on
+
+2022-05-12 14:26:51 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Auth/Login/email_txtbox"), "salsabila@gmail.com"): Text 'salsabila@gmail.com' is set on object 'Object Repository/WEB/Auth/Login/email_txtbox'
+
+2022-05-12 14:26:53 - [MESSAGE][PASSED] - Text 'salsabila@gmail.com' is set on object 'Object Repository/WEB/Auth/Login/email_txtbox'
+
+2022-05-12 14:26:53 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Auth/Login/password_txtbox"), "salsabila"): Text 'salsabila' is set on object 'Object Repository/WEB/Auth/Login/password_txtbox'
+
+2022-05-12 14:26:54 - [MESSAGE][PASSED] - Text 'salsabila' is set on object 'Object Repository/WEB/Auth/Login/password_txtbox'
+
+2022-05-12 14:26:54 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Auth/Login/login_btn")): Object: 'Object Repository/WEB/Auth/Login/login_btn' is clicked on
+
+2022-05-12 14:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Auth/Login/login_btn' is clicked on
+
+2022-05-12 14:26:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Auth/Logout/user_ico"), 2, CONTINUE_ON_FAILURE): Object 'Object Repository/WEB/Auth/Logout/user_ico' is present
+
+2022-05-12 14:27:02 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Auth/Logout/user_ico' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/AddToCart" time="8.311" classname="Test Cases/WEB/Homepage/AddToCart" status="PASSED">
+         <system-out><![CDATA[2022-05-12 14:27:02 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/AddToCart: Test Cases/WEB/Homepage/AddToCart
+
+2022-05-12 14:27:03 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:03 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:03 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 14:27:03 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 14:27:03 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/AddToCart/button_Beli")): Object: 'Object Repository/WEB/Homepage/AddToCart/button_Beli' is clicked on
+
+2022-05-12 14:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/AddToCart/button_Beli' is clicked on
+
+2022-05-12 14:27:08 - [TEST_STEP][PASSED] - name = getText(findTestObject("WEB/Homepage/AddToCart/div_name")): Text of object 'Object Repository/WEB/Homepage/AddToCart/div_name' is: 'Stetoskop'
+
+2022-05-12 14:27:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/div_name' is: 'Stetoskop'
+
+2022-05-12 14:27:09 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/AddToCart/button_Cart")): Object: 'Object Repository/WEB/Homepage/AddToCart/button_Cart' is clicked on
+
+2022-05-12 14:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/AddToCart/button_Cart' is clicked on
+
+2022-05-12 14:27:09 - [TEST_STEP][PASSED] - cName = getText(findTestObject("WEB/Homepage/AddToCart/div_cartName")): Text of object 'Object Repository/WEB/Homepage/AddToCart/div_cartName' is: 'Stetoskop'
+
+2022-05-12 14:27:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/div_cartName' is: 'Stetoskop'
+
+2022-05-12 14:27:10 - [TEST_STEP][PASSED] - verifyEqual(name, cName): Actual object 'Stetoskop' and expected object 'Stetoskop' are equal
+
+2022-05-12 14:27:10 - [MESSAGE][PASSED] - Actual object 'Stetoskop' and expected object 'Stetoskop' are equal
+
+2022-05-12 14:27:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("WEB/Homepage/AddToCart/jml_product"), "1"): Actual text and expected text of test object 'Object Repository/WEB/Homepage/AddToCart/jml_product' are matched.
+
+2022-05-12 14:27:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WEB/Homepage/AddToCart/jml_product' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/IncreaseQuantity" time="3.009" classname="Test Cases/WEB/Homepage/IncreaseQuantity" status="PASSED">
+         <system-out><![CDATA[2022-05-12 14:27:11 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/IncreaseQuantity: Test Cases/WEB/Homepage/IncreaseQuantity
+
+2022-05-12 14:27:11 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:11 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:11 - [TEST_STEP][PASSED] - jml = getText(findTestObject("WEB/Homepage/AddToCart/jml_product")): Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '1'
+
+2022-05-12 14:27:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '1'
+
+2022-05-12 14:27:11 - [TEST_STEP][PASSED] - price = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/price' is: '50000'
+
+2022-05-12 14:27:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/price' is: '50000'
+
+2022-05-12 14:27:12 - [TEST_STEP][PASSED] - total_awal = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 14:27:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 14:27:12 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/IncreaseQuantity/add_quantity")): Object: 'Object Repository/WEB/Transactions/IncreaseQuantity/add_quantity' is clicked on
+
+2022-05-12 14:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/IncreaseQuantity/add_quantity' is clicked on
+
+2022-05-12 14:27:13 - [TEST_STEP][PASSED] - jml_2 = getText(findTestObject("WEB/Homepage/AddToCart/jml_product")): Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '2'
+
+2022-05-12 14:27:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '2'
+
+2022-05-12 14:27:13 - [TEST_STEP][PASSED] - total_akhir = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '100000'
+
+2022-05-12 14:27:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '100000'
+
+2022-05-12 14:27:14 - [TEST_STEP][PASSED] - verifyEqual(jml + 1, jml_2): Actual object '50' and expected object '50' are equal
+
+2022-05-12 14:27:14 - [MESSAGE][PASSED] - Actual object '50' and expected object '50' are equal
+
+2022-05-12 14:27:14 - [TEST_STEP][PASSED] - verifyEqual(total_awal + price, total_akhir): Actual object '100,000' and expected object '100,000' are equal
+
+2022-05-12 14:27:14 - [MESSAGE][PASSED] - Actual object '100,000' and expected object '100,000' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/DecreaseQuantity" time="3.345" classname="Test Cases/WEB/Homepage/DecreaseQuantity" status="PASSED">
+         <system-out><![CDATA[2022-05-12 14:27:14 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/DecreaseQuantity: Test Cases/WEB/Homepage/DecreaseQuantity
+
+2022-05-12 14:27:14 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Homepage/IncreaseQuantity"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Homepage/IncreaseQuantity"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:14 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Homepage/IncreaseQuantity"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:14 - [TEST_STEP][PASSED] - jml = getText(findTestObject("WEB/Homepage/AddToCart/jml_product")): Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '2'
+
+2022-05-12 14:27:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '2'
+
+2022-05-12 14:27:15 - [TEST_STEP][PASSED] - price = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/price' is: '50000'
+
+2022-05-12 14:27:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/price' is: '50000'
+
+2022-05-12 14:27:15 - [TEST_STEP][PASSED] - total_awal = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '100000'
+
+2022-05-12 14:27:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '100000'
+
+2022-05-12 14:27:15 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/IncreaseQuantity/decrease_quantity")): Object: 'Object Repository/WEB/Transactions/IncreaseQuantity/decrease_quantity' is clicked on
+
+2022-05-12 14:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/IncreaseQuantity/decrease_quantity' is clicked on
+
+2022-05-12 14:27:16 - [TEST_STEP][PASSED] - jml_2 = getText(findTestObject("WEB/Homepage/AddToCart/jml_product")): Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '1'
+
+2022-05-12 14:27:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '1'
+
+2022-05-12 14:27:16 - [TEST_STEP][PASSED] - total_akhir = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 14:27:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 14:27:17 - [TEST_STEP][PASSED] - verifyEqual(jml - 1, jml_2): Actual object '49' and expected object '49' are equal
+
+2022-05-12 14:27:17 - [MESSAGE][PASSED] - Actual object '49' and expected object '49' are equal
+
+2022-05-12 14:27:17 - [TEST_STEP][PASSED] - verifyEqual(total_awal - price, total_akhir): Actual object '50,000' and expected object '50,000' are equal
+
+2022-05-12 14:27:17 - [MESSAGE][PASSED] - Actual object '50,000' and expected object '50,000' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/Payment" time="3.852" classname="Test Cases/WEB/Transactions/Payment" status="PASSED">
+         <system-out><![CDATA[2022-05-12 14:27:17 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/Payment: Test Cases/WEB/Transactions/Payment
+
+2022-05-12 14:27:18 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:18 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:18 - [TEST_STEP][PASSED] - total = getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price")): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 14:27:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 14:27:18 - [TEST_STEP][PASSED] - cName = getText(findTestObject("WEB/Homepage/AddToCart/div_cartName")): Text of object 'Object Repository/WEB/Homepage/AddToCart/div_cartName' is: 'Stetoskop'
+
+2022-05-12 14:27:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/div_cartName' is: 'Stetoskop'
+
+2022-05-12 14:27:18 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/Payment/button_bayar")): Object: 'Object Repository/WEB/Transactions/Payment/button_bayar' is clicked on
+
+2022-05-12 14:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/Payment/button_bayar' is clicked on
+
+2022-05-12 14:27:19 - [TEST_STEP][PASSED] - name = getText(findTestObject("WEB/Transactions/Payment/product_name")): Text of object 'Object Repository/WEB/Transactions/Payment/product_name' is: 'Stetoskop'
+
+2022-05-12 14:27:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/Payment/product_name' is: 'Stetoskop'
+
+2022-05-12 14:27:20 - [TEST_STEP][PASSED] - total_payment = getText(findTestObject("WEB/Transactions/Payment/product_total")): Text of object 'Object Repository/WEB/Transactions/Payment/product_total' is: '50000'
+
+2022-05-12 14:27:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/Payment/product_total' is: '50000'
+
+2022-05-12 14:27:21 - [TEST_STEP][PASSED] - verifyEqual(total, total_payment): Actual object '50000' and expected object '50000' are equal
+
+2022-05-12 14:27:21 - [MESSAGE][PASSED] - Actual object '50000' and expected object '50000' are equal
+
+2022-05-12 14:27:21 - [TEST_STEP][PASSED] - verifyEqual(cName, name): Actual object 'Stetoskop' and expected object 'Stetoskop' are equal
+
+2022-05-12 14:27:21 - [MESSAGE][PASSED] - Actual object 'Stetoskop' and expected object 'Stetoskop' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/ViewBy5Rows" time="2.409" classname="Test Cases/WEB/Transactions/ViewBy5Rows" status="PASSED">
+         <system-out><![CDATA[2022-05-12 14:27:21 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/ViewBy5Rows: Test Cases/WEB/Transactions/ViewBy5Rows
+
+2022-05-12 14:27:21 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:21 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:21 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Auth/Logout/user_ico")): NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 14:27:21 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 14:27:21 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Transactions/Payment/transaction_ico")): NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 14:27:21 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 14:27:21 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_ico")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 14:27:22 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 14:27:22 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_5rows")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_5rows' is clicked on
+
+2022-05-12 14:27:22 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_5rows' is clicked on
+
+2022-05-12 14:27:22 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("WEB/Transactions/ViewByRows/6th_row"), 0): Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/6th_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[6]' is not present after '30' second(s)
+
+2022-05-12 14:27:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 14:27:23 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/6th_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[6]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/ViewBy10Rows" time="1.702" classname="Test Cases/WEB/Transactions/ViewBy10Rows" status="PASSED">
+         <system-out><![CDATA[2022-05-12 14:27:23 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/ViewBy10Rows: Test Cases/WEB/Transactions/ViewBy10Rows
+
+2022-05-12 14:27:24 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:24 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:24 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Auth/Logout/user_ico")): NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 14:27:24 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 14:27:24 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Transactions/Payment/transaction_ico")): NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 14:27:24 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 14:27:24 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_ico")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 14:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 14:27:24 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_10rows")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_10rows' is clicked on
+
+2022-05-12 14:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_10rows' is clicked on
+
+2022-05-12 14:27:24 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("WEB/Transactions/ViewByRows/11st_row"), 0): Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/11st_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[11]' is not present after '30' second(s)
+
+2022-05-12 14:27:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 14:27:25 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/11st_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[11]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/ViewBy15Rows" time="1.707" classname="Test Cases/WEB/Transactions/ViewBy15Rows" status="PASSED">
+         <system-out><![CDATA[2022-05-12 14:27:25 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/ViewBy15Rows: Test Cases/WEB/Transactions/ViewBy15Rows
+
+2022-05-12 14:27:25 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:25 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Auth/Logout/user_ico")): NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 14:27:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 14:27:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Transactions/Payment/transaction_ico")): NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 14:27:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 14:27:25 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_ico")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 14:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 14:27:26 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_15rows")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_15rows' is clicked on
+
+2022-05-12 14:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_15rows' is clicked on
+
+2022-05-12 14:27:26 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("WEB/Transactions/ViewByRows/16th_row"), 0): Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/16th_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[16]' is not present after '30' second(s)
+
+2022-05-12 14:27:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 14:27:27 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/16th_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[16]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/ViewByAllRows" time="1.33" classname="Test Cases/WEB/Transactions/ViewByAllRows" status="PASSED">
+         <system-out><![CDATA[2022-05-12 14:27:27 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/ViewByAllRows: Test Cases/WEB/Transactions/ViewByAllRows
+
+2022-05-12 14:27:27 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:27 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:27 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Auth/Logout/user_ico")): NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 14:27:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 14:27:27 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Transactions/Payment/transaction_ico")): NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 14:27:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 14:27:27 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_ico")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 14:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 14:27:27 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_allrows")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_allrows' is clicked on
+
+2022-05-12 14:27:28 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_allrows' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/GiveStarRating" time="370.416" classname="Test Cases/WEB/Homepage/GiveStarRating" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WEB/Homepage/GiveStarRating FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/GiveRating/button_Detail' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/GiveRating/button_Detail'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;button&quot; class=&quot;button-beli v-btn v-btn--outlined theme--light v-size--small primary--text&quot;>...&lt;/button> is not clickable at point (115, 14). Other element would receive the click: &lt;div class=&quot;v-toolbar__content&quot; style=&quot;height: 64px;&quot;>...&lt;/div>
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.159.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\salsa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2428edbbf725abb5287af3ee3c545af5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652317377233.run(Script1652317377233.groovy:26)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/GiveRating/button_Detail'
+	... 21 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;button&quot; class=&quot;button-beli v-btn v-btn--outlined theme--light v-size--small primary--text&quot;>...&lt;/button> is not clickable at point (115, 14). Other element would receive the click: &lt;div class=&quot;v-toolbar__content&quot; style=&quot;height: 64px;&quot;>...&lt;/div>
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.159.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\salsa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2428edbbf725abb5287af3ee3c545af5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-05-12 14:27:28 - [TEST_CASE][FAILED] - Test Cases/WEB/Homepage/GiveStarRating: Test Cases/WEB/Homepage/GiveStarRating FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/GiveRating/button_Detail' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/GiveRating/button_Detail'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="button-beli v-btn v-btn--outlined theme--light v-size--small primary--text">...</button> is not clickable at point (115, 14). Other element would receive the click: <div class="v-toolbar__content" style="height: 64px;">...</div>
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.159.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\salsa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2428edbbf725abb5287af3ee3c545af5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652317377233.run(Script1652317377233.groovy:26)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/GiveRating/button_Detail'
+	... 21 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="button-beli v-btn v-btn--outlined theme--light v-size--small primary--text">...</button> is not clickable at point (115, 14). Other element would receive the click: <div class="v-toolbar__content" style="height: 64px;">...</div>
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.159.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\salsa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2428edbbf725abb5287af3ee3c545af5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-05-12 14:27:29 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Transactions/Payment"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Transactions/Payment"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:29 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Transactions/Payment"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 14:27:29 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/h3_AltaShop")): Object: 'Object Repository/WEB/Homepage/GiveRating/h3_AltaShop' is clicked on
+
+2022-05-12 14:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/h3_AltaShop' is clicked on
+
+2022-05-12 14:27:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("WEB/Homepage/GiveRating/button_Detail"), 0): Scroll to object 'Object Repository/WEB/Homepage/GiveRating/button_Detail' successfully
+
+2022-05-12 14:27:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 14:27:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WEB/Homepage/GiveRating/button_Detail' successfully
+
+2022-05-12 14:27:34 - [TEST_STEP][FAILED] - click(findTestObject("WEB/Homepage/GiveRating/button_Detail")): Unable to click on object 'Object Repository/WEB/Homepage/GiveRating/button_Detail' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/GiveRating/button_Detail'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="button-beli v-btn v-btn--outlined theme--light v-size--small primary--text">...</button> is not clickable at point (115, 14). Other element would receive the click: <div class="v-toolbar__content" style="height: 64px;">...</div>
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.159.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\salsa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2428edbbf725abb5287af3ee3c545af5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652317377233.run(Script1652317377233.groovy:26)
+	... 13 more
+)
+
+2022-05-12 14:28:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/WEB/Homepage/GiveRating/button_Detail' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/GiveRating/button_Detail'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="button-beli v-btn v-btn--outlined theme--light v-size--small primary--text">...</button> is not clickable at point (115, 14). Other element would receive the click: <div class="v-toolbar__content" style="height: 64px;">...</div>
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.159.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\salsa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2428edbbf725abb5287af3ee3c545af5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652317377233.run(Script1652317377233.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340487816.png]]
+
+2022-05-12 14:28:07 - [TEST_STEP][FAILED] - for ([i = 1, i <= 5, (i++)]): null
+
+2022-05-12 14:28:07 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_1' is clicked on
+
+2022-05-12 14:28:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[1]/div/main/div/div/div/div/div/div/div/button[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:28:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/WEB/Homepage/GiveRating/rating_1'. Try using Self-healing.
+
+2022-05-12 14:28:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/WEB/Homepage/GiveRating/rating_1' was broken. Propose an alternative one: '//*[@type = 'button']'.
+
+2022-05-12 14:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_1' is clicked on
+
+2022-05-12 14:28:39 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 14:28:39 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+
+2022-05-12 14:29:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/main/div/div/div/div/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:29:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/WEB/Homepage/GiveRating/rating_text'. Try using Self-healing.
+
+2022-05-12 14:29:12 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-05-12 14:29:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = ' (1) ' or . = ' (1) ')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:29:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: span.black--text.text--lighten-2.text-caption.mr-2'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:29:14 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340554443.png]]
+
+2022-05-12 14:29:14 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_2' is clicked on
+
+2022-05-12 14:29:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[1]/div/main/div/div/div/div/div/div/div/button[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:29:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/WEB/Homepage/GiveRating/rating_2'. Try using Self-healing.
+
+2022-05-12 14:29:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/WEB/Homepage/GiveRating/rating_2' was broken. Propose an alternative one: '//*[@type = 'button']'.
+
+2022-05-12 14:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_2' is clicked on
+
+2022-05-12 14:29:46 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 14:29:46 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+
+2022-05-12 14:30:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/main/div/div/div/div/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:30:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/WEB/Homepage/GiveRating/rating_text'. Try using Self-healing.
+
+2022-05-12 14:30:18 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-05-12 14:30:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = ' (1) ' or . = ' (1) ')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:30:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: span.black--text.text--lighten-2.text-caption.mr-2'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:30:20 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340620510.png]]
+
+2022-05-12 14:30:20 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_3' is clicked on
+
+2022-05-12 14:30:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[1]/div/main/div/div/div/div/div/div/div/button[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:30:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/WEB/Homepage/GiveRating/rating_3'. Try using Self-healing.
+
+2022-05-12 14:30:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/WEB/Homepage/GiveRating/rating_3' was broken. Propose an alternative one: '//*[@type = 'button']'.
+
+2022-05-12 14:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_3' is clicked on
+
+2022-05-12 14:30:52 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 14:30:52 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+
+2022-05-12 14:31:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/main/div/div/div/div/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:31:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/WEB/Homepage/GiveRating/rating_text'. Try using Self-healing.
+
+2022-05-12 14:31:24 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-05-12 14:31:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = ' (1) ' or . = ' (1) ')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:31:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: span.black--text.text--lighten-2.text-caption.mr-2'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:31:26 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340686478.png]]
+
+2022-05-12 14:31:26 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_4' is clicked on
+
+2022-05-12 14:31:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[1]/div/main/div/div/div/div/div/div/div/button[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:31:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/WEB/Homepage/GiveRating/rating_4'. Try using Self-healing.
+
+2022-05-12 14:31:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/WEB/Homepage/GiveRating/rating_4' was broken. Propose an alternative one: '//*[@type = 'button']'.
+
+2022-05-12 14:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_4' is clicked on
+
+2022-05-12 14:31:58 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 14:31:58 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+
+2022-05-12 14:32:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/main/div/div/div/div/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:32:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/WEB/Homepage/GiveRating/rating_text'. Try using Self-healing.
+
+2022-05-12 14:32:30 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-05-12 14:32:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = ' (1) ' or . = ' (1) ')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:32:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: span.black--text.text--lighten-2.text-caption.mr-2'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:32:32 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340752656.png]]
+
+2022-05-12 14:32:32 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_5' is clicked on
+
+2022-05-12 14:33:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[1]/div/main/div/div/div/div/div/div/div/button[5]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:33:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/WEB/Homepage/GiveRating/rating_5'. Try using Self-healing.
+
+2022-05-12 14:33:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/WEB/Homepage/GiveRating/rating_5' was broken. Propose an alternative one: '//*[@type = 'button']'.
+
+2022-05-12 14:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_5' is clicked on
+
+2022-05-12 14:33:04 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 14:33:04 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+
+2022-05-12 14:33:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/main/div/div/div/div/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:33:35 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/WEB/Homepage/GiveRating/rating_text'. Try using Self-healing.
+
+2022-05-12 14:33:36 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-05-12 14:33:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = ' (1) ' or . = ' (1) ')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:33:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: span.black--text.text--lighten-2.text-caption.mr-2'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 14:33:38 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/GiveRating/rating_text' located by '//div[@id='app']/div/main/div/div/div/div/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_142432\\WEB\\TS_Web\\20220512_142432\\1652340818681.png]]]]></system-out>
+         <system-err><![CDATA[2022-05-12 14:27:28 - [TEST_CASE][FAILED] - Test Cases/WEB/Homepage/GiveStarRating: Test Cases/WEB/Homepage/GiveStarRating FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/GiveRating/button_Detail' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/GiveRating/button_Detail'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="button-beli v-btn v-btn--outlined theme--light v-size--small primary--text">...</button> is not clickable at point (115, 14). Other element would receive the click: <div class="v-toolbar__content" style="height: 64px;">...</div>
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.159.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\salsa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2428edbbf725abb5287af3ee3c545af5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652317377233.run(Script1652317377233.groovy:26)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/GiveRating/button_Detail'
+	... 21 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="button-beli v-btn v-btn--outlined theme--light v-size--small primary--text">...</button> is not clickable at point (115, 14). Other element would receive the click: <div class="v-toolbar__content" style="height: 64px;">...</div>
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.159.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\salsa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2428edbbf725abb5287af3ee3c545af5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-12 14:24:38 - [TEST_SUITE][FAILED] - TS_Web: Test Cases/WEB/Homepage/FilterByCategory FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' located by '/html/body/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652288354928.run(Script1652288354928.groovy:26)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' located by '/html/body/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-05-12 14:24:38 - [TEST_SUITE][FAILED] - TS_Web: Test Cases/WEB/Homepage/FilterByCategory FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' located by '/html/body/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1652288354928.run(Script1652288354928.groovy:26)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at FilterByCategory.run(FilterByCategory:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652340272624.run(TempTestSuite1652340272624.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' located by '/html/body/div/div[2]/div/div[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

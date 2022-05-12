@@ -1,0 +1,111 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Web,Chrome 101.0.4951.54,,,2022-05-12 15:04:24,2022-05-12 15:06:29,2m - 4.462s,FAILED
+,,,,,,,
+Test Cases/WEB/Homepage/DetailProduct,Chrome 101.0.4951.54,,,2022-05-12 15:04:25,2022-05-12 15:04:38,13.000s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-12 15:04:25,2022-05-12 15:04:29,3.439s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-12 15:04:29,2022-05-12 15:04:35,6.349s,PASSED
+"name = getText(findTestObject(""WEB/Homepage/DetailProduct/HP_name""))",Chrome 101.0.4951.54,,,2022-05-12 15:04:35,2022-05-12 15:04:36,0.522s,PASSED
+"click(findTestObject(""WEB/Homepage/DetailProduct/button_Detail""))",Chrome 101.0.4951.54,,,2022-05-12 15:04:36,2022-05-12 15:04:36,0.641s,PASSED
+"d_name = getText(findTestObject(""WEB/Homepage/DetailProduct/Detail_name""))",Chrome 101.0.4951.54,,,2022-05-12 15:04:36,2022-05-12 15:04:38,1.395s,PASSED
+"verifyEqual(name, d_name)",Chrome 101.0.4951.54,,,2022-05-12 15:04:38,2022-05-12 15:04:38,0.049s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/FilterByCategory,Chrome 101.0.4951.54,,,2022-05-12 15:04:38,2022-05-12 15:05:16,38.100s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-12 15:04:38,2022-05-12 15:04:38,0.003s,NOT_RUN
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-12 15:04:38,2022-05-12 15:04:39,0.332s,PASSED
+"click(findTestObject(""WEB/Homepage/SelectCategory/select_category""))",Chrome 101.0.4951.54,,,2022-05-12 15:04:39,2022-05-12 15:04:43,4.232s,PASSED
+"click(findTestObject(""WEB/Homepage/SelectCategory/div_kesehatan""))",Chrome 101.0.4951.54,,,2022-05-12 15:04:43,2022-05-12 15:05:15,32.026s,PASSED
+"verifyElementPresent(findTestObject(""WEB/Homepage/SelectCategory/product_empty""), 0)",Chrome 101.0.4951.54,,,2022-05-12 15:05:15,2022-05-12 15:05:16,1.102s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/CloseSelectCategory,Chrome 101.0.4951.54,,,2022-05-12 15:05:16,2022-05-12 15:05:22,5.678s,PASSED
+"click(findTestObject(""WEB/Homepage/SelectCategory/close_category""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:16,2022-05-12 15:05:17,0.529s,PASSED
+"verifyElementPresent(findTestObject(""WEB/Homepage/SelectCategory/product_element_nocategory""), 2)",Chrome 101.0.4951.54,,,2022-05-12 15:05:17,2022-05-12 15:05:22,4.680s,PASSED
+,,,,,,,
+Test Cases/WEB/Auth/Login_Success,Chrome 101.0.4951.54,,,2022-05-12 15:05:22,2022-05-12 15:05:42,20.173s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-12 15:05:22,2022-05-12 15:05:24,2.509s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-12 15:05:24,2022-05-12 15:05:25,0.185s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-12 15:05:25,2022-05-12 15:05:28,3.305s,PASSED
+"click(findTestObject(""WEB/Auth/Login/login_ico""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:28,2022-05-12 15:05:33,4.789s,PASSED
+"setText(findTestObject(""WEB/Auth/Login/email_txtbox""), ""salsabila@gmail.com"")",Chrome 101.0.4951.54,,,2022-05-12 15:05:33,2022-05-12 15:05:34,1.326s,PASSED
+"setText(findTestObject(""WEB/Auth/Login/password_txtbox""), ""salsabila"")",Chrome 101.0.4951.54,,,2022-05-12 15:05:34,2022-05-12 15:05:35,0.793s,PASSED
+"click(findTestObject(""WEB/Auth/Login/login_btn""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:35,2022-05-12 15:05:35,0.475s,PASSED
+"verifyElementPresent(findTestObject(""WEB/Auth/Logout/user_ico""), 2, CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-12 15:05:35,2022-05-12 15:05:42,6.459s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/AddToCart,Chrome 101.0.4951.54,,,2022-05-12 15:05:42,2022-05-12 15:05:49,7.016s,PASSED
+"callTestCase(findTestCase(""WEB/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-12 15:05:42,2022-05-12 15:05:42,0.001s,NOT_RUN
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-12 15:05:42,2022-05-12 15:05:43,0.473s,PASSED
+"click(findTestObject(""WEB/Homepage/AddToCart/button_Beli""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:43,2022-05-12 15:05:47,4.042s,PASSED
+"name = getText(findTestObject(""WEB/Homepage/AddToCart/div_name""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:47,2022-05-12 15:05:47,0.508s,PASSED
+"click(findTestObject(""WEB/Homepage/AddToCart/button_Cart""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:47,2022-05-12 15:05:48,0.546s,PASSED
+"cName = getText(findTestObject(""WEB/Homepage/AddToCart/div_cartName""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:48,2022-05-12 15:05:48,0.593s,PASSED
+"verifyEqual(name, cName)",Chrome 101.0.4951.54,,,2022-05-12 15:05:48,2022-05-12 15:05:48,0.005s,PASSED
+"verifyElementText(findTestObject(""WEB/Homepage/AddToCart/jml_product""), ""1"")",Chrome 101.0.4951.54,,,2022-05-12 15:05:48,2022-05-12 15:05:49,0.494s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/IncreaseQuantity,Chrome 101.0.4951.54,,,2022-05-12 15:05:49,2022-05-12 15:05:52,3.022s,PASSED
+"callTestCase(findTestCase(""WEB/Homepage/AddToCart""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-12 15:05:49,2022-05-12 15:05:49,0.001s,NOT_RUN
+"jml = getText(findTestObject(""WEB/Homepage/AddToCart/jml_product""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:49,2022-05-12 15:05:49,0.378s,PASSED
+"price = Integer.parseInt(getText(findTestObject(""WEB/Transactions/IncreaseQuantity/price"")))",Chrome 101.0.4951.54,,,2022-05-12 15:05:49,2022-05-12 15:05:50,0.394s,PASSED
+"total_awal = Integer.parseInt(getText(findTestObject(""WEB/Transactions/IncreaseQuantity/total_price"")))",Chrome 101.0.4951.54,,,2022-05-12 15:05:50,2022-05-12 15:05:50,0.414s,PASSED
+"click(findTestObject(""WEB/Transactions/IncreaseQuantity/add_quantity""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:50,2022-05-12 15:05:51,0.423s,PASSED
+"jml_2 = getText(findTestObject(""WEB/Homepage/AddToCart/jml_product""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:51,2022-05-12 15:05:51,0.472s,PASSED
+"total_akhir = Integer.parseInt(getText(findTestObject(""WEB/Transactions/IncreaseQuantity/total_price"")))",Chrome 101.0.4951.54,,,2022-05-12 15:05:51,2022-05-12 15:05:52,0.612s,PASSED
+"verifyEqual(jml + 1, jml_2)",Chrome 101.0.4951.54,,,2022-05-12 15:05:52,2022-05-12 15:05:52,0.006s,PASSED
+"verifyEqual(total_awal + price, total_akhir)",Chrome 101.0.4951.54,,,2022-05-12 15:05:52,2022-05-12 15:05:52,0.006s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/DecreaseQuantity,Chrome 101.0.4951.54,,,2022-05-12 15:05:52,2022-05-12 15:05:55,3.167s,PASSED
+"callTestCase(findTestCase(""WEB/Homepage/IncreaseQuantity""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-12 15:05:52,2022-05-12 15:05:52,0.002s,NOT_RUN
+"jml = getText(findTestObject(""WEB/Homepage/AddToCart/jml_product""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:52,2022-05-12 15:05:53,0.395s,PASSED
+"price = Integer.parseInt(getText(findTestObject(""WEB/Transactions/IncreaseQuantity/price"")))",Chrome 101.0.4951.54,,,2022-05-12 15:05:53,2022-05-12 15:05:53,0.372s,PASSED
+"total_awal = Integer.parseInt(getText(findTestObject(""WEB/Transactions/IncreaseQuantity/total_price"")))",Chrome 101.0.4951.54,,,2022-05-12 15:05:53,2022-05-12 15:05:53,0.408s,PASSED
+"click(findTestObject(""WEB/Transactions/IncreaseQuantity/decrease_quantity""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:53,2022-05-12 15:05:54,0.447s,PASSED
+"jml_2 = getText(findTestObject(""WEB/Homepage/AddToCart/jml_product""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:54,2022-05-12 15:05:54,0.481s,PASSED
+"total_akhir = Integer.parseInt(getText(findTestObject(""WEB/Transactions/IncreaseQuantity/total_price"")))",Chrome 101.0.4951.54,,,2022-05-12 15:05:54,2022-05-12 15:05:55,0.590s,PASSED
+"verifyEqual(jml - 1, jml_2)",Chrome 101.0.4951.54,,,2022-05-12 15:05:55,2022-05-12 15:05:55,0.003s,PASSED
+"verifyEqual(total_awal - price, total_akhir)",Chrome 101.0.4951.54,,,2022-05-12 15:05:55,2022-05-12 15:05:55,0.003s,PASSED
+,,,,,,,
+Test Cases/WEB/Transactions/Payment,Chrome 101.0.4951.54,,,2022-05-12 15:05:55,2022-05-12 15:05:59,3.746s,PASSED
+"callTestCase(findTestCase(""WEB/Homepage/AddToCart""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-12 15:05:55,2022-05-12 15:05:55,0.001s,NOT_RUN
+"total = getText(findTestObject(""WEB/Transactions/IncreaseQuantity/total_price""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:55,2022-05-12 15:05:56,0.367s,PASSED
+"cName = getText(findTestObject(""WEB/Homepage/AddToCart/div_cartName""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:56,2022-05-12 15:05:56,0.385s,PASSED
+"click(findTestObject(""WEB/Transactions/Payment/button_bayar""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:56,2022-05-12 15:05:57,0.418s,PASSED
+"name = getText(findTestObject(""WEB/Transactions/Payment/product_name""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:57,2022-05-12 15:05:58,1.827s,PASSED
+"total_payment = getText(findTestObject(""WEB/Transactions/Payment/product_total""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:58,2022-05-12 15:05:59,0.357s,PASSED
+"verifyEqual(total, total_payment)",Chrome 101.0.4951.54,,,2022-05-12 15:05:59,2022-05-12 15:05:59,0.002s,PASSED
+"verifyEqual(cName, name)",Chrome 101.0.4951.54,,,2022-05-12 15:05:59,2022-05-12 15:05:59,0.005s,PASSED
+,,,,,,,
+Test Cases/WEB/Transactions/ViewBy5Rows,Chrome 101.0.4951.54,,,2022-05-12 15:05:59,2022-05-12 15:06:01,2.560s,PASSED
+"callTestCase(findTestCase(""WEB/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-12 15:05:59,2022-05-12 15:05:59,0.001s,NOT_RUN
+"click(findTestObject(""WEB/Auth/Logout/user_ico""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:59,2022-05-12 15:05:59,0.001s,NOT_RUN
+"click(findTestObject(""WEB/Transactions/Payment/transaction_ico""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:59,2022-05-12 15:05:59,0.001s,NOT_RUN
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_ico""))",Chrome 101.0.4951.54,,,2022-05-12 15:05:59,2022-05-12 15:06:00,0.461s,PASSED
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_5rows""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:00,2022-05-12 15:06:00,0.615s,PASSED
+"verifyElementNotPresent(findTestObject(""WEB/Transactions/ViewByRows/6th_row""), 0)",Chrome 101.0.4951.54,,,2022-05-12 15:06:00,2022-05-12 15:06:01,1.072s,PASSED
+,,,,,,,
+Test Cases/WEB/Transactions/ViewBy10Rows,Chrome 101.0.4951.54,,,2022-05-12 15:06:01,2022-05-12 15:06:03,1.804s,PASSED
+"callTestCase(findTestCase(""WEB/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-12 15:06:02,2022-05-12 15:06:02,0.001s,NOT_RUN
+"click(findTestObject(""WEB/Auth/Logout/user_ico""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:02,2022-05-12 15:06:02,0.001s,NOT_RUN
+"click(findTestObject(""WEB/Transactions/Payment/transaction_ico""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:02,2022-05-12 15:06:02,0.001s,NOT_RUN
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_ico""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:02,2022-05-12 15:06:02,0.415s,PASSED
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_10rows""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:02,2022-05-12 15:06:03,0.472s,PASSED
+"verifyElementNotPresent(findTestObject(""WEB/Transactions/ViewByRows/11st_row""), 0)",Chrome 101.0.4951.54,,,2022-05-12 15:06:03,2022-05-12 15:06:03,0.501s,PASSED
+,,,,,,,
+Test Cases/WEB/Transactions/ViewBy15Rows,Chrome 101.0.4951.54,,,2022-05-12 15:06:03,2022-05-12 15:06:05,1.756s,PASSED
+"callTestCase(findTestCase(""WEB/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-12 15:06:04,2022-05-12 15:06:04,0.003s,NOT_RUN
+"click(findTestObject(""WEB/Auth/Logout/user_ico""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:04,2022-05-12 15:06:04,0.002s,NOT_RUN
+"click(findTestObject(""WEB/Transactions/Payment/transaction_ico""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:04,2022-05-12 15:06:04,0.001s,NOT_RUN
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_ico""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:04,2022-05-12 15:06:04,0.397s,PASSED
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_15rows""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:04,2022-05-12 15:06:04,0.476s,PASSED
+"verifyElementNotPresent(findTestObject(""WEB/Transactions/ViewByRows/16th_row""), 0)",Chrome 101.0.4951.54,,,2022-05-12 15:06:04,2022-05-12 15:06:05,0.483s,PASSED
+,,,,,,,
+Test Cases/WEB/Transactions/ViewByAllRows,Chrome 101.0.4951.54,,,2022-05-12 15:06:05,2022-05-12 15:06:06,1.530s,PASSED
+"callTestCase(findTestCase(""WEB/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-12 15:06:05,2022-05-12 15:06:05,0.001s,NOT_RUN
+"click(findTestObject(""WEB/Auth/Logout/user_ico""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:05,2022-05-12 15:06:05,0.001s,NOT_RUN
+"click(findTestObject(""WEB/Transactions/Payment/transaction_ico""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:05,2022-05-12 15:06:05,0.001s,NOT_RUN
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_ico""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:05,2022-05-12 15:06:06,0.410s,PASSED
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_allrows""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:06,2022-05-12 15:06:06,0.708s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/GiveStarRating,Chrome 101.0.4951.54,,,2022-05-12 15:06:06,2022-05-12 15:06:29,22.338s,FAILED
+"callTestCase(findTestCase(""WEB/Transactions/Payment""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-12 15:06:07,2022-05-12 15:06:07,0.001s,NOT_RUN
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-12 15:06:07,2022-05-12 15:06:07,0.465s,PASSED
+"scrollToElement(findTestObject(""WEB/Homepage/GiveRating/button_Detail""), 0)",Chrome 101.0.4951.54,,,2022-05-12 15:06:07,2022-05-12 15:06:11,3.904s,PASSED
+"click(findTestObject(""WEB/Homepage/GiveRating/button_Detail""))",Chrome 101.0.4951.54,,,2022-05-12 15:06:11,2022-05-12 15:06:18,6.925s,PASSED
+"for ([i = 1, i <= 5, (i++)])",Chrome 101.0.4951.54,,,2022-05-12 15:06:18,2022-05-12 15:06:29,10.449s,FAILED

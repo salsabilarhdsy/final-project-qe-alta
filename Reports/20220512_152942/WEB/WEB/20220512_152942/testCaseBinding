@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/WEB/Homepage/DetailProduct","testCaseId":"Test Cases/WEB/Homepage/DetailProduct"}
+{"testCaseName":"Test Cases/WEB/Homepage/FilterByCategory","testCaseId":"Test Cases/WEB/Homepage/FilterByCategory"}
+{"testCaseName":"Test Cases/WEB/Homepage/CloseSelectCategory","testCaseId":"Test Cases/WEB/Homepage/CloseSelectCategory"}
+{"testCaseName":"Test Cases/WEB/Auth/Login_Success","testCaseId":"Test Cases/WEB/Auth/Login_Success"}
+{"testCaseName":"Test Cases/WEB/Homepage/AddToCart","testCaseId":"Test Cases/WEB/Homepage/AddToCart"}
+{"testCaseName":"Test Cases/WEB/Homepage/IncreaseQuantity","testCaseId":"Test Cases/WEB/Homepage/IncreaseQuantity"}
+{"testCaseName":"Test Cases/WEB/Homepage/DecreaseQuantity","testCaseId":"Test Cases/WEB/Homepage/DecreaseQuantity"}
+{"testCaseName":"Test Cases/WEB/Transactions/Payment","testCaseId":"Test Cases/WEB/Transactions/Payment"}
+{"testCaseName":"Test Cases/WEB/Transactions/ViewByAllRows","testCaseId":"Test Cases/WEB/Transactions/ViewByAllRows"}
+{"testCaseName":"Test Cases/WEB/Transactions/ViewBy15Rows","testCaseId":"Test Cases/WEB/Transactions/ViewBy15Rows"}
+{"testCaseName":"Test Cases/WEB/Transactions/ViewBy10Rows","testCaseId":"Test Cases/WEB/Transactions/ViewBy10Rows"}
+{"testCaseName":"Test Cases/WEB/Transactions/ViewBy5Rows","testCaseId":"Test Cases/WEB/Transactions/ViewBy5Rows"}
+{"testCaseName":"Test Cases/WEB/Homepage/GiveStarRating","testCaseId":"Test Cases/WEB/Homepage/GiveStarRating"}

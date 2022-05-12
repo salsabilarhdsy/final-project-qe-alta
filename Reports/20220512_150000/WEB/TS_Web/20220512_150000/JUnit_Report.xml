@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Web" time="150.835" tests="13" failures="1" errors="0">
+   <testsuite name="TS_Web" tests="13" failures="1" errors="0" time="150.835" skipped="0" timestamp="2022-05-12 15:00:07" hostname="salsa - SALSABILA" id="Test Suites/WEB/TS_Web">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_150000\\WEB\\TS_Web\\20220512_150000"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_150000\\WEB\\TS_Web\\20220512_150000\\execution0.log"/>
+         <property name="attachments" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_150000\\WEB\\TS_Web\\20220512_150000\\1652342549521.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_150000\\WEB\\TS_Web\\20220512_150000\\1652342552310.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_150000\\WEB\\TS_Web\\20220512_150000\\1652342554676.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_150000\\WEB\\TS_Web\\20220512_150000\\1652342558481.png"/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.54"/>
+         <property name="hostAddress" value="192.168.159.173"/>
+         <property name="sessionId" value="aabaef6390026c449ce2e07c48a08dd6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WEB/Homepage/DetailProduct" time="14.272" classname="Test Cases/WEB/Homepage/DetailProduct" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:00:08 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/DetailProduct: Test Cases/WEB/Homepage/DetailProduct
+
+2022-05-12 15:00:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-12 15:00:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 15:00:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 15:00:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-12 15:00:13 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:00:15 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:00:15 - [TEST_STEP][PASSED] - name = getText(findTestObject("WEB/Homepage/DetailProduct/HP_name")): Text of object 'Object Repository/WEB/Homepage/DetailProduct/HP_name' is: 'Stetoskop'
+
+2022-05-12 15:00:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/DetailProduct/HP_name' is: 'Stetoskop'
+
+2022-05-12 15:00:20 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/DetailProduct/button_Detail")): Object: 'Object Repository/WEB/Homepage/DetailProduct/button_Detail' is clicked on
+
+2022-05-12 15:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/DetailProduct/button_Detail' is clicked on
+
+2022-05-12 15:00:21 - [TEST_STEP][PASSED] - d_name = getText(findTestObject("WEB/Homepage/DetailProduct/Detail_name")): Text of object 'Object Repository/WEB/Homepage/DetailProduct/Detail_name' is: 'Stetoskop'
+
+2022-05-12 15:00:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/DetailProduct/Detail_name' is: 'Stetoskop'
+
+2022-05-12 15:00:22 - [TEST_STEP][PASSED] - verifyEqual(name, d_name): Actual object 'Stetoskop' and expected object 'Stetoskop' are equal
+
+2022-05-12 15:00:22 - [MESSAGE][PASSED] - Actual object 'Stetoskop' and expected object 'Stetoskop' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/FilterByCategory" time="40.199" classname="Test Cases/WEB/Homepage/FilterByCategory" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:00:22 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/FilterByCategory: Test Cases/WEB/Homepage/FilterByCategory
+
+2022-05-12 15:00:23 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2022-05-12 15:00:23 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2022-05-12 15:00:23 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:00:23 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:00:23 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/SelectCategory/select_category")): Object: 'Object Repository/WEB/Homepage/SelectCategory/select_category' is clicked on
+
+2022-05-12 15:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/SelectCategory/select_category' is clicked on
+
+2022-05-12 15:00:29 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/SelectCategory/div_kesehatan")): Object: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' is clicked on
+
+2022-05-12 15:01:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[1]/div[3]/div/div[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-12 15:01:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan'. Try using Self-healing.
+
+2022-05-12 15:01:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' was broken. Propose an alternative one: '//div[(text() = 'kesehatan' or . = 'kesehatan')]'.
+
+2022-05-12 15:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' is clicked on
+
+2022-05-12 15:01:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Homepage/SelectCategory/product_empty"), 0): Object 'Object Repository/WEB/Homepage/SelectCategory/product_empty' is present
+
+2022-05-12 15:01:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 15:01:02 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Homepage/SelectCategory/product_empty' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/CloseSelectCategory" time="5.991" classname="Test Cases/WEB/Homepage/CloseSelectCategory" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:01:03 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/CloseSelectCategory: Test Cases/WEB/Homepage/CloseSelectCategory
+
+2022-05-12 15:01:03 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/SelectCategory/close_category")): Object: 'Object Repository/WEB/Homepage/SelectCategory/close_category' is clicked on
+
+2022-05-12 15:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/SelectCategory/close_category' is clicked on
+
+2022-05-12 15:01:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Homepage/SelectCategory/product_element_nocategory"), 2): Object 'Object Repository/WEB/Homepage/SelectCategory/product_element_nocategory' is present
+
+2022-05-12 15:01:08 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Homepage/SelectCategory/product_element_nocategory' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Auth/Login_Success" time="18.857" classname="Test Cases/WEB/Auth/Login_Success" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:01:09 - [TEST_CASE][PASSED] - Test Cases/WEB/Auth/Login_Success: Test Cases/WEB/Auth/Login_Success
+
+2022-05-12 15:01:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-12 15:01:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-12 15:01:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 15:01:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 15:01:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-12 15:01:11 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:01:13 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:01:13 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Auth/Login/login_ico")): Object: 'Object Repository/WEB/Auth/Login/login_ico' is clicked on
+
+2022-05-12 15:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Auth/Login/login_ico' is clicked on
+
+2022-05-12 15:01:18 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Auth/Login/email_txtbox"), "salsabila@gmail.com"): Text 'salsabila@gmail.com' is set on object 'Object Repository/WEB/Auth/Login/email_txtbox'
+
+2022-05-12 15:01:20 - [MESSAGE][PASSED] - Text 'salsabila@gmail.com' is set on object 'Object Repository/WEB/Auth/Login/email_txtbox'
+
+2022-05-12 15:01:20 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Auth/Login/password_txtbox"), "salsabila"): Text 'salsabila' is set on object 'Object Repository/WEB/Auth/Login/password_txtbox'
+
+2022-05-12 15:01:20 - [MESSAGE][PASSED] - Text 'salsabila' is set on object 'Object Repository/WEB/Auth/Login/password_txtbox'
+
+2022-05-12 15:01:20 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Auth/Login/login_btn")): Object: 'Object Repository/WEB/Auth/Login/login_btn' is clicked on
+
+2022-05-12 15:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Auth/Login/login_btn' is clicked on
+
+2022-05-12 15:01:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Auth/Logout/user_ico"), 2, CONTINUE_ON_FAILURE): Object 'Object Repository/WEB/Auth/Logout/user_ico' is present
+
+2022-05-12 15:01:27 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Auth/Logout/user_ico' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/AddToCart" time="7.624" classname="Test Cases/WEB/Homepage/AddToCart" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:01:27 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/AddToCart: Test Cases/WEB/Homepage/AddToCart
+
+2022-05-12 15:01:28 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:28 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:28 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:01:28 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:01:28 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/AddToCart/button_Beli")): Object: 'Object Repository/WEB/Homepage/AddToCart/button_Beli' is clicked on
+
+2022-05-12 15:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/AddToCart/button_Beli' is clicked on
+
+2022-05-12 15:01:33 - [TEST_STEP][PASSED] - name = getText(findTestObject("WEB/Homepage/AddToCart/div_name")): Text of object 'Object Repository/WEB/Homepage/AddToCart/div_name' is: 'Stetoskop'
+
+2022-05-12 15:01:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/div_name' is: 'Stetoskop'
+
+2022-05-12 15:01:33 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/AddToCart/button_Cart")): Object: 'Object Repository/WEB/Homepage/AddToCart/button_Cart' is clicked on
+
+2022-05-12 15:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/AddToCart/button_Cart' is clicked on
+
+2022-05-12 15:01:34 - [TEST_STEP][PASSED] - cName = getText(findTestObject("WEB/Homepage/AddToCart/div_cartName")): Text of object 'Object Repository/WEB/Homepage/AddToCart/div_cartName' is: 'Stetoskop'
+
+2022-05-12 15:01:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/div_cartName' is: 'Stetoskop'
+
+2022-05-12 15:01:34 - [TEST_STEP][PASSED] - verifyEqual(name, cName): Actual object 'Stetoskop' and expected object 'Stetoskop' are equal
+
+2022-05-12 15:01:34 - [MESSAGE][PASSED] - Actual object 'Stetoskop' and expected object 'Stetoskop' are equal
+
+2022-05-12 15:01:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("WEB/Homepage/AddToCart/jml_product"), "1"): Actual text and expected text of test object 'Object Repository/WEB/Homepage/AddToCart/jml_product' are matched.
+
+2022-05-12 15:01:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WEB/Homepage/AddToCart/jml_product' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/IncreaseQuantity" time="2.848" classname="Test Cases/WEB/Homepage/IncreaseQuantity" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:01:35 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/IncreaseQuantity: Test Cases/WEB/Homepage/IncreaseQuantity
+
+2022-05-12 15:01:35 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:35 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:35 - [TEST_STEP][PASSED] - jml = getText(findTestObject("WEB/Homepage/AddToCart/jml_product")): Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '1'
+
+2022-05-12 15:01:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '1'
+
+2022-05-12 15:01:36 - [TEST_STEP][PASSED] - price = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/price' is: '50000'
+
+2022-05-12 15:01:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/price' is: '50000'
+
+2022-05-12 15:01:36 - [TEST_STEP][PASSED] - total_awal = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 15:01:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 15:01:36 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/IncreaseQuantity/add_quantity")): Object: 'Object Repository/WEB/Transactions/IncreaseQuantity/add_quantity' is clicked on
+
+2022-05-12 15:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/IncreaseQuantity/add_quantity' is clicked on
+
+2022-05-12 15:01:37 - [TEST_STEP][PASSED] - jml_2 = getText(findTestObject("WEB/Homepage/AddToCart/jml_product")): Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '2'
+
+2022-05-12 15:01:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '2'
+
+2022-05-12 15:01:37 - [TEST_STEP][PASSED] - total_akhir = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '100000'
+
+2022-05-12 15:01:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '100000'
+
+2022-05-12 15:01:38 - [TEST_STEP][PASSED] - verifyEqual(jml + 1, jml_2): Actual object '50' and expected object '50' are equal
+
+2022-05-12 15:01:38 - [MESSAGE][PASSED] - Actual object '50' and expected object '50' are equal
+
+2022-05-12 15:01:38 - [TEST_STEP][PASSED] - verifyEqual(total_awal + price, total_akhir): Actual object '100,000' and expected object '100,000' are equal
+
+2022-05-12 15:01:38 - [MESSAGE][PASSED] - Actual object '100,000' and expected object '100,000' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/DecreaseQuantity" time="2.992" classname="Test Cases/WEB/Homepage/DecreaseQuantity" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:01:38 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/DecreaseQuantity: Test Cases/WEB/Homepage/DecreaseQuantity
+
+2022-05-12 15:01:38 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Homepage/IncreaseQuantity"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Homepage/IncreaseQuantity"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:38 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Homepage/IncreaseQuantity"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:38 - [TEST_STEP][PASSED] - jml = getText(findTestObject("WEB/Homepage/AddToCart/jml_product")): Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '2'
+
+2022-05-12 15:01:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '2'
+
+2022-05-12 15:01:39 - [TEST_STEP][PASSED] - price = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/price' is: '50000'
+
+2022-05-12 15:01:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/price' is: '50000'
+
+2022-05-12 15:01:39 - [TEST_STEP][PASSED] - total_awal = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '100000'
+
+2022-05-12 15:01:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '100000'
+
+2022-05-12 15:01:39 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/IncreaseQuantity/decrease_quantity")): Object: 'Object Repository/WEB/Transactions/IncreaseQuantity/decrease_quantity' is clicked on
+
+2022-05-12 15:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/IncreaseQuantity/decrease_quantity' is clicked on
+
+2022-05-12 15:01:40 - [TEST_STEP][PASSED] - jml_2 = getText(findTestObject("WEB/Homepage/AddToCart/jml_product")): Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '1'
+
+2022-05-12 15:01:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '1'
+
+2022-05-12 15:01:40 - [TEST_STEP][PASSED] - total_akhir = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 15:01:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 15:01:41 - [TEST_STEP][PASSED] - verifyEqual(jml - 1, jml_2): Actual object '49' and expected object '49' are equal
+
+2022-05-12 15:01:41 - [MESSAGE][PASSED] - Actual object '49' and expected object '49' are equal
+
+2022-05-12 15:01:41 - [TEST_STEP][PASSED] - verifyEqual(total_awal - price, total_akhir): Actual object '50,000' and expected object '50,000' are equal
+
+2022-05-12 15:01:41 - [MESSAGE][PASSED] - Actual object '50,000' and expected object '50,000' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/Payment" time="3.356" classname="Test Cases/WEB/Transactions/Payment" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:01:41 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/Payment: Test Cases/WEB/Transactions/Payment
+
+2022-05-12 15:01:41 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:41 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:41 - [TEST_STEP][PASSED] - total = getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price")): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 15:01:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 15:01:42 - [TEST_STEP][PASSED] - cName = getText(findTestObject("WEB/Homepage/AddToCart/div_cartName")): Text of object 'Object Repository/WEB/Homepage/AddToCart/div_cartName' is: 'Stetoskop'
+
+2022-05-12 15:01:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/div_cartName' is: 'Stetoskop'
+
+2022-05-12 15:01:42 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/Payment/button_bayar")): Object: 'Object Repository/WEB/Transactions/Payment/button_bayar' is clicked on
+
+2022-05-12 15:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/Payment/button_bayar' is clicked on
+
+2022-05-12 15:01:42 - [TEST_STEP][PASSED] - name = getText(findTestObject("WEB/Transactions/Payment/product_name")): Text of object 'Object Repository/WEB/Transactions/Payment/product_name' is: 'Stetoskop'
+
+2022-05-12 15:01:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/Payment/product_name' is: 'Stetoskop'
+
+2022-05-12 15:01:44 - [TEST_STEP][PASSED] - total_payment = getText(findTestObject("WEB/Transactions/Payment/product_total")): Text of object 'Object Repository/WEB/Transactions/Payment/product_total' is: '50000'
+
+2022-05-12 15:01:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/Payment/product_total' is: '50000'
+
+2022-05-12 15:01:44 - [TEST_STEP][PASSED] - verifyEqual(total, total_payment): Actual object '50000' and expected object '50000' are equal
+
+2022-05-12 15:01:44 - [MESSAGE][PASSED] - Actual object '50000' and expected object '50000' are equal
+
+2022-05-12 15:01:44 - [TEST_STEP][PASSED] - verifyEqual(cName, name): Actual object 'Stetoskop' and expected object 'Stetoskop' are equal
+
+2022-05-12 15:01:44 - [MESSAGE][PASSED] - Actual object 'Stetoskop' and expected object 'Stetoskop' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/ViewBy5Rows" time="2.476" classname="Test Cases/WEB/Transactions/ViewBy5Rows" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:01:44 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/ViewBy5Rows: Test Cases/WEB/Transactions/ViewBy5Rows
+
+2022-05-12 15:01:45 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:45 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Auth/Logout/user_ico")): NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:01:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:01:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Transactions/Payment/transaction_ico")): NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:01:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:01:45 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_ico")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:01:45 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_5rows")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_5rows' is clicked on
+
+2022-05-12 15:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_5rows' is clicked on
+
+2022-05-12 15:01:46 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("WEB/Transactions/ViewByRows/6th_row"), 0): Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/6th_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[6]' is not present after '30' second(s)
+
+2022-05-12 15:01:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 15:01:47 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/6th_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[6]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/ViewBy10Rows" time="1.596" classname="Test Cases/WEB/Transactions/ViewBy10Rows" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:01:47 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/ViewBy10Rows: Test Cases/WEB/Transactions/ViewBy10Rows
+
+2022-05-12 15:01:47 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:47 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:47 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Auth/Logout/user_ico")): NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:01:47 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:01:47 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Transactions/Payment/transaction_ico")): NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:01:47 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:01:47 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_ico")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:01:47 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_10rows")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_10rows' is clicked on
+
+2022-05-12 15:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_10rows' is clicked on
+
+2022-05-12 15:01:48 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("WEB/Transactions/ViewByRows/11st_row"), 0): Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/11st_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[11]' is not present after '30' second(s)
+
+2022-05-12 15:01:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 15:01:48 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/11st_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[11]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/ViewBy15Rows" time="1.591" classname="Test Cases/WEB/Transactions/ViewBy15Rows" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:01:48 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/ViewBy15Rows: Test Cases/WEB/Transactions/ViewBy15Rows
+
+2022-05-12 15:01:49 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:49 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:49 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Auth/Logout/user_ico")): NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:01:49 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:01:49 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Transactions/Payment/transaction_ico")): NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:01:49 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:01:49 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_ico")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:01:49 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_15rows")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_15rows' is clicked on
+
+2022-05-12 15:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_15rows' is clicked on
+
+2022-05-12 15:01:49 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("WEB/Transactions/ViewByRows/16th_row"), 0): Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/16th_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[16]' is not present after '30' second(s)
+
+2022-05-12 15:01:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 15:01:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/16th_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[16]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/ViewByAllRows" time="1.163" classname="Test Cases/WEB/Transactions/ViewByAllRows" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:01:50 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/ViewByAllRows: Test Cases/WEB/Transactions/ViewByAllRows
+
+2022-05-12 15:01:50 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:50 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:50 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Auth/Logout/user_ico")): NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:01:50 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:01:50 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Transactions/Payment/transaction_ico")): NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:01:50 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:01:50 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_ico")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:01:51 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_allrows")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_allrows' is clicked on
+
+2022-05-12 15:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_allrows' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/GiveStarRating" time="47.048" classname="Test Cases/WEB/Homepage/GiveStarRating" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WEB/Homepage/GiveStarRating FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	... 23 more
+"/>
+         <system-out><![CDATA[2022-05-12 15:01:51 - [TEST_CASE][FAILED] - Test Cases/WEB/Homepage/GiveStarRating: Test Cases/WEB/Homepage/GiveStarRating FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	... 23 more
+
+
+2022-05-12 15:01:51 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Transactions/Payment"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Transactions/Payment"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:51 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Transactions/Payment"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:01:51 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/h3_AltaShop")): Object: 'Object Repository/WEB/Homepage/GiveRating/h3_AltaShop' is clicked on
+
+2022-05-12 15:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/h3_AltaShop' is clicked on
+
+2022-05-12 15:01:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("WEB/Homepage/GiveRating/button_Detail"), 0): Scroll to object 'Object Repository/WEB/Homepage/GiveRating/button_Detail' successfully
+
+2022-05-12 15:01:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 15:02:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WEB/Homepage/GiveRating/button_Detail' successfully
+
+2022-05-12 15:02:14 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/button_Detail")): Object: 'Object Repository/WEB/Homepage/GiveRating/button_Detail' is clicked on
+
+2022-05-12 15:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/button_Detail' is clicked on
+
+2022-05-12 15:02:25 - [TEST_STEP][FAILED] - for ([i = 1, i <= 5, (i++)]): null
+
+2022-05-12 15:02:25 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_1' is clicked on
+
+2022-05-12 15:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_1' is clicked on
+
+2022-05-12 15:02:27 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 15:02:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): Actual text and expected text of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are matched.
+
+2022-05-12 15:02:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are matched.
+
+2022-05-12 15:02:27 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_2' is clicked on
+
+2022-05-12 15:02:28 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_2' is clicked on
+
+2022-05-12 15:02:28 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 15:02:28 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+)
+
+2022-05-12 15:02:29 - [MESSAGE][FAILED] - Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_150000\\WEB\\TS_Web\\20220512_150000\\1652342549521.png]]
+
+2022-05-12 15:02:29 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_3' is clicked on
+
+2022-05-12 15:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_3' is clicked on
+
+2022-05-12 15:02:30 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 15:02:30 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): Actual text '(1)' and expected text '(3)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(3)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+)
+
+2022-05-12 15:02:32 - [MESSAGE][FAILED] - Actual text '(1)' and expected text '(3)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(3)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_150000\\WEB\\TS_Web\\20220512_150000\\1652342552310.png]]
+
+2022-05-12 15:02:32 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_4' is clicked on
+
+2022-05-12 15:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_4' is clicked on
+
+2022-05-12 15:02:32 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 15:02:32 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): Actual text '(1)' and expected text '(4)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(4)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+)
+
+2022-05-12 15:02:34 - [MESSAGE][FAILED] - Actual text '(1)' and expected text '(4)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(4)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_150000\\WEB\\TS_Web\\20220512_150000\\1652342554676.png]]
+
+2022-05-12 15:02:34 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_5' is clicked on
+
+2022-05-12 15:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_5' is clicked on
+
+2022-05-12 15:02:35 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 15:02:35 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): Actual text '(1)' and expected text '(5)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(5)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+)
+
+2022-05-12 15:02:38 - [MESSAGE][FAILED] - Actual text '(1)' and expected text '(5)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(5)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_150000\\WEB\\TS_Web\\20220512_150000\\1652342558481.png]]]]></system-out>
+         <system-err><![CDATA[2022-05-12 15:01:51 - [TEST_CASE][FAILED] - Test Cases/WEB/Homepage/GiveStarRating: Test Cases/WEB/Homepage/GiveStarRating FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-12 15:00:07 - [TEST_SUITE][FAILED] - TS_Web: Test Cases/WEB/Homepage/GiveStarRating FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2022-05-12 15:00:07 - [TEST_SUITE][FAILED] - TS_Web: Test Cases/WEB/Homepage/GiveStarRating FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at GiveStarRating.run(GiveStarRating:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652342400842.run(TempTestSuite1652342400842.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '(1)' and expected text '(2)' of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are NOT matched.
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

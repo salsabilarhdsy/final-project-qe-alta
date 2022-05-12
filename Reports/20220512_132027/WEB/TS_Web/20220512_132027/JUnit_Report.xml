@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Web" time="27.205" tests="3" failures="0" errors="0">
+   <testsuite name="TS_Web" tests="3" failures="0" errors="0" time="27.205" skipped="0" timestamp="2022-05-12 13:20:30" hostname="salsa - SALSABILA" id="Test Suites/WEB/TS_Web">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_132027\\WEB\\TS_Web\\20220512_132027"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_132027\\WEB\\TS_Web\\20220512_132027\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.54"/>
+         <property name="hostAddress" value="192.168.159.173"/>
+         <property name="sessionId" value="e3ca2154fdb38e51a523379b6d80ad5d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WEB/Homepage/DetailProduct" time="11.781" classname="Test Cases/WEB/Homepage/DetailProduct" status="PASSED">
+         <system-out><![CDATA[2022-05-12 13:20:31 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/DetailProduct: Test Cases/WEB/Homepage/DetailProduct
+
+2022-05-12 13:20:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-12 13:20:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 13:20:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 13:20:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-12 13:20:35 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 13:20:37 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 13:20:37 - [TEST_STEP][PASSED] - name = getText(findTestObject("WEB/Homepage/DetailProduct/HP_name")): Text of object 'Object Repository/WEB/Homepage/DetailProduct/HP_name' is: 'Stetoskop'
+
+2022-05-12 13:20:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/DetailProduct/HP_name' is: 'Stetoskop'
+
+2022-05-12 13:20:41 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/DetailProduct/button_Detail")): Object: 'Object Repository/WEB/Homepage/DetailProduct/button_Detail' is clicked on
+
+2022-05-12 13:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/DetailProduct/button_Detail' is clicked on
+
+2022-05-12 13:20:41 - [TEST_STEP][PASSED] - d_name = getText(findTestObject("WEB/Homepage/DetailProduct/Detail_name")): Text of object 'Object Repository/WEB/Homepage/DetailProduct/Detail_name' is: 'Stetoskop'
+
+2022-05-12 13:20:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/DetailProduct/Detail_name' is: 'Stetoskop'
+
+2022-05-12 13:20:43 - [TEST_STEP][PASSED] - verifyEqual(name, d_name): Actual object 'Stetoskop' and expected object 'Stetoskop' are equal
+
+2022-05-12 13:20:43 - [MESSAGE][PASSED] - Actual object 'Stetoskop' and expected object 'Stetoskop' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/FilterByCategory" time="9.781" classname="Test Cases/WEB/Homepage/FilterByCategory" status="PASSED">
+         <system-out><![CDATA[2022-05-12 13:20:43 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/FilterByCategory: Test Cases/WEB/Homepage/FilterByCategory
+
+2022-05-12 13:20:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-12 13:20:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-12 13:20:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 13:20:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 13:20:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-12 13:20:45 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 13:20:47 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 13:20:47 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/SelectCategory/select_category")): Object: 'Object Repository/WEB/Homepage/SelectCategory/select_category' is clicked on
+
+2022-05-12 13:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/SelectCategory/select_category' is clicked on
+
+2022-05-12 13:20:51 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/SelectCategory/div_kesehatan")): Object: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' is clicked on
+
+2022-05-12 13:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' is clicked on
+
+2022-05-12 13:20:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Homepage/SelectCategory/product_empty"), 0): Object 'Object Repository/WEB/Homepage/SelectCategory/product_empty' is present
+
+2022-05-12 13:20:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 13:20:53 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Homepage/SelectCategory/product_empty' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/CloseSelectCategory" time="5.156" classname="Test Cases/WEB/Homepage/CloseSelectCategory" status="PASSED">
+         <system-out><![CDATA[2022-05-12 13:20:53 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/CloseSelectCategory: Test Cases/WEB/Homepage/CloseSelectCategory
+
+2022-05-12 13:20:53 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/SelectCategory/close_category")): Object: 'Object Repository/WEB/Homepage/SelectCategory/close_category' is clicked on
+
+2022-05-12 13:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/SelectCategory/close_category' is clicked on
+
+2022-05-12 13:20:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Homepage/SelectCategory/product_element_nocategory"), 0): Object 'Object Repository/WEB/Homepage/SelectCategory/product_element_nocategory' is present
+
+2022-05-12 13:20:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 13:20:58 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Homepage/SelectCategory/product_element_nocategory' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-12 13:20:30 - [TEST_SUITE][PASSED] - TS_Web: Test Cases/WEB/Homepage/CloseSelectCategory]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Homepage/SelectCategory/div_kesehatan",
+      "brokenLocator": "//*[@id \u003d \u0027list-item-1733-0\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[2]/div/div[135]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220512_131250/WEB/TS_Web/20220512_131250/Object Repository/WEB/Homepage/SelectCategory/div_kesehatan_position.png"
+    }
+  ]
+}

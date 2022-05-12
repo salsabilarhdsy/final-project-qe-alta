@@ -31,9 +31,10 @@ for (int i = 1; i <= 6; i++) {
     WebUI.click(findTestObject('WEB/Auth/Login/login_btn'))
 
     if (findTestData('WEB/Login').getValue(3, i) == 'negative') {
-        WebUI.verifyElementPresent(findTestObject('WEB/Auth/Login/alert_msg'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+        WebUI.verifyElementPresent(findTestObject('WEB/Auth/Login/alert_msg'), 2, FailureHandling.CONTINUE_ON_FAILURE)
     } else {
-        WebUI.verifyElementPresent(findTestObject('WEB/Auth/Logout/user_ico'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+        WebUI.verifyElementPresent(findTestObject('WEB/Auth/Logout/user_ico'), 2, FailureHandling.CONTINUE_ON_FAILURE)
     }
+
 }
 

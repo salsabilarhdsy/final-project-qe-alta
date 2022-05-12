@@ -21,17 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qa.alta.id/')
 
-price = WebUI.getText(findTestObject('WEB/Homepage/DetailProduct/HP_price'))
-
 name = WebUI.getText(findTestObject('WEB/Homepage/DetailProduct/HP_name'))
 
 WebUI.click(findTestObject('WEB/Homepage/DetailProduct/button_Detail'))
 
-d_price = WebUI.getText(findTestObject('WEB/Homepage/DetailProduct/Detail_price'))
-
 d_name = WebUI.getText(findTestObject('WEB/Homepage/DetailProduct/Detail_name'))
-
-WebUI.verifyEqual(price, d_price)
 
 WebUI.verifyEqual(name, d_name)
 

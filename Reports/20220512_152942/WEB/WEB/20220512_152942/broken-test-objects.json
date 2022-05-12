@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Homepage/GiveRating/rating_1",
+      "brokenLocator": "/html/body/div[1]/div/main/div/div/div/div/div/div/div/button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20220512_152942/WEB/WEB/20220512_152942/Object Repository/WEB/Homepage/GiveRating/rating_1_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Homepage/GiveRating/rating_2",
+      "brokenLocator": "/html/body/div[1]/div/main/div/div/div/div/div/div/div/button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20220512_152942/WEB/WEB/20220512_152942/Object Repository/WEB/Homepage/GiveRating/rating_2_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Homepage/GiveRating/rating_3",
+      "brokenLocator": "/html/body/div[1]/div/main/div/div/div/div/div/div/div/button[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20220512_152942/WEB/WEB/20220512_152942/Object Repository/WEB/Homepage/GiveRating/rating_3_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Homepage/GiveRating/rating_4",
+      "brokenLocator": "/html/body/div[1]/div/main/div/div/div/div/div/div/div/button[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20220512_152942/WEB/WEB/20220512_152942/Object Repository/WEB/Homepage/GiveRating/rating_4_BASIC.png"
+    }
+  ]
+}

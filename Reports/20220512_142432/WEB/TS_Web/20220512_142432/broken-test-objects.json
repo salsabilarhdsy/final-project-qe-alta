@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Homepage/GiveRating/rating_1",
+      "brokenLocator": "/html/body/div[1]/div/main/div/div/div/div/div/div/div/button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20220512_142432/WEB/TS_Web/20220512_142432/Object Repository/WEB/Homepage/GiveRating/rating_1_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Homepage/GiveRating/rating_2",
+      "brokenLocator": "/html/body/div[1]/div/main/div/div/div/div/div/div/div/button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20220512_142432/WEB/TS_Web/20220512_142432/Object Repository/WEB/Homepage/GiveRating/rating_2_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Homepage/GiveRating/rating_3",
+      "brokenLocator": "/html/body/div[1]/div/main/div/div/div/div/div/div/div/button[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20220512_142432/WEB/TS_Web/20220512_142432/Object Repository/WEB/Homepage/GiveRating/rating_3_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Homepage/GiveRating/rating_4",
+      "brokenLocator": "/html/body/div[1]/div/main/div/div/div/div/div/div/div/button[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20220512_142432/WEB/TS_Web/20220512_142432/Object Repository/WEB/Homepage/GiveRating/rating_4_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Homepage/GiveRating/rating_5",
+      "brokenLocator": "/html/body/div[1]/div/main/div/div/div/div/div/div/div/button[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20220512_142432/WEB/TS_Web/20220512_142432/Object Repository/WEB/Homepage/GiveRating/rating_5_BASIC.png"
+    }
+  ]
+}

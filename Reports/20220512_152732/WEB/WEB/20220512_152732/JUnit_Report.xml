@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WEB" time="95.227" tests="13" failures="0" errors="0">
+   <testsuite name="WEB" tests="13" failures="0" errors="0" time="95.227" skipped="0" timestamp="2022-05-12 15:27:36" hostname="salsa - SALSABILA" id="Test Suites/WEB/WEB">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_152732\\WEB\\WEB\\20220512_152732"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220512_152732\\WEB\\WEB\\20220512_152732\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.54"/>
+         <property name="hostAddress" value="192.168.159.173"/>
+         <property name="sessionId" value="8beeed6c802f812c09c3402d7d48d205"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WEB/Homepage/DetailProduct" time="18.356" classname="Test Cases/WEB/Homepage/DetailProduct" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:27:36 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/DetailProduct: Test Cases/WEB/Homepage/DetailProduct
+
+2022-05-12 15:27:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-12 15:27:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 15:27:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 15:27:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-12 15:27:40 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:27:47 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:27:47 - [TEST_STEP][PASSED] - name = getText(findTestObject("WEB/Homepage/DetailProduct/HP_name")): Text of object 'Object Repository/WEB/Homepage/DetailProduct/HP_name' is: 'Stetoskop'
+
+2022-05-12 15:27:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/DetailProduct/HP_name' is: 'Stetoskop'
+
+2022-05-12 15:27:52 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/DetailProduct/button_Detail")): Object: 'Object Repository/WEB/Homepage/DetailProduct/button_Detail' is clicked on
+
+2022-05-12 15:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/DetailProduct/button_Detail' is clicked on
+
+2022-05-12 15:27:53 - [TEST_STEP][PASSED] - d_name = getText(findTestObject("WEB/Homepage/DetailProduct/Detail_name")): Text of object 'Object Repository/WEB/Homepage/DetailProduct/Detail_name' is: 'Stetoskop'
+
+2022-05-12 15:27:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/DetailProduct/Detail_name' is: 'Stetoskop'
+
+2022-05-12 15:27:55 - [TEST_STEP][PASSED] - verifyEqual(name, d_name): Actual object 'Stetoskop' and expected object 'Stetoskop' are equal
+
+2022-05-12 15:27:55 - [MESSAGE][PASSED] - Actual object 'Stetoskop' and expected object 'Stetoskop' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/FilterByCategory" time="11.214" classname="Test Cases/WEB/Homepage/FilterByCategory" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:27:55 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/FilterByCategory: Test Cases/WEB/Homepage/FilterByCategory
+
+2022-05-12 15:27:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-12 15:27:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-12 15:27:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 15:27:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 15:27:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-12 15:27:57 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:28:00 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:28:00 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/SelectCategory/select_category")): Object: 'Object Repository/WEB/Homepage/SelectCategory/select_category' is clicked on
+
+2022-05-12 15:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/SelectCategory/select_category' is clicked on
+
+2022-05-12 15:28:04 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/SelectCategory/div_kesehatan")): Object: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' is clicked on
+
+2022-05-12 15:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/SelectCategory/div_kesehatan' is clicked on
+
+2022-05-12 15:28:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Homepage/SelectCategory/product_empty"), 0): Object 'Object Repository/WEB/Homepage/SelectCategory/product_empty' is present
+
+2022-05-12 15:28:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 15:28:06 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Homepage/SelectCategory/product_empty' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/CloseSelectCategory" time="5.054" classname="Test Cases/WEB/Homepage/CloseSelectCategory" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:28:06 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/CloseSelectCategory: Test Cases/WEB/Homepage/CloseSelectCategory
+
+2022-05-12 15:28:06 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/SelectCategory/close_category")): Object: 'Object Repository/WEB/Homepage/SelectCategory/close_category' is clicked on
+
+2022-05-12 15:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/SelectCategory/close_category' is clicked on
+
+2022-05-12 15:28:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Homepage/SelectCategory/product_element_nocategory"), 2): Object 'Object Repository/WEB/Homepage/SelectCategory/product_element_nocategory' is present
+
+2022-05-12 15:28:11 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Homepage/SelectCategory/product_element_nocategory' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Auth/Login_Success" time="17.365" classname="Test Cases/WEB/Auth/Login_Success" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:28:11 - [TEST_CASE][PASSED] - Test Cases/WEB/Auth/Login_Success: Test Cases/WEB/Auth/Login_Success
+
+2022-05-12 15:28:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-12 15:28:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-12 15:28:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 15:28:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 15:28:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-12 15:28:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-12 15:28:14 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-12 15:28:14 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:28:17 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:28:17 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Auth/Login/login_ico")): Object: 'Object Repository/WEB/Auth/Login/login_ico' is clicked on
+
+2022-05-12 15:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Auth/Login/login_ico' is clicked on
+
+2022-05-12 15:28:20 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Auth/Login/email_txtbox"), "salsabila@gmail.com"): Text 'salsabila@gmail.com' is set on object 'Object Repository/WEB/Auth/Login/email_txtbox'
+
+2022-05-12 15:28:22 - [MESSAGE][PASSED] - Text 'salsabila@gmail.com' is set on object 'Object Repository/WEB/Auth/Login/email_txtbox'
+
+2022-05-12 15:28:22 - [TEST_STEP][PASSED] - setText(findTestObject("WEB/Auth/Login/password_txtbox"), "salsabila"): Text 'salsabila' is set on object 'Object Repository/WEB/Auth/Login/password_txtbox'
+
+2022-05-12 15:28:23 - [MESSAGE][PASSED] - Text 'salsabila' is set on object 'Object Repository/WEB/Auth/Login/password_txtbox'
+
+2022-05-12 15:28:23 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Auth/Login/login_btn")): Object: 'Object Repository/WEB/Auth/Login/login_btn' is clicked on
+
+2022-05-12 15:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Auth/Login/login_btn' is clicked on
+
+2022-05-12 15:28:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("WEB/Auth/Logout/user_ico"), 2, CONTINUE_ON_FAILURE): Object 'Object Repository/WEB/Auth/Logout/user_ico' is present
+
+2022-05-12 15:28:28 - [MESSAGE][PASSED] - Object 'Object Repository/WEB/Auth/Logout/user_ico' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/AddToCart" time="6.576" classname="Test Cases/WEB/Homepage/AddToCart" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:28:28 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/AddToCart: Test Cases/WEB/Homepage/AddToCart
+
+2022-05-12 15:28:29 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:29 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:29 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:28:29 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:28:29 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/AddToCart/button_Beli")): Object: 'Object Repository/WEB/Homepage/AddToCart/button_Beli' is clicked on
+
+2022-05-12 15:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/AddToCart/button_Beli' is clicked on
+
+2022-05-12 15:28:33 - [TEST_STEP][PASSED] - name = getText(findTestObject("WEB/Homepage/AddToCart/div_name")): Text of object 'Object Repository/WEB/Homepage/AddToCart/div_name' is: 'Stetoskop'
+
+2022-05-12 15:28:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/div_name' is: 'Stetoskop'
+
+2022-05-12 15:28:33 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/AddToCart/button_Cart")): Object: 'Object Repository/WEB/Homepage/AddToCart/button_Cart' is clicked on
+
+2022-05-12 15:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/AddToCart/button_Cart' is clicked on
+
+2022-05-12 15:28:34 - [TEST_STEP][PASSED] - cName = getText(findTestObject("WEB/Homepage/AddToCart/div_cartName")): Text of object 'Object Repository/WEB/Homepage/AddToCart/div_cartName' is: 'Stetoskop'
+
+2022-05-12 15:28:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/div_cartName' is: 'Stetoskop'
+
+2022-05-12 15:28:34 - [TEST_STEP][PASSED] - verifyEqual(name, cName): Actual object 'Stetoskop' and expected object 'Stetoskop' are equal
+
+2022-05-12 15:28:34 - [MESSAGE][PASSED] - Actual object 'Stetoskop' and expected object 'Stetoskop' are equal
+
+2022-05-12 15:28:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("WEB/Homepage/AddToCart/jml_product"), "1"): Actual text and expected text of test object 'Object Repository/WEB/Homepage/AddToCart/jml_product' are matched.
+
+2022-05-12 15:28:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WEB/Homepage/AddToCart/jml_product' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/IncreaseQuantity" time="2.974" classname="Test Cases/WEB/Homepage/IncreaseQuantity" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:28:35 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/IncreaseQuantity: Test Cases/WEB/Homepage/IncreaseQuantity
+
+2022-05-12 15:28:35 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:35 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:35 - [TEST_STEP][PASSED] - jml = getText(findTestObject("WEB/Homepage/AddToCart/jml_product")): Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '1'
+
+2022-05-12 15:28:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '1'
+
+2022-05-12 15:28:36 - [TEST_STEP][PASSED] - price = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/price' is: '50000'
+
+2022-05-12 15:28:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/price' is: '50000'
+
+2022-05-12 15:28:36 - [TEST_STEP][PASSED] - total_awal = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 15:28:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 15:28:36 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/IncreaseQuantity/add_quantity")): Object: 'Object Repository/WEB/Transactions/IncreaseQuantity/add_quantity' is clicked on
+
+2022-05-12 15:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/IncreaseQuantity/add_quantity' is clicked on
+
+2022-05-12 15:28:37 - [TEST_STEP][PASSED] - jml_2 = getText(findTestObject("WEB/Homepage/AddToCart/jml_product")): Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '2'
+
+2022-05-12 15:28:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '2'
+
+2022-05-12 15:28:37 - [TEST_STEP][PASSED] - total_akhir = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '100000'
+
+2022-05-12 15:28:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '100000'
+
+2022-05-12 15:28:38 - [TEST_STEP][PASSED] - verifyEqual(jml + 1, jml_2): Actual object '50' and expected object '50' are equal
+
+2022-05-12 15:28:38 - [MESSAGE][PASSED] - Actual object '50' and expected object '50' are equal
+
+2022-05-12 15:28:38 - [TEST_STEP][PASSED] - verifyEqual(total_awal + price, total_akhir): Actual object '100,000' and expected object '100,000' are equal
+
+2022-05-12 15:28:38 - [MESSAGE][PASSED] - Actual object '100,000' and expected object '100,000' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/DecreaseQuantity" time="2.96" classname="Test Cases/WEB/Homepage/DecreaseQuantity" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:28:38 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/DecreaseQuantity: Test Cases/WEB/Homepage/DecreaseQuantity
+
+2022-05-12 15:28:38 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Homepage/IncreaseQuantity"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Homepage/IncreaseQuantity"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:38 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Homepage/IncreaseQuantity"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:38 - [TEST_STEP][PASSED] - jml = getText(findTestObject("WEB/Homepage/AddToCart/jml_product")): Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '2'
+
+2022-05-12 15:28:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '2'
+
+2022-05-12 15:28:39 - [TEST_STEP][PASSED] - price = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/price' is: '50000'
+
+2022-05-12 15:28:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/price' is: '50000'
+
+2022-05-12 15:28:39 - [TEST_STEP][PASSED] - total_awal = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '100000'
+
+2022-05-12 15:28:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '100000'
+
+2022-05-12 15:28:39 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/IncreaseQuantity/decrease_quantity")): Object: 'Object Repository/WEB/Transactions/IncreaseQuantity/decrease_quantity' is clicked on
+
+2022-05-12 15:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/IncreaseQuantity/decrease_quantity' is clicked on
+
+2022-05-12 15:28:40 - [TEST_STEP][PASSED] - jml_2 = getText(findTestObject("WEB/Homepage/AddToCart/jml_product")): Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '1'
+
+2022-05-12 15:28:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/jml_product' is: '1'
+
+2022-05-12 15:28:40 - [TEST_STEP][PASSED] - total_akhir = Integer.parseInt(getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price"))): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 15:28:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 15:28:41 - [TEST_STEP][PASSED] - verifyEqual(jml - 1, jml_2): Actual object '49' and expected object '49' are equal
+
+2022-05-12 15:28:41 - [MESSAGE][PASSED] - Actual object '49' and expected object '49' are equal
+
+2022-05-12 15:28:41 - [TEST_STEP][PASSED] - verifyEqual(total_awal - price, total_akhir): Actual object '50,000' and expected object '50,000' are equal
+
+2022-05-12 15:28:41 - [MESSAGE][PASSED] - Actual object '50,000' and expected object '50,000' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/Payment" time="3.287" classname="Test Cases/WEB/Transactions/Payment" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:28:41 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/Payment: Test Cases/WEB/Transactions/Payment
+
+2022-05-12 15:28:41 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:41 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Homepage/AddToCart"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:41 - [TEST_STEP][PASSED] - total = getText(findTestObject("WEB/Transactions/IncreaseQuantity/total_price")): Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 15:28:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/IncreaseQuantity/total_price' is: '50000'
+
+2022-05-12 15:28:42 - [TEST_STEP][PASSED] - cName = getText(findTestObject("WEB/Homepage/AddToCart/div_cartName")): Text of object 'Object Repository/WEB/Homepage/AddToCart/div_cartName' is: 'Stetoskop'
+
+2022-05-12 15:28:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Homepage/AddToCart/div_cartName' is: 'Stetoskop'
+
+2022-05-12 15:28:42 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/Payment/button_bayar")): Object: 'Object Repository/WEB/Transactions/Payment/button_bayar' is clicked on
+
+2022-05-12 15:28:42 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/Payment/button_bayar' is clicked on
+
+2022-05-12 15:28:42 - [TEST_STEP][PASSED] - name = getText(findTestObject("WEB/Transactions/Payment/product_name")): Text of object 'Object Repository/WEB/Transactions/Payment/product_name' is: 'Stetoskop'
+
+2022-05-12 15:28:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/Payment/product_name' is: 'Stetoskop'
+
+2022-05-12 15:28:44 - [TEST_STEP][PASSED] - total_payment = getText(findTestObject("WEB/Transactions/Payment/product_total")): Text of object 'Object Repository/WEB/Transactions/Payment/product_total' is: '50000'
+
+2022-05-12 15:28:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/WEB/Transactions/Payment/product_total' is: '50000'
+
+2022-05-12 15:28:44 - [TEST_STEP][PASSED] - verifyEqual(total, total_payment): Actual object '50000' and expected object '50000' are equal
+
+2022-05-12 15:28:44 - [MESSAGE][PASSED] - Actual object '50000' and expected object '50000' are equal
+
+2022-05-12 15:28:44 - [TEST_STEP][PASSED] - verifyEqual(cName, name): Actual object 'Stetoskop' and expected object 'Stetoskop' are equal
+
+2022-05-12 15:28:44 - [MESSAGE][PASSED] - Actual object 'Stetoskop' and expected object 'Stetoskop' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/ViewBy5Rows" time="1.871" classname="Test Cases/WEB/Transactions/ViewBy5Rows" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:28:44 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/ViewBy5Rows: Test Cases/WEB/Transactions/ViewBy5Rows
+
+2022-05-12 15:28:45 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:45 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Auth/Logout/user_ico")): NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:28:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:28:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Transactions/Payment/transaction_ico")): NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:28:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:28:45 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_ico")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:28:45 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:28:45 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_5rows")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_5rows' is clicked on
+
+2022-05-12 15:28:45 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_5rows' is clicked on
+
+2022-05-12 15:28:45 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("WEB/Transactions/ViewByRows/6th_row"), 0): Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/6th_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[6]' is not present after '30' second(s)
+
+2022-05-12 15:28:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 15:28:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/6th_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[6]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/ViewBy10Rows" time="1.609" classname="Test Cases/WEB/Transactions/ViewBy10Rows" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:28:46 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/ViewBy10Rows: Test Cases/WEB/Transactions/ViewBy10Rows
+
+2022-05-12 15:28:46 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:46 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:46 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Auth/Logout/user_ico")): NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:28:46 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:28:46 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Transactions/Payment/transaction_ico")): NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:28:46 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:28:46 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_ico")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:28:47 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_10rows")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_10rows' is clicked on
+
+2022-05-12 15:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_10rows' is clicked on
+
+2022-05-12 15:28:47 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("WEB/Transactions/ViewByRows/11st_row"), 0): Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/11st_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[11]' is not present after '30' second(s)
+
+2022-05-12 15:28:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 15:28:48 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/11st_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[11]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/ViewBy15Rows" time="1.592" classname="Test Cases/WEB/Transactions/ViewBy15Rows" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:28:48 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/ViewBy15Rows: Test Cases/WEB/Transactions/ViewBy15Rows
+
+2022-05-12 15:28:48 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:48 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:48 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Auth/Logout/user_ico")): NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:28:48 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:28:48 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Transactions/Payment/transaction_ico")): NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:28:48 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:28:48 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_ico")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:28:48 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_15rows")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_15rows' is clicked on
+
+2022-05-12 15:28:49 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_15rows' is clicked on
+
+2022-05-12 15:28:49 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("WEB/Transactions/ViewByRows/16th_row"), 0): Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/16th_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[16]' is not present after '30' second(s)
+
+2022-05-12 15:28:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 15:28:49 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WEB/Transactions/ViewByRows/16th_row' located by 'By.xpath: /html/body/div[1]/div[1]/main/div/div/div/div/div[1]/table/tbody/tr[16]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Transactions/ViewByAllRows" time="1.122" classname="Test Cases/WEB/Transactions/ViewByAllRows" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:28:49 - [TEST_CASE][PASSED] - Test Cases/WEB/Transactions/ViewByAllRows: Test Cases/WEB/Transactions/ViewByAllRows
+
+2022-05-12 15:28:50 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:50 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:50 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Auth/Logout/user_ico")): NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:28:50 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Auth/Logout/user_ico"))
+
+2022-05-12 15:28:50 - [TEST_STEP][NOT_RUN] - click(findTestObject("WEB/Transactions/Payment/transaction_ico")): NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:28:50 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("WEB/Transactions/Payment/transaction_ico"))
+
+2022-05-12 15:28:50 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_ico")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:28:50 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_ico' is clicked on
+
+2022-05-12 15:28:50 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Transactions/ViewByRows/select_allrows")): Object: 'Object Repository/WEB/Transactions/ViewByRows/select_allrows' is clicked on
+
+2022-05-12 15:28:50 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Transactions/ViewByRows/select_allrows' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Homepage/GiveStarRating" time="20.73" classname="Test Cases/WEB/Homepage/GiveStarRating" status="PASSED">
+         <system-out><![CDATA[2022-05-12 15:28:50 - [TEST_CASE][PASSED] - Test Cases/WEB/Homepage/GiveStarRating: Test Cases/WEB/Homepage/GiveStarRating
+
+2022-05-12 15:28:51 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("WEB/Transactions/Payment"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("WEB/Transactions/Payment"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:51 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("WEB/Transactions/Payment"), [:], CONTINUE_ON_FAILURE)
+
+2022-05-12 15:28:51 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.alta.id/"): Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:28:51 - [MESSAGE][PASSED] - Navigate to 'https://qa.alta.id/' successfully
+
+2022-05-12 15:28:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("WEB/Homepage/SelectCategory/button_detail"), 0): Scroll to object 'Object Repository/WEB/Homepage/SelectCategory/button_detail' successfully
+
+2022-05-12 15:28:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-12 15:28:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WEB/Homepage/SelectCategory/button_detail' successfully
+
+2022-05-12 15:28:55 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/SelectCategory/button_detail")): Object: 'Object Repository/WEB/Homepage/SelectCategory/button_detail' is clicked on
+
+2022-05-12 15:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/SelectCategory/button_detail' is clicked on
+
+2022-05-12 15:29:04 - [TEST_STEP][PASSED] - for ([i = 1, i <= 5, (i++)]): Actual text and expected text of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are matched.
+
+2022-05-12 15:29:04 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_1' is clicked on
+
+2022-05-12 15:29:06 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_1' is clicked on
+
+2022-05-12 15:29:06 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 15:29:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): Actual text and expected text of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are matched.
+
+2022-05-12 15:29:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are matched.
+
+2022-05-12 15:29:06 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_2' is clicked on
+
+2022-05-12 15:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_2' is clicked on
+
+2022-05-12 15:29:07 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 15:29:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): Actual text and expected text of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are matched.
+
+2022-05-12 15:29:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are matched.
+
+2022-05-12 15:29:08 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_3' is clicked on
+
+2022-05-12 15:29:08 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_3' is clicked on
+
+2022-05-12 15:29:08 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 15:29:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): Actual text and expected text of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are matched.
+
+2022-05-12 15:29:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are matched.
+
+2022-05-12 15:29:09 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_4' is clicked on
+
+2022-05-12 15:29:09 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_4' is clicked on
+
+2022-05-12 15:29:09 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 15:29:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): Actual text and expected text of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are matched.
+
+2022-05-12 15:29:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are matched.
+
+2022-05-12 15:29:10 - [TEST_STEP][PASSED] - click(findTestObject("WEB/Homepage/GiveRating/rating_" + i)): Object: 'Object Repository/WEB/Homepage/GiveRating/rating_5' is clicked on
+
+2022-05-12 15:29:10 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/Homepage/GiveRating/rating_5' is clicked on
+
+2022-05-12 15:29:10 - [TEST_STEP][PASSED] - rate = "(" + i + ")": null
+
+2022-05-12 15:29:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("WEB/Homepage/GiveRating/rating_text"), rate): Actual text and expected text of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are matched.
+
+2022-05-12 15:29:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WEB/Homepage/GiveRating/rating_text' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-12 15:27:36 - [TEST_SUITE][PASSED] - WEB: Test Cases/WEB/Homepage/GiveStarRating]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

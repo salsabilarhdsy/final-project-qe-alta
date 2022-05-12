@@ -1,4 +1,4 @@
-name: Mini Project
+name: Mini Project - QE
 on:
   push:
     branches: [ main ]

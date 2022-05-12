@@ -17,10 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('WEB/Homepage/AddToCart'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('WEB/Homepage/AddToCart'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 int jml = WebUI.getText(findTestObject('WEB/Homepage/AddToCart/jml_product'))
+
 int price = Integer.parseInt(WebUI.getText(findTestObject('WEB/Transactions/IncreaseQuantity/price')))
+
 int total_awal = Integer.parseInt(WebUI.getText(findTestObject('WEB/Transactions/IncreaseQuantity/total_price')))
 
 WebUI.click(findTestObject('WEB/Transactions/IncreaseQuantity/add_quantity'))
@@ -29,7 +31,7 @@ int jml_2 = WebUI.getText(findTestObject('WEB/Homepage/AddToCart/jml_product'))
 
 int total_akhir = Integer.parseInt(WebUI.getText(findTestObject('WEB/Transactions/IncreaseQuantity/total_price')))
 
-WebUI.verifyEqual(jml+1, jml_2)
+WebUI.verifyEqual(jml + 1, jml_2)
 
-WebUI.verifyEqual(total_awal+price, total_akhir)
+WebUI.verifyEqual(total_awal + price, total_akhir)
 

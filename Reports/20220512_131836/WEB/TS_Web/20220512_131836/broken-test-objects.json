@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Homepage/SelectCategory/div_kesehatan",
+      "brokenLocator": "/html/body/div/div[2]/div/div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div[135]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220512_131836/WEB/TS_Web/20220512_131836/Object Repository/WEB/Homepage/SelectCategory/div_kesehatan_position.png"
+    }
+  ]
+}

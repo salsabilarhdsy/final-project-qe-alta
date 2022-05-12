@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('WEB/Auth/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('WEB/Auth/Login_Success'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('WEB/Auth/Logout/user_ico'))
+not_run: WebUI.click(findTestObject('WEB/Auth/Logout/user_ico'))
 
-WebUI.click(findTestObject('WEB/Transactions/Payment/transaction_ico'))
+not_run: WebUI.click(findTestObject('WEB/Transactions/Payment/transaction_ico'))
 
 WebUI.click(findTestObject('WEB/Transactions/ViewByRows/select_ico'))
 

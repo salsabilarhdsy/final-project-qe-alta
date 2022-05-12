@@ -21,33 +21,32 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qa.alta.id/')
 
-WebUI.click(findTestObject('WEB/Login/login_ico'))
+WebUI.click(findTestObject('WEB/Auth/Login/login_ico'))
 
-WebUI.click(findTestObject('WEB/Register/register_a'))
+WebUI.click(findTestObject('WEB/Auth/Register/register_a'))
 
 for (int i = 1; i <= 7; i++) {
-
     if (findTestData('WEB/Register').getValue(1, i) != '') {
-        WebUI.setText(findTestObject('WEB/Register/fullname_txtbox'), findTestData('WEB/Register').getValue(1, i))
+        WebUI.setText(findTestObject('WEB/Auth/Register/fullname_txtbox'), findTestData('WEB/Register').getValue(1, i))
     }
     
     if (findTestData('WEB/Register').getValue(2, i) != '') {
-        WebUI.setText(findTestObject('WEB/Register/email_txtbox'), findTestData('WEB/Register').getValue(2, i))
+        WebUI.setText(findTestObject('WEB/Auth/Register/email_txtbox'), findTestData('WEB/Register').getValue(2, i))
     }
     
     if (findTestData('WEB/Register').getValue(3, i) != '') {
-        WebUI.setText(findTestObject('WEB/Register/password_txtbox'), findTestData('WEB/Register').getValue(3, i))
+        WebUI.setText(findTestObject('WEB/Auth/Register/password_txtbox'), findTestData('WEB/Register').getValue(3, i))
     }
     
-    WebUI.click(findTestObject('WEB/Register/register_btn'))
-	
-	// verifikasi element untuk tc positif dan negatif dengan kondisi if
+    WebUI.click(findTestObject('WEB/Auth/Register/register_btn'))
+
+    // verifikasi element untuk tc positif dan negatif dengan kondisi if
     if (findTestData('WEB/Register').getValue(4, i) == 'negative') {
-        WebUI.verifyElementPresent(findTestObject('WEB/Register/alert_msg'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+        WebUI.verifyElementPresent(findTestObject('WEB/Auth/Register/alert_msg'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+
         WebUI.navigateToUrl('https://qa.alta.id/auth/register')
     } else {
-        WebUI.verifyElementPresent(findTestObject('WEB/Login/login_btn'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+        WebUI.verifyElementPresent(findTestObject('WEB/Auth/Login/login_btn'), 2, FailureHandling.CONTINUE_ON_FAILURE)
     }
-	
 }
 

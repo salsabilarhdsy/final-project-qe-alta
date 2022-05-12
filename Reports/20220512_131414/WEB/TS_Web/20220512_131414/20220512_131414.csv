@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Web,Chrome 101.0.4951.54,,,2022-05-12 13:14:18,2022-05-12 13:15:51,1m - 32.875s,FAILED
+,,,,,,,
+Test Cases/WEB/Homepage/DetailProduct,Chrome 101.0.4951.54,,,2022-05-12 13:14:18,2022-05-12 13:14:31,13.066s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-12 13:14:19,2022-05-12 13:14:22,3.283s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-12 13:14:22,2022-05-12 13:14:25,3.210s,PASSED
+"name = getText(findTestObject(""WEB/Homepage/DetailProduct/HP_name""))",Chrome 101.0.4951.54,,,2022-05-12 13:14:25,2022-05-12 13:14:29,3.559s,PASSED
+"click(findTestObject(""WEB/Homepage/DetailProduct/button_Detail""))",Chrome 101.0.4951.54,,,2022-05-12 13:14:29,2022-05-12 13:14:29,0.549s,PASSED
+"d_name = getText(findTestObject(""WEB/Homepage/DetailProduct/Detail_name""))",Chrome 101.0.4951.54,,,2022-05-12 13:14:29,2022-05-12 13:14:31,1.840s,PASSED
+"verifyEqual(name, d_name)",Chrome 101.0.4951.54,,,2022-05-12 13:14:31,2022-05-12 13:14:31,0.029s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/FilterByCategory,Chrome 101.0.4951.54,,,2022-05-12 13:14:31,2022-05-12 13:15:51,1m - 19.367s,FAILED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-12 13:14:32,2022-05-12 13:14:34,2.365s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-12 13:14:34,2022-05-12 13:14:37,2.719s,PASSED
+"click(findTestObject(""WEB/Homepage/SelectCategory/select_category""))",Chrome 101.0.4951.54,,,2022-05-12 13:14:37,2022-05-12 13:14:40,3.733s,PASSED
+"click(findTestObject(""WEB/Homepage/SelectCategory/div_kesehatan""))",Chrome 101.0.4951.54,,,2022-05-12 13:14:40,2022-05-12 13:15:50,1m - 9.762s,FAILED
+"verifyElementPresent(findTestObject(""WEB/Homepage/SelectCategory/product_empty""), 0)",Chrome 101.0.4951.54,,,2022-05-12 13:15:50,2022-05-12 13:15:51,0.411s,PASSED
