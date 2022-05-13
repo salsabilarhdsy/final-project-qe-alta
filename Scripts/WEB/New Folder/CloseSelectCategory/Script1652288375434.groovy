@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('WEB/New Folder/FilterByCategory'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.click(findTestObject('WEB/Homepage/SelectCategory/close_category'))
 
 WebUI.verifyElementPresent(findTestObject('WEB/Homepage/SelectCategory/product_element_nocategory'), 2)

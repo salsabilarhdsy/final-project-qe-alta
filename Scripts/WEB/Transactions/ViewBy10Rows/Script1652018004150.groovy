@@ -17,15 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('WEB/Auth/Login_Success'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
 
-not_run: WebUI.click(findTestObject('WEB/Auth/Logout/user_ico'))
+WebUI.maximizeWindow()
 
-not_run: WebUI.click(findTestObject('WEB/Transactions/Payment/transaction_ico'))
+WebUI.navigateToUrl('https://qa.alta.id/')
+
+WebUI.callTestCase(findTestCase('WEB/Auth/Login_Success'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('WEB/Auth/Logout/user_ico'))
+
+WebUI.click(findTestObject('WEB/Transactions/Payment/transaction_ico'))
 
 WebUI.click(findTestObject('WEB/Transactions/ViewByRows/select_ico'))
 
 WebUI.click(findTestObject('WEB/Transactions/ViewByRows/select_10rows'))
 
 WebUI.verifyElementNotPresent(findTestObject('WEB/Transactions/ViewByRows/11st_row'), 0)
+
+WebUI.closeBrowser()
 

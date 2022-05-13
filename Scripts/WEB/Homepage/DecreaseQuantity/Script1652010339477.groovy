@@ -17,7 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('WEB/Homepage/IncreaseQuantity'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://qa.alta.id/')
+
+WebUI.callTestCase(findTestCase('WEB/Auth/Login_Success'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('WEB/Homepage/AddToCart/button_Beli'))
+
+WebUI.click(findTestObject('WEB/Homepage/AddToCart/button_Cart'))
+
+WebUI.click(findTestObject('WEB/Transactions/IncreaseQuantity/add_quantity'))
 
 int jml = WebUI.getText(findTestObject('WEB/Homepage/AddToCart/jml_product'))
 
@@ -34,4 +46,6 @@ int total_akhir = Integer.parseInt(WebUI.getText(findTestObject('WEB/Transaction
 WebUI.verifyEqual(jml - 1, jml_2)
 
 WebUI.verifyEqual(total_awal - price, total_akhir)
+
+WebUI.closeBrowser()
 

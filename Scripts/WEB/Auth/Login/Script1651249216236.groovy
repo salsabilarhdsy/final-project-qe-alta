@@ -35,6 +35,7 @@ for (int i = 1; i <= 6; i++) {
     } else {
         WebUI.verifyElementPresent(findTestObject('WEB/Auth/Logout/user_ico'), 2, FailureHandling.CONTINUE_ON_FAILURE)
     }
-
 }
+
+WebUI.closeBrowser()
 

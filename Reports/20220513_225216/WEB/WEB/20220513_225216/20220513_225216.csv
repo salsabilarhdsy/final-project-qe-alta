@@ -1,0 +1,154 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WEB,Chrome 101.0.4951.54,,,2022-05-13 22:52:21,2022-05-13 22:59:20,6m - 59.778s,FAILED
+,,,,,,,
+Test Cases/WEB/Auth/Register,Chrome 101.0.4951.54,,,2022-05-13 22:52:21,2022-05-13 22:53:12,50.400s,FAILED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-13 22:52:22,2022-05-13 22:52:27,4.458s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-13 22:52:27,2022-05-13 22:52:27,0.287s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-13 22:52:27,2022-05-13 22:52:29,1.981s,PASSED
+"click(findTestObject(""WEB/Auth/Login/login_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:52:29,2022-05-13 22:52:34,5.367s,PASSED
+"click(findTestObject(""WEB/Auth/Register/register_a""))",Chrome 101.0.4951.54,,,2022-05-13 22:52:34,2022-05-13 22:52:35,0.911s,PASSED
+"for ([i = 1, i <= 7, (i++)])",Chrome 101.0.4951.54,,,2022-05-13 22:52:35,2022-05-13 22:53:10,35.316s,FAILED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-13 22:53:10,2022-05-13 22:53:12,1.281s,PASSED
+,,,,,,,
+Test Cases/WEB/Auth/Login,Chrome 101.0.4951.54,,,2022-05-13 22:53:12,2022-05-13 22:54:28,1m - 16.519s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-13 22:53:12,2022-05-13 22:53:14,1.847s,PASSED
+"for ([i = 1, i <= 6, (i++)])",Chrome 101.0.4951.54,,,2022-05-13 22:53:14,2022-05-13 22:54:27,1m - 13.001s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-13 22:54:27,2022-05-13 22:54:28,0.934s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/DetailProduct,Chrome 101.0.4951.54,,,2022-05-13 22:54:28,2022-05-13 22:54:42,13.535s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-13 22:54:29,2022-05-13 22:54:31,2.006s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-13 22:54:31,2022-05-13 22:54:31,0.158s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-13 22:54:31,2022-05-13 22:54:33,2.000s,PASSED
+"name = getText(findTestObject(""WEB/Homepage/DetailProduct/HP_name""))",Chrome 101.0.4951.54,,,2022-05-13 22:54:33,2022-05-13 22:54:39,5.663s,PASSED
+"click(findTestObject(""WEB/Homepage/DetailProduct/button_Detail""))",Chrome 101.0.4951.54,,,2022-05-13 22:54:39,2022-05-13 22:54:39,0.752s,PASSED
+"d_name = getText(findTestObject(""WEB/Homepage/DetailProduct/Detail_name""))",Chrome 101.0.4951.54,,,2022-05-13 22:54:39,2022-05-13 22:54:41,1.420s,PASSED
+"verifyEqual(name, d_name)",Chrome 101.0.4951.54,,,2022-05-13 22:54:41,2022-05-13 22:54:41,0.065s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-13 22:54:41,2022-05-13 22:54:42,1.000s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/AddToCart,Chrome 101.0.4951.54,,,2022-05-13 22:54:42,2022-05-13 22:55:06,24.082s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-13 22:54:42,2022-05-13 22:54:44,1.996s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-13 22:54:44,2022-05-13 22:54:44,0.158s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-13 22:54:44,2022-05-13 22:54:46,1.585s,PASSED
+"callTestCase(findTestCase(""WEB/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-13 22:54:46,2022-05-13 22:55:02,15.989s,PASSED
+"click(findTestObject(""WEB/Homepage/AddToCart/button_Beli""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:02,2022-05-13 22:55:03,0.522s,PASSED
+"name = getText(findTestObject(""WEB/Homepage/AddToCart/div_name""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:03,2022-05-13 22:55:03,0.554s,PASSED
+"click(findTestObject(""WEB/Homepage/AddToCart/button_Cart""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:03,2022-05-13 22:55:04,0.552s,PASSED
+"cName = getText(findTestObject(""WEB/Homepage/AddToCart/div_cartName""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:04,2022-05-13 22:55:04,0.715s,PASSED
+"verifyEqual(name, cName)",Chrome 101.0.4951.54,,,2022-05-13 22:55:04,2022-05-13 22:55:04,0.008s,PASSED
+"verifyElementText(findTestObject(""WEB/Homepage/AddToCart/jml_product""), ""1"")",Chrome 101.0.4951.54,,,2022-05-13 22:55:04,2022-05-13 22:55:05,0.541s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-13 22:55:05,2022-05-13 22:55:06,0.984s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/IncreaseQuantity,Chrome 101.0.4951.54,,,2022-05-13 22:55:06,2022-05-13 22:55:32,26.365s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-13 22:55:06,2022-05-13 22:55:08,1.822s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-13 22:55:08,2022-05-13 22:55:08,0.179s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-13 22:55:08,2022-05-13 22:55:11,2.181s,PASSED
+"callTestCase(findTestCase(""WEB/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-13 22:55:11,2022-05-13 22:55:27,15.909s,PASSED
+"click(findTestObject(""WEB/Homepage/AddToCart/button_Beli""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:27,2022-05-13 22:55:27,0.612s,PASSED
+"click(findTestObject(""WEB/Homepage/AddToCart/button_Cart""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:27,2022-05-13 22:55:28,0.630s,PASSED
+"jml = getText(findTestObject(""WEB/Homepage/AddToCart/jml_product""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:28,2022-05-13 22:55:28,0.680s,PASSED
+"price = Integer.parseInt(getText(findTestObject(""WEB/Transactions/IncreaseQuantity/price"")))",Chrome 101.0.4951.54,,,2022-05-13 22:55:28,2022-05-13 22:55:29,0.493s,PASSED
+"total_awal = Integer.parseInt(getText(findTestObject(""WEB/Transactions/IncreaseQuantity/total_price"")))",Chrome 101.0.4951.54,,,2022-05-13 22:55:29,2022-05-13 22:55:29,0.438s,PASSED
+"click(findTestObject(""WEB/Transactions/IncreaseQuantity/add_quantity""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:29,2022-05-13 22:55:30,0.432s,PASSED
+"jml_2 = getText(findTestObject(""WEB/Homepage/AddToCart/jml_product""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:30,2022-05-13 22:55:30,0.541s,PASSED
+"total_akhir = Integer.parseInt(getText(findTestObject(""WEB/Transactions/IncreaseQuantity/total_price"")))",Chrome 101.0.4951.54,,,2022-05-13 22:55:30,2022-05-13 22:55:31,0.534s,PASSED
+"verifyEqual(jml + 1, jml_2)",Chrome 101.0.4951.54,,,2022-05-13 22:55:31,2022-05-13 22:55:31,0.000s,PASSED
+"verifyEqual(total_awal + price, total_akhir)",Chrome 101.0.4951.54,,,2022-05-13 22:55:31,2022-05-13 22:55:31,0.000s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-13 22:55:31,2022-05-13 22:55:32,1.328s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/DecreaseQuantity,Chrome 101.0.4951.54,,,2022-05-13 22:55:32,2022-05-13 22:56:00,27.241s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-13 22:55:33,2022-05-13 22:55:35,1.798s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-13 22:55:35,2022-05-13 22:55:35,0.171s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-13 22:55:35,2022-05-13 22:55:37,2.192s,PASSED
+"callTestCase(findTestCase(""WEB/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-13 22:55:37,2022-05-13 22:55:53,15.723s,PASSED
+"click(findTestObject(""WEB/Homepage/AddToCart/button_Beli""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:53,2022-05-13 22:55:53,0.582s,PASSED
+"click(findTestObject(""WEB/Homepage/AddToCart/button_Cart""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:53,2022-05-13 22:55:54,0.718s,PASSED
+"click(findTestObject(""WEB/Transactions/IncreaseQuantity/add_quantity""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:54,2022-05-13 22:55:55,0.835s,PASSED
+"jml = getText(findTestObject(""WEB/Homepage/AddToCart/jml_product""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:55,2022-05-13 22:55:55,0.515s,PASSED
+"price = Integer.parseInt(getText(findTestObject(""WEB/Transactions/IncreaseQuantity/price"")))",Chrome 101.0.4951.54,,,2022-05-13 22:55:55,2022-05-13 22:55:56,0.565s,PASSED
+"total_awal = Integer.parseInt(getText(findTestObject(""WEB/Transactions/IncreaseQuantity/total_price"")))",Chrome 101.0.4951.54,,,2022-05-13 22:55:56,2022-05-13 22:55:56,0.437s,PASSED
+"click(findTestObject(""WEB/Transactions/IncreaseQuantity/decrease_quantity""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:56,2022-05-13 22:55:57,0.413s,PASSED
+"jml_2 = getText(findTestObject(""WEB/Homepage/AddToCart/jml_product""))",Chrome 101.0.4951.54,,,2022-05-13 22:55:57,2022-05-13 22:55:57,0.528s,PASSED
+"total_akhir = Integer.parseInt(getText(findTestObject(""WEB/Transactions/IncreaseQuantity/total_price"")))",Chrome 101.0.4951.54,,,2022-05-13 22:55:57,2022-05-13 22:55:58,0.517s,PASSED
+"verifyEqual(jml - 1, jml_2)",Chrome 101.0.4951.54,,,2022-05-13 22:55:58,2022-05-13 22:55:58,0.016s,PASSED
+"verifyEqual(total_awal - price, total_akhir)",Chrome 101.0.4951.54,,,2022-05-13 22:55:58,2022-05-13 22:55:58,0.000s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-13 22:55:58,2022-05-13 22:56:00,1.766s,PASSED
+,,,,,,,
+Test Cases/WEB/Transactions/Payment,Chrome 101.0.4951.54,,,2022-05-13 22:56:00,2022-05-13 22:56:28,28.659s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-13 22:56:00,2022-05-13 22:56:02,1.817s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-13 22:56:02,2022-05-13 22:56:02,0.153s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-13 22:56:02,2022-05-13 22:56:04,1.724s,PASSED
+"callTestCase(findTestCase(""WEB/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-13 22:56:04,2022-05-13 22:56:22,17.982s,PASSED
+"click(findTestObject(""WEB/Homepage/AddToCart/button_Beli""))",Chrome 101.0.4951.54,,,2022-05-13 22:56:22,2022-05-13 22:56:22,0.540s,PASSED
+"click(findTestObject(""WEB/Homepage/AddToCart/button_Cart""))",Chrome 101.0.4951.54,,,2022-05-13 22:56:22,2022-05-13 22:56:23,0.541s,PASSED
+"total = getText(findTestObject(""WEB/Transactions/IncreaseQuantity/total_price""))",Chrome 101.0.4951.54,,,2022-05-13 22:56:23,2022-05-13 22:56:23,0.708s,PASSED
+"cName = getText(findTestObject(""WEB/Homepage/AddToCart/div_cartName""))",Chrome 101.0.4951.54,,,2022-05-13 22:56:23,2022-05-13 22:56:24,0.790s,PASSED
+"click(findTestObject(""WEB/Transactions/Payment/button_bayar""))",Chrome 101.0.4951.54,,,2022-05-13 22:56:24,2022-05-13 22:56:25,0.467s,PASSED
+"name = getText(findTestObject(""WEB/Transactions/Payment/product_name""))",Chrome 101.0.4951.54,,,2022-05-13 22:56:25,2022-05-13 22:56:26,1.421s,PASSED
+"total_payment = getText(findTestObject(""WEB/Transactions/Payment/product_total""))",Chrome 101.0.4951.54,,,2022-05-13 22:56:26,2022-05-13 22:56:27,0.437s,PASSED
+"verifyEqual(total, total_payment)",Chrome 101.0.4951.54,,,2022-05-13 22:56:27,2022-05-13 22:56:27,0.016s,PASSED
+"verifyEqual(cName, name)",Chrome 101.0.4951.54,,,2022-05-13 22:56:27,2022-05-13 22:56:27,0.000s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-13 22:56:27,2022-05-13 22:56:28,1.625s,PASSED
+,,,,,,,
+Test Cases/WEB/Homepage/GiveStarRating,Chrome 101.0.4951.54,,,2022-05-13 22:56:28,2022-05-13 22:56:49,20.367s,FAILED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-13 22:56:29,2022-05-13 22:56:30,1.855s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-13 22:56:30,2022-05-13 22:56:31,0.151s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-13 22:56:31,2022-05-13 22:56:33,2.176s,PASSED
+"click(findTestObject(""WEB/Homepage/SelectCategory/button_detail""))",Chrome 101.0.4951.54,,,2022-05-13 22:56:33,2022-05-13 22:56:38,5.332s,PASSED
+"for ([i = 1, i <= 5, (i++)])",Chrome 101.0.4951.54,,,2022-05-13 22:56:38,2022-05-13 22:56:47,9.062s,FAILED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-13 22:56:47,2022-05-13 22:56:49,1.369s,PASSED
+,,,,,,,
+Test Cases/WEB/Transactions/ViewBy15Rows,Chrome 101.0.4951.54,,,2022-05-13 22:56:49,2022-05-13 22:57:14,25.697s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-13 22:56:49,2022-05-13 22:56:51,1.881s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-13 22:56:51,2022-05-13 22:56:51,0.169s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-13 22:56:51,2022-05-13 22:56:53,1.682s,PASSED
+"callTestCase(findTestCase(""WEB/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-13 22:56:53,2022-05-13 22:57:08,15.550s,PASSED
+"click(findTestObject(""WEB/Auth/Logout/user_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:57:08,2022-05-13 22:57:09,0.495s,PASSED
+"click(findTestObject(""WEB/Transactions/Payment/transaction_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:57:09,2022-05-13 22:57:10,0.766s,PASSED
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:57:10,2022-05-13 22:57:11,1.658s,PASSED
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_15rows""))",Chrome 101.0.4951.54,,,2022-05-13 22:57:11,2022-05-13 22:57:12,0.650s,PASSED
+"verifyElementNotPresent(findTestObject(""WEB/Transactions/ViewByRows/16th_row""), 0)",Chrome 101.0.4951.54,,,2022-05-13 22:57:12,2022-05-13 22:57:13,1.033s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-13 22:57:13,2022-05-13 22:57:14,1.375s,PASSED
+,,,,,,,
+Test Cases/WEB/Transactions/ViewBy10Rows,Chrome 101.0.4951.54,,,2022-05-13 22:57:14,2022-05-13 22:57:40,25.670s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-13 22:57:15,2022-05-13 22:57:16,1.781s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-13 22:57:16,2022-05-13 22:57:17,0.162s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-13 22:57:17,2022-05-13 22:57:19,1.992s,PASSED
+"callTestCase(findTestCase(""WEB/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-13 22:57:19,2022-05-13 22:57:35,16.694s,PASSED
+"click(findTestObject(""WEB/Auth/Logout/user_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:57:35,2022-05-13 22:57:36,0.464s,PASSED
+"click(findTestObject(""WEB/Transactions/Payment/transaction_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:57:36,2022-05-13 22:57:36,0.666s,PASSED
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:57:36,2022-05-13 22:57:38,1.210s,PASSED
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_10rows""))",Chrome 101.0.4951.54,,,2022-05-13 22:57:38,2022-05-13 22:57:38,0.515s,PASSED
+"verifyElementNotPresent(findTestObject(""WEB/Transactions/ViewByRows/11st_row""), 0)",Chrome 101.0.4951.54,,,2022-05-13 22:57:38,2022-05-13 22:57:39,0.545s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-13 22:57:39,2022-05-13 22:57:40,1.235s,PASSED
+,,,,,,,
+Test Cases/WEB/Transactions/ViewBy5Rows,Chrome 101.0.4951.54,,,2022-05-13 22:57:40,2022-05-13 22:58:05,25.210s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-13 22:57:40,2022-05-13 22:57:42,1.961s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-13 22:57:42,2022-05-13 22:57:43,0.175s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-13 22:57:43,2022-05-13 22:57:45,2.103s,PASSED
+"callTestCase(findTestCase(""WEB/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-13 22:57:45,2022-05-13 22:58:00,15.547s,PASSED
+"click(findTestObject(""WEB/Auth/Logout/user_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:58:00,2022-05-13 22:58:01,0.448s,PASSED
+"click(findTestObject(""WEB/Transactions/Payment/transaction_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:58:01,2022-05-13 22:58:01,0.758s,PASSED
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:58:01,2022-05-13 22:58:03,1.510s,PASSED
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_5rows""))",Chrome 101.0.4951.54,,,2022-05-13 22:58:03,2022-05-13 22:58:04,0.735s,PASSED
+"verifyElementNotPresent(findTestObject(""WEB/Transactions/ViewByRows/6th_row""), 0)",Chrome 101.0.4951.54,,,2022-05-13 22:58:04,2022-05-13 22:58:04,0.512s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-13 22:58:04,2022-05-13 22:58:05,0.953s,PASSED
+,,,,,,,
+Test Cases/WEB/Transactions/ViewByAllRows,Chrome 101.0.4951.54,,,2022-05-13 22:58:05,2022-05-13 22:58:31,25.487s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-13 22:58:06,2022-05-13 22:58:07,1.760s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-13 22:58:07,2022-05-13 22:58:07,0.184s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-13 22:58:07,2022-05-13 22:58:09,1.993s,PASSED
+"callTestCase(findTestCase(""WEB/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-13 22:58:09,2022-05-13 22:58:26,16.246s,PASSED
+"click(findTestObject(""WEB/Auth/Logout/user_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:58:26,2022-05-13 22:58:26,0.642s,PASSED
+"click(findTestObject(""WEB/Transactions/Payment/transaction_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:58:26,2022-05-13 22:58:27,0.711s,PASSED
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:58:27,2022-05-13 22:58:29,1.632s,PASSED
+"click(findTestObject(""WEB/Transactions/ViewByRows/select_allrows""))",Chrome 101.0.4951.54,,,2022-05-13 22:58:29,2022-05-13 22:58:29,0.694s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-13 22:58:29,2022-05-13 22:58:31,1.218s,PASSED
+,,,,,,,
+Test Cases/WEB/Auth/Logout,Chrome 101.0.4951.54,,,2022-05-13 22:58:31,2022-05-13 22:59:20,49.875s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-13 22:58:31,2022-05-13 22:58:34,2.779s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-13 22:58:34,2022-05-13 22:58:34,0.167s,PASSED
+"navigateToUrl(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-13 22:58:34,2022-05-13 22:58:36,1.972s,PASSED
+"click(findTestObject(""WEB/Auth/Logout/user_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:58:36,2022-05-13 22:58:44,7.747s,PASSED
+"click(findTestObject(""WEB/Auth/Logout/logout_ico""))",Chrome 101.0.4951.54,,,2022-05-13 22:58:44,2022-05-13 22:59:18,33.890s,PASSED
+"verifyElementPresent(findTestObject(""WEB/Auth/Login/login_ico""), 0)",Chrome 101.0.4951.54,,,2022-05-13 22:59:18,2022-05-13 22:59:20,1.855s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-13 22:59:20,2022-05-13 22:59:20,0.907s,PASSED

@@ -12,81 +12,81 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>985f8bfc-7bbb-4ed6-8ac1-9731bd24ba37</testSuiteGuid>
    <testCaseLink>
-      <guid>d8d51a45-6e4b-4463-a667-628db08d8b8b</guid>
+      <guid>ef7b99b0-12dd-48b9-8e5c-507a6fa59927</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/Auth/Register</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f3e05c02-1bfc-4bba-b6f0-e4c6c8821afd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/Auth/Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>799ca25d-2877-4b2d-a252-11dea9c0f1d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WEB/Homepage/DetailProduct</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ea372f43-3e15-4fd2-8eaf-e9c1f6525030</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/WEB/Homepage/FilterByCategory</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>349db452-f6e7-415b-acfb-ccb07c39730b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/WEB/Homepage/CloseSelectCategory</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0b07ae98-42a4-4a6a-aa31-4224b10c0984</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/WEB/Auth/Login_Success</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9854b5c7-ffe4-433a-8be0-89bf73badd3a</guid>
+      <guid>e69bf092-8e9f-4a38-8e8e-877534e87f36</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WEB/Homepage/AddToCart</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1688660b-7cb7-4640-9c47-103af62e82c3</guid>
+      <guid>1bacae37-92c2-41d0-8830-4c60498fad1d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WEB/Homepage/IncreaseQuantity</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b16b6106-5a12-4df9-a5e8-647baf08c086</guid>
+      <guid>01a7b25d-c4d9-43de-8ca9-cfe17a200b0b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WEB/Homepage/DecreaseQuantity</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d981202f-8a4f-40e5-8af9-399acf91dd4f</guid>
+      <guid>fae3ae8e-0364-4652-bae2-4a1e9f9f126a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WEB/Transactions/Payment</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5649d500-97a7-4518-b47a-02c0959cceab</guid>
+      <guid>15fb3eb0-5f61-4a57-9431-2631f9ae74b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/WEB/Transactions/ViewByAllRows</testCaseId>
+      <testCaseId>Test Cases/WEB/Homepage/GiveStarRating</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1a7921b5-d5c9-42c4-9a2a-f3440cb6aa0a</guid>
+      <guid>a23ae825-d9a8-43e6-8f45-0f44a0df09f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WEB/Transactions/ViewBy15Rows</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9ceb5a3a-6c26-406a-ba95-c6b9c9060f8f</guid>
+      <guid>99a22619-d00b-4f25-b402-8932b71bb450</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WEB/Transactions/ViewBy10Rows</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b90a4894-c9b6-4107-9951-c8a01ccac7fc</guid>
+      <guid>477c3f52-061d-4908-9b69-d1928d730e0d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WEB/Transactions/ViewBy5Rows</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7396a59e-cc76-4626-8806-7306580c6194</guid>
+      <guid>89e8b202-f64e-4863-adc1-227428597314</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/WEB/Homepage/GiveStarRating</testCaseId>
+      <testCaseId>Test Cases/WEB/Transactions/ViewByAllRows</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ff3c5e9d-70f1-4575-8ac1-d4c2b169bd0a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/Auth/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

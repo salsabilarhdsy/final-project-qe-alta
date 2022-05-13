@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Auth/Logout/logout_ico",
+      "brokenLocator": "/html/body/div[1]/div[2]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/header/div/button[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220513_211902/WEB/WEB/20220513_211902/Object Repository/WEB/Auth/Logout/logout_ico_idRelative.png"
+    }
+  ]
+}

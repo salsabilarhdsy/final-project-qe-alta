@@ -17,12 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://qa.alta.id/')
-
 WebUI.click(findTestObject('WEB/Auth/Login/login_ico'))
 
 WebUI.setText(findTestObject('WEB/Auth/Login/email_txtbox'), 'salsabila@gmail.com')

@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('WEB/Transactions/Payment'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://qa.alta.id/')
 
@@ -30,4 +32,6 @@ for (int i = 1; i <= 5; i++) {
 
     WebUI.verifyElementText(findTestObject('WEB/Homepage/GiveRating/rating_text'), rate)
 }
+
+WebUI.closeBrowser()
 

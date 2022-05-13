@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://qa.alta.id/')
 
 WebUI.click(findTestObject('WEB/Auth/Login/login_ico'))
@@ -49,4 +51,6 @@ for (int i = 1; i <= 7; i++) {
         WebUI.verifyElementPresent(findTestObject('WEB/Auth/Login/login_btn'), 2, FailureHandling.CONTINUE_ON_FAILURE)
     }
 }
+
+WebUI.closeBrowser()
 

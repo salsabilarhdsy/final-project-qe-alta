@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://qa.alta.id/')
 
 name = WebUI.getText(findTestObject('WEB/Homepage/DetailProduct/HP_name'))
@@ -28,4 +30,6 @@ WebUI.click(findTestObject('WEB/Homepage/DetailProduct/button_Detail'))
 d_name = WebUI.getText(findTestObject('WEB/Homepage/DetailProduct/Detail_name'))
 
 WebUI.verifyEqual(name, d_name)
+
+WebUI.closeBrowser()
 
