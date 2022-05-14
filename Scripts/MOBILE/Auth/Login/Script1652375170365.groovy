@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.example.frontend_mobile')
+for (int i = 1; i <= 7; i++) {
+    Mobile.startExistingApplication('com.example.frontend_mobile')
 
-Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Login 2'), 5)
+    Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Login 2'), 0)
 
-for (int i = 1; i <= 6; i++) {
     Mobile.tap(findTestObject('MOBILE/Auth/Login/android.widget.EditText - Email'), 0)
 
     Mobile.setText(findTestObject('MOBILE/Auth/Login/android.widget.EditText - Email'), findTestData('WEB/Login').getValue(
@@ -33,11 +33,14 @@ for (int i = 1; i <= 6; i++) {
             2, i), 0)
 
     Mobile.tap(findTestObject('MOBILE/Auth/Login/android.widget.Button - Login Button'), 0)
+	
+	Mobile.pressBack()
 
     if (findTestData('WEB/Login').getValue(3, i) == 'negative') {
         Mobile.verifyElementExist(findTestObject('MOBILE/Auth/Login/android.widget.Button - Login Button'), 3)
     } else {
         Mobile.verifyElementExist(findTestObject('MOBILE/Auth/Logout/android.widget.Button - Logout'), 3)
     }
+	Mobile.pressBack()
 }
 

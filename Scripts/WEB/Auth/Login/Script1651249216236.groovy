@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-for (int i = 1; i <= 6; i++) {
+for (int i = 1; i <= 7; i++) {
+	WebUI.openBrowser('')
+	
     WebUI.navigateToUrl('https://qa.alta.id/')
 
     WebUI.click(findTestObject('WEB/Auth/Login/login_ico'))
@@ -35,7 +35,9 @@ for (int i = 1; i <= 6; i++) {
     } else {
         WebUI.verifyElementPresent(findTestObject('WEB/Auth/Logout/user_ico'), 2, FailureHandling.CONTINUE_ON_FAILURE)
     }
+	
+	WebUI.closeBrowser()
 }
 
-WebUI.closeBrowser()
+
 

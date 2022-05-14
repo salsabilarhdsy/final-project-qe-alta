@@ -17,53 +17,54 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.example.frontend_mobile')
-
 for (int i = 1; i <= 7; i++) {
-    if (i != 6) {
-        Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Login 2'), 5)
+    Mobile.startExistingApplication('com.example.frontend_mobile')
 
-        Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Register a'), 0)
+    Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Login 2'), 5)
 
-        Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Fullname'), 0)
+    Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Register a'), 0)
 
-        if (findTestData('WEB/Register').getValue(1, i) != '') {
-            Mobile.setText(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Fullname'), findTestData('WEB/Register').getValue(
-                    1, i), 0)
-        } else {
-            Mobile.clearText(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Fullname'), 0)
-        }
-        
-        Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Email'), 0)
+    Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Fullname'), 0)
 
-        if (findTestData('WEB/Register').getValue(2, i) != '') {
-            Mobile.setText(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Email'), findTestData('WEB/Register').getValue(
-                    2, i), 0)
-        } else {
-            Mobile.clearText(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Email'), 0)
-        }
-        
-        Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Password'), 0)
-
-        if (findTestData('WEB/Register').getValue(3, i) != '') {
-            Mobile.setText(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Password'), findTestData('WEB/Register').getValue(
-                    3, i), 0)
-        } else {
-            Mobile.clearText(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Password'), 0)
-        }
-        
-        Mobile.pressBack()
-
-        Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Register button'), 0)
-
-        if (findTestData('WEB/Register').getValue(4, i) == 'negative') {
-            Mobile.verifyElementVisible(findTestObject('MOBILE/Auth/Register/android.widget.Button - Register button'), 
-                2, FailureHandling.CONTINUE_ON_FAILURE)
-
-            Mobile.pressBack()
-        } else {
-            Mobile.verifyElementVisible(findTestObject('MOBILE/Auth/Register/android.widget.Button - Login 2'), 2)
-        }
+    if (findTestData('WEB/Register').getValue(1, i) != '') {
+        Mobile.setText(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Fullname'), findTestData('WEB/Register').getValue(
+                1, i), 0)
+    } else {
+        Mobile.clearText(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Fullname'), 0)
     }
+    
+    Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Email'), 0)
+
+    if (findTestData('WEB/Register').getValue(2, i) != '') {
+        Mobile.setText(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Email'), findTestData('WEB/Register').getValue(
+                2, i), 0)
+    } else {
+        Mobile.clearText(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Email'), 0)
+    }
+    
+    Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Password'), 0)
+
+    if (findTestData('WEB/Register').getValue(3, i) != '') {
+        Mobile.setText(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Password'), findTestData('WEB/Register').getValue(
+                3, i), 0)
+    } else {
+        Mobile.clearText(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Password'), 0)
+    }
+    
+    Mobile.pressBack()
+
+    Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Register button'), 1)
+
+    if (findTestData('WEB/Register').getValue(4, i) == 'negative') {
+        Mobile.verifyElementVisible(findTestObject('MOBILE/Auth/Register/android.widget.Button - Fullname'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+
+        Mobile.pressBack()
+    } else {
+        Mobile.verifyElementVisible(findTestObject('MOBILE/Auth/Register/android.widget.Button - Login 2'), 2)
+    }
+    
+    Mobile.closeApplication()
 }
+
+Mobile.waitForElementPresent(findTestObject(null), 0)
 
