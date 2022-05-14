@@ -15,4 +15,4 @@ jobs:
       with:
           version: '8.2.5'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -browserType=Chrome -statusDelay=15 -testSuitePath="Test Suites/WEB/WEB" -apiKey="2477e32a-2f8f-4ae6-bd59-1978c15f71e0" --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -retry=0 -browserType=Appium -statusDelay=15 -testSuitePath="Test Suites/MOBILE/MOBILE" -apiKey="2477e32a-2f8f-4ae6-bd59-1978c15f71e0" --config -webui.autoUpdateDrivers=true'
