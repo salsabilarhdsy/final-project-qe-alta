@@ -17,9 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Response = WS.sendRequest(findTestObject('REST_API/06_Comments/WriteCommentToProduct'))
+WebUI.callTestCase(findTestCase('WEB/Auth/Login_Success'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyResponseStatusCode(Response, 200)
+WebUI.click(findTestObject('WEB/Homepage/AddToCart/button_Beli'))
 
-WS.verifyElementPropertyValue(Response, 'data.Content', 'mantap')
+WebUI.click(findTestObject('WEB/Homepage/AddToCart/button_Cart'))
+
+total = WebUI.getText(findTestObject('WEB/Transactions/IncreaseQuantity/total_price'))
+
+cName = WebUI.getText(findTestObject('WEB/Homepage/AddToCart/div_cartName'))
+
+WebUI.click(findTestObject('WEB/Transactions/Payment/button_bayar'))
+
+name = WebUI.getText(findTestObject('WEB/Transactions/Payment/product_name'))
+
+total_payment = WebUI.getText(findTestObject('WEB/Transactions/Payment/product_total'))
+
+WebUI.verifyEqual(total, total_payment)
+
+WebUI.verifyEqual(cName, name)
+
+WebUI.closeBrowser()
 

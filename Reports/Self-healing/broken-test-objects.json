@@ -109,6 +109,16 @@
       "proposedLocatorMethod": "BASIC",
       "recoveryMethod": "BASIC",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/WEB/Homepage/GiveRating/rating_5_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Transactions/Payment/product_total",
+      "brokenLocator": "//*[@id \u003d \u0027label-total-bayar\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "/html/body/div/div/main/div/div/div/div/div[1]/table/tbody/tr[1]/td[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/WEB/Transactions/Payment/product_total_XPATH.png"
     }
   ]
 }

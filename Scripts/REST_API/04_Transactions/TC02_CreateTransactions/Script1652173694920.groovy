@@ -21,5 +21,5 @@ Response = WS.sendRequest(findTestObject('REST_API/04_Transactions/CreateTransac
 
 WS.verifyResponseStatusCode(Response, 200)
 
-WS.verifyElementPropertyValue(Response, 'data[0].User.ID', 45)
+WS.verifyElementPropertyValue(Response, 'data[0].Product.ID', 1468)
 

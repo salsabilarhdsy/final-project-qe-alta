@@ -69,6 +69,6 @@
       <guid>dba7b87c-3211-4674-8d8d-bdaf9c9af4a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API/03_Auth/TC10_LoginInvalidPassword</testCaseId>
+      <testCaseId>Test Cases/REST_API/03_Auth/TC10_LoginUnregisteredPassword</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

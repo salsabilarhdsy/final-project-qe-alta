@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Response = WS.sendRequest(findTestObject('REST_API/03_Auth/Login_InvalidEmail'))
+Response = WS.sendRequest(findTestObject('REST_API/03_Auth/Login_UnregisteredEmail'))
 
 WS.verifyResponseStatusCode(Response, 400)
 

@@ -141,7 +141,7 @@
       <guid>2a9a8961-4a74-4ee0-9b08-d68f76249d74</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/REST_API/03_Auth/TC10_LoginInvalidPassword</testCaseId>
+      <testCaseId>Test Cases/REST_API/03_Auth/TC10_LoginUnregisteredPassword</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>69c8de39-ebd2-4e26-b4ab-0698d01513b4</guid>

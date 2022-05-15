@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Login_InvalidEmail</name>
+   <name>Login_UnregisteredEmail</name>
    <tag></tag>
    <elementGuidId>396fbe79-747c-48a7-9edc-d736481c2cea</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

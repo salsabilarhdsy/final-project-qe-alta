@@ -21,5 +21,5 @@ Response = WS.sendRequest(findTestObject('REST_API/02_Products/GetProductById'))
 
 WS.verifyResponseStatusCode(Response, 200)
 
-WS.verifyElementPropertyValue(Response, 'data.ID', 478)
+WS.verifyElementPropertyValue(Response, 'data.ID', 1468)
 
