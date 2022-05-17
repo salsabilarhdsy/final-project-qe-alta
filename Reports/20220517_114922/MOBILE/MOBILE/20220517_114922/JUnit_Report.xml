@@ -1,0 +1,1685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MOBILE" time="348.354" tests="3" failures="2" errors="0">
+   <testsuite name="MOBILE" tests="3" failures="2" errors="0" time="348.354" skipped="0" timestamp="2022-05-17 11:49:25" hostname="salsa - SALSABILA" id="Test Suites/MOBILE/MOBILE">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_114922\\MOBILE\\MOBILE\\20220517_114922"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_114922\\MOBILE\\MOBILE\\20220517_114922\\appium.log, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_114922\\MOBILE\\MOBILE\\20220517_114922\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2003J15SC"/>
+         <property name="hostAddress" value="192.168.200.173"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="aeebca410407"/>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/MOBILE/Auth/Register" time="265.634" classname="Test Cases/MOBILE/Auth/Register" status="PASSED">
+         <system-out><![CDATA[2022-05-17 11:49:26 - [TEST_CASE][PASSED] - Test Cases/MOBILE/Auth/Register: Test Cases/MOBILE/Auth/Register
+
+2022-05-17 11:49:27 - [TEST_STEP][PASSED] - for ([i = 1, i <= 7, (i++)]): Close app successfully
+
+2022-05-17 11:49:27 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:49:30 - [MESSAGE][INFO] - Appium server started on port 55,663
+
+2022-05-17 11:49:43 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:49:43 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:49:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:49:48 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:49:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:49:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:49:50 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:49:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:49:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:49:52 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:49:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:49:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:49:54 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): null
+
+2022-05-17 11:49:54 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 11:49:54 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 11:49:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:49:55 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 11:49:55 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:49:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:49:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:49:56 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): null
+
+2022-05-17 11:49:56 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 11:49:56 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 11:49:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:49:57 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 11:49:57 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:49:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:49:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:49:58 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): null
+
+2022-05-17 11:49:58 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 11:49:58 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 11:49:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:50:00 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 11:50:00 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:50:00 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:50:00 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:50:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:50:03 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:50:03 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:50:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:50:08 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:50:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:50:08 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:50:08 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:50:08 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:50:08 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:50:09 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:50:09 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:50:11 - [MESSAGE][INFO] - Appium server started on port 55,857
+
+2022-05-17 11:50:22 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:50:22 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:50:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:50:27 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:50:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:50:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:50:29 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:50:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:50:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:50:31 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:50:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:50:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:50:31 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): null
+
+2022-05-17 11:50:32 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 11:50:32 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 11:50:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:50:33 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 11:50:33 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:50:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:50:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:50:34 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:50:34 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:50:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:50:36 - [MESSAGE][PASSED] - Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:50:36 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:50:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:50:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:50:37 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:50:37 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:50:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:50:38 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:50:38 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:50:38 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:50:38 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:50:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:50:39 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:50:39 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:50:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:50:44 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:50:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:50:45 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:50:45 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:50:46 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:50:46 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:50:46 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:50:46 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:50:48 - [MESSAGE][INFO] - Appium server started on port 56,046
+
+2022-05-17 11:50:59 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:50:59 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:51:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:51:04 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:51:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:51:06 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:51:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:51:07 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:51:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:51:08 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:51:08 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:51:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:10 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:51:10 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:51:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:51:11 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): null
+
+2022-05-17 11:51:11 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 11:51:11 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 11:51:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:12 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 11:51:12 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:51:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:51:14 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:51:14 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:51:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:15 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:51:15 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:51:15 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:51:15 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:51:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:51:16 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:51:16 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:51:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:51:21 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:51:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:22 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:51:22 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:51:22 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:51:22 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:51:22 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:51:22 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:51:24 - [MESSAGE][INFO] - Appium server started on port 56,235
+
+2022-05-17 11:51:35 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:51:35 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:51:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:51:40 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:51:43 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:51:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:51:44 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:51:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:51:45 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:51:45 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:51:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:46 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:51:46 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:51:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:51:47 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:51:47 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:51:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:48 - [MESSAGE][PASSED] - Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:51:48 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:51:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:51:50 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): null
+
+2022-05-17 11:51:50 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 11:51:50 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 11:51:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:51 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 11:51:51 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:51:51 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:51:51 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:51:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:51:53 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:51:53 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:51:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:51:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:51:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:51:59 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:51:59 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:51:59 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:51:59 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:51:59 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:51:59 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:52:01 - [MESSAGE][INFO] - Appium server started on port 56,424
+
+2022-05-17 11:52:12 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:52:12 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:52:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:52:17 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:52:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:52:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:52:19 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:52:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:52:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:52:20 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:52:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:52:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:52:22 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:52:22 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:52:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:52:23 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:52:23 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:52:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:52:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:52:24 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'salsa@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:52:24 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'salsa@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:52:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:52:26 - [MESSAGE][PASSED] - Text 'salsa@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:52:26 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:52:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:52:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:52:27 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsa' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:52:27 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'salsa' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:52:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:52:28 - [MESSAGE][PASSED] - Text 'salsa' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:52:28 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:52:30 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:52:30 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:52:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:52:32 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:52:32 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:52:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:52:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:52:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:52:38 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:52:38 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:52:38 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:52:38 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:52:38 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:52:38 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:52:40 - [MESSAGE][INFO] - Appium server started on port 56,613
+
+2022-05-17 11:52:52 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:52:52 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:52:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:52:57 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:52:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:52:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:52:58 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:52:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:53:00 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:53:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:53:02 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:53:02 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:53:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:03 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:53:03 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:53:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:53:04 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'halosalsa33' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:53:04 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'halosalsa33' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:53:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:06 - [MESSAGE][PASSED] - Text 'halosalsa33' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:53:06 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:53:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:53:07 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:53:07 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:53:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:08 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:53:08 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:53:09 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:53:09 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:53:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:53:10 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:53:10 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:53:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:53:15 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:53:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:15 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is exist
+
+2022-05-17 11:53:15 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:53:16 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:53:16 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:53:16 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:53:16 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:53:18 - [MESSAGE][INFO] - Appium server started on port 56,802
+
+2022-05-17 11:53:29 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:53:29 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:53:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:53:34 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:53:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:53:35 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:53:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:53:36 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:53:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:53:38 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:53:38 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:53:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:39 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:53:39 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:53:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:53:40 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'halosalsa33@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:53:40 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'halosalsa33@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:53:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:42 - [MESSAGE][PASSED] - Text 'halosalsa33@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:53:42 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:53:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:53:43 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'sabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:53:43 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'sabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:53:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:44 - [MESSAGE][PASSED] - Text 'sabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:53:44 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:53:44 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:53:44 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:53:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:53:46 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): null
+
+2022-05-17 11:53:46 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2' is visible
+
+2022-05-17 11:53:46 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:53:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:53:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2' is visible
+
+2022-05-17 11:53:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:53:51 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2' is visible
+
+2022-05-17 11:53:51 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:53:51 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:53:51 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:53:52 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOBILE/Auth/Login" time="76.208" classname="Test Cases/MOBILE/Auth/Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/MOBILE/Auth/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: 'com.example.frontend_mobile' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Login.run(Login:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Login.run(Login:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+Caused by: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more
+"/>
+         <system-out><![CDATA[2022-05-17 11:53:52 - [TEST_CASE][FAILED] - Test Cases/MOBILE/Auth/Login: Test Cases/MOBILE/Auth/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: 'com.example.frontend_mobile' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Login.run(Login:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Login.run(Login:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+Caused by: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more
+
+
+2022-05-17 11:53:52 - [TEST_STEP][FAILED] - for ([i = 1, i <= 7, (i++)]): null
+
+2022-05-17 11:53:52 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:53:54 - [MESSAGE][INFO] - Appium server started on port 57,005
+
+2022-05-17 11:54:05 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:54:05 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:54:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:54:10 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:54:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:54:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:54:12 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:54:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:54:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:54:14 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:54:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:54:15 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:54:15 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:54:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:54:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:54:16 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:54:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:54:17 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:54:17 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:54:18 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:54:18 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:54:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:54:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:54:19 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2022-05-17 11:54:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-17 11:54:22 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:54:22 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:54:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:54:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:54:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:54:27 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:54:27 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:54:27 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:54:27 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:54:28 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:54:28 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:54:29 - [MESSAGE][INFO] - Appium server started on port 57,196
+
+2022-05-17 11:54:41 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:54:41 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:54:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:54:46 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:54:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:54:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:54:48 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:54:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:54:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:54:49 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:54:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:54:50 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:54:50 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:54:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:54:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:54:50 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:54:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:54:51 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:54:51 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:54:52 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:54:52 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:54:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:54:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:54:54 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2022-05-17 11:54:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-17 11:54:57 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:54:57 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:55:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:55:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:55:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:55:02 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:55:02 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:55:02 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:55:02 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:55:03 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:55:03 - [TEST_STEP][FAILED] - startExistingApplication("com.example.frontend_mobile"): Unable to start app with application ID: 'com.example.frontend_mobile' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Login.run(Login:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+)
+
+2022-05-17 11:55:03 - [MESSAGE][FAILED] - Unable to start app with application ID: 'com.example.frontend_mobile' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Login.run(Login:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+)
+
+2022-05-17 11:55:03 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:55:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:55:08 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login"), 0): Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:55:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30']]></system-out>
+         <system-err><![CDATA[2022-05-17 11:53:52 - [TEST_CASE][FAILED] - Test Cases/MOBILE/Auth/Login: Test Cases/MOBILE/Auth/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: 'com.example.frontend_mobile' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Login.run(Login:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Login.run(Login:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+Caused by: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOBILE/Auth/Logout" time="6.06" classname="Test Cases/MOBILE/Auth/Logout" status="FAILED">
+         <failure type="FAILED" message="Test Cases/MOBILE/Auth/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: 'com.example.frontend_mobile' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+Caused by: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more
+"/>
+         <system-out><![CDATA[2022-05-17 11:55:08 - [TEST_CASE][FAILED] - Test Cases/MOBILE/Auth/Logout: Test Cases/MOBILE/Auth/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: 'com.example.frontend_mobile' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+Caused by: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more
+
+
+2022-05-17 11:55:08 - [TEST_STEP][FAILED] - startExistingApplication("com.example.frontend_mobile"): Unable to start app with application ID: 'com.example.frontend_mobile' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+)
+
+2022-05-17 11:55:08 - [MESSAGE][FAILED] - Unable to start app with application ID: 'com.example.frontend_mobile' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+)
+
+2022-05-17 11:55:08 - [TEST_STEP][FAILED] - callTestCase(findTestCase("MOBILE/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): Unable to call Test Case 'Test Cases/MOBILE/Auth/Login_Success' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/MOBILE/Auth/Login_Success' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Logout.run(Logout:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No driver found
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Login_Success.run(Login_Success:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2022-05-17 11:55:08 - [TEST_CASE][FAILED] - Test Cases/MOBILE/Auth/Login_Success: Test Cases/MOBILE/Auth/Login_Success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No driver found
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Login_Success.run(Login_Success:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Logout.run(Logout:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+
+
+2022-05-17 11:55:09 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:55:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:55:14 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:55:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:55:14 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/MOBILE/Auth/Login_Success' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/MOBILE/Auth/Login_Success' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Logout.run(Logout:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No driver found
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Login_Success.run(Login_Success:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2022-05-17 11:55:14 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Logout"), 5): null]]></system-out>
+         <system-err><![CDATA[2022-05-17 11:55:08 - [TEST_CASE][FAILED] - Test Cases/MOBILE/Auth/Logout: Test Cases/MOBILE/Auth/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: 'com.example.frontend_mobile' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+Caused by: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-17 11:49:25 - [TEST_SUITE][FAILED] - MOBILE: Test Cases/MOBILE/Auth/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: 'com.example.frontend_mobile' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Login.run(Login:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Login.run(Login:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+Caused by: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2022-05-17 11:49:25 - [TEST_SUITE][FAILED] - MOBILE: Test Cases/MOBILE/Auth/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: 'com.example.frontend_mobile' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Login.run(Login:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:92)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)
+	at Login.run(Login:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652762962064.run(TempTestSuite1652762962064.groovy:36)
+Caused by: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:407)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -25,7 +25,7 @@ WebUI.navigateToUrl('https://qa.alta.id/')
 
 WebUI.click(findTestObject('WEB/Auth/Login/login_ico'))
 
-WebUI.setText(findTestObject('WEB/Auth/Login/email_txtbox'), 'salsabila@gmail.com')
+WebUI.setText(findTestObject('WEB/Auth/Login/email_txtbox'), 'slsblsy@gmail.com')
 
 WebUI.setText(findTestObject('WEB/Auth/Login/password_txtbox'), 'salsabila')
 

@@ -1,0 +1,2102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MOBILE" time="418.352" tests="3" failures="2" errors="0">
+   <testsuite name="MOBILE" tests="3" failures="2" errors="0" time="418.352" skipped="0" timestamp="2022-05-17 00:02:42" hostname="salsa - SALSABILA" id="Test Suites/MOBILE/MOBILE">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\appium.log, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\execution0.log"/>
+         <property name="attachments" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720606974.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720639135.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720669503.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720699046.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720733060.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720764118.png, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720951320.png"/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2003J15SC"/>
+         <property name="hostAddress" value="192.168.200.173"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="aeebca410407"/>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/MOBILE/Auth/Register" time="236.05" classname="Test Cases/MOBILE/Auth/Register" status="FAILED">
+         <failure type="FAILED" message="Test Cases/MOBILE/Auth/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-05-17 00:02:42 - [TEST_CASE][FAILED] - Test Cases/MOBILE/Auth/Register: Test Cases/MOBILE/Auth/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+
+
+2022-05-17 00:02:43 - [TEST_STEP][FAILED] - for ([i = 1, i <= 7, (i++)]): null
+
+2022-05-17 00:02:43 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:02:50 - [MESSAGE][INFO] - Appium server started on port 56,417
+
+2022-05-17 00:03:09 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:03:09 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:03:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:03:14 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:03:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:03:15 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:03:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:03:17 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): null
+
+2022-05-17 00:03:18 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 00:03:18 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 00:03:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:18 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 00:03:18 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:03:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:03:19 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): null
+
+2022-05-17 00:03:19 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 00:03:19 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 00:03:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:21 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 00:03:21 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:03:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:03:22 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): null
+
+2022-05-17 00:03:22 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 00:03:22 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 00:03:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:24 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 00:03:24 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:03:24 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:03:24 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:03:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:03:26 - [TEST_STEP][FAILED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): null
+
+2022-05-17 00:03:26 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Fullname"), 2, CONTINUE_ON_FAILURE): Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+
+2022-05-17 00:03:26 - [MESSAGE][WARNING] - Test object with id 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Fullname' does not exist
+
+2022-05-17 00:03:26 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-05-17 00:03:27 - [MESSAGE][FAILED] - Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720606974.png]]
+
+2022-05-17 00:03:27 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:03:28 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:03:28 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 00:03:29 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 00:03:29 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:03:31 - [MESSAGE][INFO] - Appium server started on port 56,617
+
+2022-05-17 00:03:44 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:03:44 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:03:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:03:46 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:03:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:03:47 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:03:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:03:49 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): null
+
+2022-05-17 00:03:49 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 00:03:49 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 00:03:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:50 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 00:03:50 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:03:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:03:52 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:03:52 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:03:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:54 - [MESSAGE][PASSED] - Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:03:54 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:03:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:03:55 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:03:55 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:03:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:03:57 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:03:57 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:03:57 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:03:57 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:03:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:03:59 - [TEST_STEP][FAILED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): null
+
+2022-05-17 00:03:59 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Fullname"), 2, CONTINUE_ON_FAILURE): Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+
+2022-05-17 00:03:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Fullname' does not exist
+
+2022-05-17 00:03:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-05-17 00:03:59 - [MESSAGE][FAILED] - Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720639135.png]]
+
+2022-05-17 00:03:59 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:04:00 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:04:00 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 00:04:00 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 00:04:00 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:04:02 - [MESSAGE][INFO] - Appium server started on port 56,816
+
+2022-05-17 00:04:15 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:04:15 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:04:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:04:19 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:04:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:04:19 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:04:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:04:21 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:04:21 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:04:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:23 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:04:23 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:04:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:04:23 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): null
+
+2022-05-17 00:04:24 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 00:04:24 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 00:04:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:25 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 00:04:25 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:04:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:04:26 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:04:26 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:04:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:27 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:04:27 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:04:27 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:04:27 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:04:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:04:29 - [TEST_STEP][FAILED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): null
+
+2022-05-17 00:04:29 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Fullname"), 2, CONTINUE_ON_FAILURE): Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+
+2022-05-17 00:04:29 - [MESSAGE][WARNING] - Test object with id 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Fullname' does not exist
+
+2022-05-17 00:04:29 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-05-17 00:04:30 - [MESSAGE][FAILED] - Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720669503.png]]
+
+2022-05-17 00:04:30 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:04:30 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:04:30 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 00:04:31 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 00:04:31 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:04:33 - [MESSAGE][INFO] - Appium server started on port 57,014
+
+2022-05-17 00:04:46 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:04:46 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:04:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:04:49 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:04:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:04:50 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:04:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:04:51 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:04:51 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:04:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:53 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:04:53 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:04:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:04:54 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:04:54 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:04:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:55 - [MESSAGE][PASSED] - Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:04:55 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:04:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:04:56 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): null
+
+2022-05-17 00:04:56 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 00:04:56 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 00:04:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:04:57 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 00:04:57 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:04:57 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:04:57 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:04:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:04:58 - [TEST_STEP][FAILED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): null
+
+2022-05-17 00:04:59 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Fullname"), 2, CONTINUE_ON_FAILURE): Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+
+2022-05-17 00:04:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Fullname' does not exist
+
+2022-05-17 00:04:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-05-17 00:04:59 - [MESSAGE][FAILED] - Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720699046.png]]
+
+2022-05-17 00:04:59 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:05:00 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:05:00 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 00:05:00 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 00:05:00 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:05:03 - [MESSAGE][INFO] - Appium server started on port 57,209
+
+2022-05-17 00:05:16 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:05:16 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:05:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:05:18 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:05:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:05:19 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:05:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:05:20 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:05:20 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:05:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:23 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:05:23 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:05:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:05:25 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'salsa@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:05:25 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'salsa@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:05:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:26 - [MESSAGE][PASSED] - Text 'salsa@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:05:26 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:05:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:05:27 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsa' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:05:27 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'salsa' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:05:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:29 - [MESSAGE][PASSED] - Text 'salsa' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:05:29 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:05:29 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:05:29 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:05:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:05:32 - [TEST_STEP][FAILED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): null
+
+2022-05-17 00:05:33 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Fullname"), 2, CONTINUE_ON_FAILURE): Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+
+2022-05-17 00:05:33 - [MESSAGE][WARNING] - Test object with id 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Fullname' does not exist
+
+2022-05-17 00:05:33 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-05-17 00:05:33 - [MESSAGE][FAILED] - Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720733060.png]]
+
+2022-05-17 00:05:33 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:05:34 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:05:34 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 00:05:34 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 00:05:34 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:05:37 - [MESSAGE][INFO] - Appium server started on port 57,405
+
+2022-05-17 00:05:49 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:05:49 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:05:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:05:53 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:05:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:05:54 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:05:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:05:55 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:05:55 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:05:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:57 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:05:57 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:05:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:05:58 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'halosalsa17' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:05:59 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'halosalsa17' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:05:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:05:59 - [MESSAGE][PASSED] - Text 'halosalsa17' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:05:59 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:05:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:06:01 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:06:01 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:06:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:02 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:06:02 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:06:03 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:06:03 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:06:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:06:04 - [TEST_STEP][FAILED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): null
+
+2022-05-17 00:06:04 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Fullname"), 2, CONTINUE_ON_FAILURE): Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+
+2022-05-17 00:06:04 - [MESSAGE][WARNING] - Test object with id 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Fullname' does not exist
+
+2022-05-17 00:06:04 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-05-17 00:06:04 - [MESSAGE][FAILED] - Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720764118.png]]
+
+2022-05-17 00:06:04 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:06:05 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:06:05 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 00:06:05 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 00:06:05 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:06:08 - [MESSAGE][INFO] - Appium server started on port 57,600
+
+2022-05-17 00:06:21 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:06:21 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:06:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:06:26 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:06:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 00:06:27 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:06:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:06:29 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:06:29 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:06:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:30 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 00:06:30 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:06:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:06:31 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'halosalsa17@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:06:31 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'halosalsa17@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:33 - [MESSAGE][PASSED] - Text 'halosalsa17@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 00:06:33 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:06:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:06:34 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'sabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:06:34 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'sabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:06:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:35 - [MESSAGE][PASSED] - Text 'sabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 00:06:35 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:06:35 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:06:35 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:06:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 00:06:38 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): null
+
+2022-05-17 00:06:38 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2' is visible
+
+2022-05-17 00:06:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2' is visible
+
+2022-05-17 00:06:38 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2' is visible]]></system-out>
+         <system-err><![CDATA[2022-05-17 00:02:42 - [TEST_CASE][FAILED] - Test Cases/MOBILE/Auth/Register: Test Cases/MOBILE/Auth/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOBILE/Auth/Login" time="153.993" classname="Test Cases/MOBILE/Auth/Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/MOBILE/Auth/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/MOBILE/Auth/Logout/android.widget.Button - Logout' exist (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.200.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, deviceName: Xiaomi M2003J15SC (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8272, udid: aeebca410407}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2003J15SC, deviceName: aeebca410407, deviceScreenDensity: 352, deviceScreenSize: 1080x2340, deviceUDID: aeebca410407, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.2, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 100, systemPort: 8272, takesScreenshot: true, udid: aeebca410407, viewportRect: {height: 2036, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: daaf9f09-f282-44bd-8349-fe55a3062123
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.access$1(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1620)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at Login.run(Login:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1620)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at Login.run(Login:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.200.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, deviceName: Xiaomi M2003J15SC (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8272, udid: aeebca410407}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2003J15SC, deviceName: aeebca410407, deviceScreenDensity: 352, deviceScreenSize: 1080x2340, deviceUDID: aeebca410407, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.2, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 100, systemPort: 8272, takesScreenshot: true, udid: aeebca410407, viewportRect: {height: 2036, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: daaf9f09-f282-44bd-8349-fe55a3062123
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.access$1(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-05-17 00:06:38 - [TEST_CASE][FAILED] - Test Cases/MOBILE/Auth/Login: Test Cases/MOBILE/Auth/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/MOBILE/Auth/Logout/android.widget.Button - Logout' exist (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.200.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, deviceName: Xiaomi M2003J15SC (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8272, udid: aeebca410407}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2003J15SC, deviceName: aeebca410407, deviceScreenDensity: 352, deviceScreenSize: 1080x2340, deviceUDID: aeebca410407, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.2, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 100, systemPort: 8272, takesScreenshot: true, udid: aeebca410407, viewportRect: {height: 2036, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: daaf9f09-f282-44bd-8349-fe55a3062123
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.access$1(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1620)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at Login.run(Login:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1620)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at Login.run(Login:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.200.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, deviceName: Xiaomi M2003J15SC (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8272, udid: aeebca410407}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2003J15SC, deviceName: aeebca410407, deviceScreenDensity: 352, deviceScreenSize: 1080x2340, deviceUDID: aeebca410407, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.2, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 100, systemPort: 8272, takesScreenshot: true, udid: aeebca410407, viewportRect: {height: 2036, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: daaf9f09-f282-44bd-8349-fe55a3062123
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.access$1(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+
+
+2022-05-17 00:06:39 - [TEST_STEP][FAILED] - for ([i = 1, i <= 7, (i++)]): null
+
+2022-05-17 00:06:39 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:06:50 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:06:50 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:06:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:06:52 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:06:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:06:53 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:06:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:54 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:06:54 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:06:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:06:55 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:06:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:56 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:06:56 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:06:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:06:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:06:58 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:06:58 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:06:58 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:06:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 3): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:06:59 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:06:59 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:06:59 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:06:59 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:07:10 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:07:10 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:07:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:07:13 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:07:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:07:13 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:07:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:15 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:07:15 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:07:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:07:16 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:07:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:17 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:07:17 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:07:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:07:19 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:07:19 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:07:19 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:07:19 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 3): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:07:20 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:07:20 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:07:20 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:07:20 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:07:31 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:07:31 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:07:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:07:34 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:07:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:07:35 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text 'salsabila@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:07:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:36 - [MESSAGE][PASSED] - Text 'salsabila@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:07:36 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:07:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:07:37 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:07:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:38 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:07:38 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:07:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:07:40 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:07:40 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:07:40 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:07:40 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 3): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:07:41 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:07:41 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:07:42 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:07:42 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:07:53 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:07:53 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:07:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:07:55 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:07:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:07:56 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text 'salsabila@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:07:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:57 - [MESSAGE][PASSED] - Text 'salsabila@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:07:57 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:07:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:07:58 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text 'bila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:07:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:07:59 - [MESSAGE][PASSED] - Text 'bila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:07:59 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:07:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:08:01 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:08:02 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:08:02 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:08:02 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 3): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:08:02 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:08:02 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:08:02 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:08:02 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:08:13 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:08:13 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:08:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:08:15 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:08:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:08:17 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text 'salsabila0123@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:08:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:17 - [MESSAGE][PASSED] - Text 'salsabila0123@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:08:17 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:08:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:08:19 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:08:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:19 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:08:19 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:08:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:08:22 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:08:22 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:08:22 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:08:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 3): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:08:23 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:08:23 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:08:23 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:08:23 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:08:35 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:08:35 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:08:37 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:08:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:08:38 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text 'halosalsa' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:08:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:39 - [MESSAGE][PASSED] - Text 'halosalsa' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:08:39 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:08:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:08:40 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:08:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:41 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:08:41 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:08:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:08:42 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:08:43 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:08:43 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:08:43 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 3): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:08:43 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is exist
+
+2022-05-17 00:08:43 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:08:44 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:08:44 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:08:55 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:08:55 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:08:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:08:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:08:59 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:08:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:09:02 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text 'salsabila@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:09:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:02 - [MESSAGE][PASSED] - Text 'salsabila@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:09:02 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:09:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:09:04 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:09:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:06 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:09:06 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:09:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:09:08 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:09:10 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 00:09:10 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): null
+
+2022-05-17 00:09:10 - [TEST_STEP][FAILED] - else: Failed to check for element 'Object Repository/MOBILE/Auth/Logout/android.widget.Button - Logout' exist (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.200.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, deviceName: Xiaomi M2003J15SC (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8272, udid: aeebca410407}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2003J15SC, deviceName: aeebca410407, deviceScreenDensity: 352, deviceScreenSize: 1080x2340, deviceUDID: aeebca410407, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.2, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 100, systemPort: 8272, takesScreenshot: true, udid: aeebca410407, viewportRect: {height: 2036, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: daaf9f09-f282-44bd-8349-fe55a3062123
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.access$1(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1620)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at Login.run(Login:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+
+2022-05-17 00:09:10 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("MOBILE/Auth/Logout/android.widget.Button - Logout"), 3): Failed to check for element 'Object Repository/MOBILE/Auth/Logout/android.widget.Button - Logout' exist (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.200.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, deviceName: Xiaomi M2003J15SC (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8272, udid: aeebca410407}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2003J15SC, deviceName: aeebca410407, deviceScreenDensity: 352, deviceScreenSize: 1080x2340, deviceUDID: aeebca410407, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.2, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 100, systemPort: 8272, takesScreenshot: true, udid: aeebca410407, viewportRect: {height: 2036, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: daaf9f09-f282-44bd-8349-fe55a3062123
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.access$1(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1620)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at Login.run(Login:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+
+2022-05-17 00:09:12 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/MOBILE/Auth/Logout/android.widget.Button - Logout' exist (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.200.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, deviceName: Xiaomi M2003J15SC (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8272, udid: aeebca410407}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2003J15SC, deviceName: aeebca410407, deviceScreenDensity: 352, deviceScreenSize: 1080x2340, deviceUDID: aeebca410407, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.2, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 100, systemPort: 8272, takesScreenshot: true, udid: aeebca410407, viewportRect: {height: 2036, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: daaf9f09-f282-44bd-8349-fe55a3062123
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.access$1(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1620)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at Login.run(Login:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+[[ATTACHMENT|F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_000235\\MOBILE\\MOBILE\\20220517_000235\\1652720951320.png]]
+
+2022-05-17 00:09:12 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 00:09:12 - [MESSAGE][PASSED] - Press back button successfully]]></system-out>
+         <system-err><![CDATA[2022-05-17 00:06:38 - [TEST_CASE][FAILED] - Test Cases/MOBILE/Auth/Login: Test Cases/MOBILE/Auth/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/MOBILE/Auth/Logout/android.widget.Button - Logout' exist (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.200.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, deviceName: Xiaomi M2003J15SC (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8272, udid: aeebca410407}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2003J15SC, deviceName: aeebca410407, deviceScreenDensity: 352, deviceScreenSize: 1080x2340, deviceUDID: aeebca410407, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.2, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 100, systemPort: 8272, takesScreenshot: true, udid: aeebca410407, viewportRect: {height: 2036, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: daaf9f09-f282-44bd-8349-fe55a3062123
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.access$1(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1620)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at Login.run(Login:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1620)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$6.call(Unknown Source)
+	at Login.run(Login:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SALSABILA', ip: '192.168.200.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57601, deviceName: Xiaomi M2003J15SC (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8272, udid: aeebca410407}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2003J15SC, deviceName: aeebca410407, deviceScreenDensity: 352, deviceScreenSize: 1080x2340, deviceUDID: aeebca410407, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.2, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 100, systemPort: 8272, takesScreenshot: true, udid: aeebca410407, viewportRect: {height: 2036, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: daaf9f09-f282-44bd-8349-fe55a3062123
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.access$1(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOBILE/Auth/Logout" time="27.516" classname="Test Cases/MOBILE/Auth/Logout" status="PASSED">
+         <system-out><![CDATA[2022-05-17 00:09:12 - [TEST_CASE][PASSED] - Test Cases/MOBILE/Auth/Logout: Test Cases/MOBILE/Auth/Logout
+
+2022-05-17 00:09:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("MOBILE/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/MOBILE/Auth/Login_Success' successfully
+
+2022-05-17 00:09:13 - [TEST_CASE][PASSED] - Test Cases/MOBILE/Auth/Login_Success: Test Cases/MOBILE/Auth/Login_Success
+
+2022-05-17 00:09:14 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:09:25 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 00:09:25 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:09:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 00:09:28 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:09:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:09:30 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), "salsa@gmail.com", 0): Text 'salsa@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:09:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:32 - [MESSAGE][PASSED] - Text 'salsa@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 00:09:32 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:09:33 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), "salsa", 0): Text 'salsa' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:35 - [MESSAGE][PASSED] - Text 'salsa' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 00:09:35 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:09:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 00:09:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Login/android.widget.Button - Logout"), 0): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Logout' is visible
+
+2022-05-17 00:09:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:37 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Logout' is visible
+
+2022-05-17 00:09:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/MOBILE/Auth/Login_Success' successfully
+
+2022-05-17 00:09:37 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Logout"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Logout'
+
+2022-05-17 00:09:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Logout'
+
+2022-05-17 00:09:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 00:09:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 00:09:40 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-17 00:02:42 - [TEST_SUITE][FAILED] - MOBILE: Test Cases/MOBILE/Auth/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-05-17 00:02:42 - [TEST_SUITE][FAILED] - MOBILE: Test Cases/MOBILE/Auth/Register FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element visible (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1880)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Register.run(Register:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652720555198.run(TempTestSuite1652720555198.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

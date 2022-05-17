@@ -21,5 +21,5 @@ Response = WS.sendRequest(findTestObject('REST_API/06_Comments/GetProductComment
 
 WS.verifyResponseStatusCode(Response, 200)
 
-WS.verifyElementPropertyValue(Response, 'data[0].ID', 9)
+WS.verifyElementPropertyValue(Response, 'data[0].Content', 'mantap')
 

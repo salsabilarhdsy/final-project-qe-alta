@@ -20,7 +20,9 @@ import org.openqa.selenium.Keys as Keys
 for (int i = 1; i <= 7; i++) {
     Mobile.startExistingApplication('com.example.frontend_mobile')
 
-    Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Login 2'), 5)
+    Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+
+    Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Login 2'), 0)
 
     Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Register a'), 0)
 
@@ -56,15 +58,13 @@ for (int i = 1; i <= 7; i++) {
     Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Register button'), 1)
 
     if (findTestData('WEB/Register').getValue(4, i) == 'negative') {
-        Mobile.verifyElementVisible(findTestObject('MOBILE/Auth/Register/android.widget.Button - Fullname'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-        Mobile.pressBack()
+        Mobile.verifyElementVisible(findTestObject('MOBILE/Auth/Register/android.widget.EditText - Fullname'), 0, FailureHandling.CONTINUE_ON_FAILURE)
     } else {
-        Mobile.verifyElementVisible(findTestObject('MOBILE/Auth/Register/android.widget.Button - Login 2'), 2)
+        Mobile.verifyElementVisible(findTestObject('MOBILE/Auth/Register/android.widget.Button - Login 2'), 0, FailureHandling.CONTINUE_ON_FAILURE)
     }
     
+    Mobile.pressBack()
+
     Mobile.closeApplication()
 }
-
-Mobile.waitForElementPresent(findTestObject(null), 0)
 

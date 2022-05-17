@@ -21,5 +21,5 @@ Response = WS.sendRequest(findTestObject('REST_API/05_Ratings/GiveRatingToProduc
 
 WS.verifyResponseStatusCode(Response, 200)
 
-WS.verifyElementPropertyValue(Response, 'data.ID', 478)
+WS.verifyElementPropertyValue(Response, 'data.Ratings', 5)
 

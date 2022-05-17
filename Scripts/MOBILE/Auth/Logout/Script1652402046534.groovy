@@ -23,3 +23,5 @@ Mobile.tap(findTestObject('MOBILE/Auth/Login/android.widget.Button - Logout'), 0
 
 Mobile.verifyElementVisible(findTestObject('MOBILE/Auth/Login/android.widget.Button - Login Button'), 0)
 
+Mobile.closeApplication()
+

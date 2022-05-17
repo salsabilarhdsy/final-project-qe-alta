@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.example.frontend_mobile')
 
+Mobile.delay(7, FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Login 2'), 0)
 
 Mobile.tap(findTestObject('MOBILE/Auth/Login/android.widget.EditText - Email'), 0)
@@ -31,5 +33,7 @@ Mobile.setText(findTestObject('MOBILE/Auth/Login/android.widget.EditText - Passw
 
 Mobile.tap(findTestObject('MOBILE/Auth/Login/android.widget.Button - Login Button'), 0)
 
-Mobile.verifyElementVisible(findTestObject('MOBILE/Auth/Login/android.widget.Button - Logout'), 0)
+Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.verifyElementExist(findTestObject('MOBILE/Auth/Login/android.widget.Button - Logout'), 0)
 

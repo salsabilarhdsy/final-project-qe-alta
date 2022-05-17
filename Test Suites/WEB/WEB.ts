@@ -54,6 +54,12 @@
       <testCaseId>Test Cases/WEB/Transactions/Payment</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>173132f2-a929-444a-b642-cb3003eb7959</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/Transactions/HistoryTransactions</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>15fb3eb0-5f61-4a57-9431-2631f9ae74b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

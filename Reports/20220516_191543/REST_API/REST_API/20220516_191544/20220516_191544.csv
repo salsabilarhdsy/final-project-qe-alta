@@ -1,0 +1,210 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+REST_API,,,,2022-05-16 19:15:49,2022-05-16 19:16:26,37.399s,PASSED
+,,,,,,,
+Test Cases/REST_API/01_Categories/TC01_GetAllCategories,,,,2022-05-16 19:15:49,2022-05-16 19:15:52,2.926s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/01_Categories/GetAllCategories""))",,,,2022-05-16 19:15:50,2022-05-16 19:15:52,2.182s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-16 19:15:52,2022-05-16 19:15:52,0.041s,PASSED
+"verifyElementPropertyValue(Response, ""data[0].ID"", 1)",,,,2022-05-16 19:15:52,2022-05-16 19:15:52,0.121s,PASSED
+,,,,,,,
+Test Cases/REST_API/01_Categories/TC02_CreateCategory,,,,2022-05-16 19:15:52,2022-05-16 19:15:53,1.060s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/01_Categories/CreateCategory""))",,,,2022-05-16 19:15:53,2022-05-16 19:15:53,0.532s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-16 19:15:53,2022-05-16 19:15:53,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data.Name"", ""health"")",,,,2022-05-16 19:15:53,2022-05-16 19:15:53,0.052s,PASSED
+,,,,,,,
+Test Cases/REST_API/01_Categories/TC03_CreateCategoryInvalidName,,,,2022-05-16 19:15:53,2022-05-16 19:15:54,0.884s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/01_Categories/CreateCategory_InvalidName""))",,,,2022-05-16 19:15:54,2022-05-16 19:15:54,0.432s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:15:54,2022-05-16 19:15:54,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""invalid character 'h' looking for beginning of value"")",,,,2022-05-16 19:15:54,2022-05-16 19:15:54,0.041s,PASSED
+,,,,,,,
+Test Cases/REST_API/01_Categories/TC04_CreateCategoryEmptyName,,,,2022-05-16 19:15:54,2022-05-16 19:15:55,0.856s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/01_Categories/CreateCategory_EmptyName""))",,,,2022-05-16 19:15:55,2022-05-16 19:15:55,0.362s,PASSED
+"verifyResponseStatusCode(Response, 500)",,,,2022-05-16 19:15:55,2022-05-16 19:15:55,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""ERROR: new row for relation ""categories"" violates check constraint ""categories_name_check"" (SQLSTATE 23514)"")",,,,2022-05-16 19:15:55,2022-05-16 19:15:55,0.034s,PASSED
+,,,,,,,
+Test Cases/REST_API/01_Categories/TC05_CreateCategory_EmptyData,,,,2022-05-16 19:15:55,2022-05-16 19:15:56,0.721s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/01_Categories/CreateCategory_EmptyData""))",,,,2022-05-16 19:15:55,2022-05-16 19:15:56,0.343s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:15:56,2022-05-16 19:15:56,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""EOF"")",,,,2022-05-16 19:15:56,2022-05-16 19:15:56,0.031s,PASSED
+,,,,,,,
+Test Cases/REST_API/02_Products/TC01_GetAllProduct,,,,2022-05-16 19:15:56,2022-05-16 19:15:57,1.318s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/GetAllProduct""))",,,,2022-05-16 19:15:56,2022-05-16 19:15:57,0.888s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-16 19:15:57,2022-05-16 19:15:57,0.000s,PASSED
+,,,,,,,
+Test Cases/REST_API/02_Products/TC02_GetProductById,,,,2022-05-16 19:15:57,2022-05-16 19:15:58,0.876s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/GetProductById""))",,,,2022-05-16 19:15:57,2022-05-16 19:15:58,0.458s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-16 19:15:58,2022-05-16 19:15:58,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data.ID"", 1468)",,,,2022-05-16 19:15:58,2022-05-16 19:15:58,0.062s,PASSED
+,,,,,,,
+Test Cases/REST_API/02_Products/TC03_GetProductByInvalidId,,,,2022-05-16 19:15:58,2022-05-16 19:15:59,1.050s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/GetProductById_InvalidID""))",,,,2022-05-16 19:15:59,2022-05-16 19:15:59,0.435s,PASSED
+"verifyResponseStatusCode(Response, 404)",,,,2022-05-16 19:15:59,2022-05-16 19:15:59,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""record not found"")",,,,2022-05-16 19:15:59,2022-05-16 19:15:59,0.036s,PASSED
+,,,,,,,
+Test Cases/REST_API/02_Products/TC04_CreateProduct,,,,2022-05-16 19:15:59,2022-05-16 19:16:00,0.939s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/CreateProduct""))",,,,2022-05-16 19:15:59,2022-05-16 19:16:00,0.503s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-16 19:16:00,2022-05-16 19:16:00,0.016s,PASSED
+"verifyElementPropertyValue(Response, ""data.Name"", ""Tensi Darah Elektrik"")",,,,2022-05-16 19:16:00,2022-05-16 19:16:00,0.053s,PASSED
+,,,,,,,
+Test Cases/REST_API/02_Products/TC05_CreateProductDecimalPrice,,,,2022-05-16 19:16:00,2022-05-16 19:16:01,0.866s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/CreateProduct_DecimalPrice""))",,,,2022-05-16 19:16:00,2022-05-16 19:16:01,0.374s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:16:01,2022-05-16 19:16:01,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""json: cannot unmarshal number 2400.00 into Go struct field ProductCreate.price of type uint"")",,,,2022-05-16 19:16:01,2022-05-16 19:16:01,0.031s,PASSED
+,,,,,,,
+Test Cases/REST_API/02_Products/TC06_CreateProductEmptyName,,,,2022-05-16 19:16:01,2022-05-16 19:16:02,0.887s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/CreateProduct_EmptyName""))",,,,2022-05-16 19:16:01,2022-05-16 19:16:02,0.417s,PASSED
+"verifyResponseStatusCode(Response, 500)",,,,2022-05-16 19:16:02,2022-05-16 19:16:02,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""ERROR: new row for relation ""products"" violates check constraint ""products_name_check"" (SQLSTATE 23514)"")",,,,2022-05-16 19:16:02,2022-05-16 19:16:02,0.032s,PASSED
+,,,,,,,
+Test Cases/REST_API/02_Products/TC07_CreateProductInvalidCategory,,,,2022-05-16 19:16:02,2022-05-16 19:16:02,0.778s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/02_Products/CreateProduct_InvalidCategory""))",,,,2022-05-16 19:16:02,2022-05-16 19:16:02,0.412s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:16:02,2022-05-16 19:16:02,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""json: cannot unmarshal string into Go struct field ProductCreate.categories of type uint"")",,,,2022-05-16 19:16:02,2022-05-16 19:16:02,0.047s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC01_Register,,,,2022-05-16 19:16:02,2022-05-16 19:16:03,0.731s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Register""))",,,,2022-05-16 19:16:03,2022-05-16 19:16:03,0.388s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-16 19:16:03,2022-05-16 19:16:03,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data.Fullname"", ""Alex Under"")",,,,2022-05-16 19:16:03,2022-05-16 19:16:03,0.033s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC02_RegisterEmptyEmail,,,,2022-05-16 19:16:03,2022-05-16 19:16:04,0.771s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Register_EmptyEmail""))",,,,2022-05-16 19:16:04,2022-05-16 19:16:04,0.388s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:16:04,2022-05-16 19:16:04,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""email is required"")",,,,2022-05-16 19:16:04,2022-05-16 19:16:04,0.016s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC03_RegisterEmptyName,,,,2022-05-16 19:16:04,2022-05-16 19:16:05,0.811s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Register_EmptyName""))",,,,2022-05-16 19:16:04,2022-05-16 19:16:05,0.404s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:16:05,2022-05-16 19:16:05,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""fullname is required"")",,,,2022-05-16 19:16:05,2022-05-16 19:16:05,0.016s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC04_RegisterEmptyPassword,,,,2022-05-16 19:16:05,2022-05-16 19:16:06,0.820s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Register_EmptyPassword""))",,,,2022-05-16 19:16:05,2022-05-16 19:16:06,0.438s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:16:06,2022-05-16 19:16:06,0.016s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""password is required"")",,,,2022-05-16 19:16:06,2022-05-16 19:16:06,0.026s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC05_RegisterWithRegisteredEmail,,,,2022-05-16 19:16:06,2022-05-16 19:16:06,0.794s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Register_RegisteredEmail""))",,,,2022-05-16 19:16:06,2022-05-16 19:16:06,0.428s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:16:06,2022-05-16 19:16:06,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""ERROR: duplicate key value violates unique constraint ""users_email_key"" (SQLSTATE 23505)"")",,,,2022-05-16 19:16:06,2022-05-16 19:16:06,0.016s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC06_Login,,,,2022-05-16 19:16:06,2022-05-16 19:16:07,0.753s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Login""))",,,,2022-05-16 19:16:07,2022-05-16 19:16:07,0.355s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-16 19:16:07,2022-05-16 19:16:07,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data"", ""eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IiAiLCJFbWFpbCI6InNhbHNhYmlsYUBnbWFpbC5jb20ifQ.bFDWh__G0S0QFNpiprotKPnDgDwgZS6ZOiS8Z7108AQ"")",,,,2022-05-16 19:16:07,2022-05-16 19:16:07,0.016s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC07_LoginEmptyEmail,,,,2022-05-16 19:16:07,2022-05-16 19:16:08,0.789s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Login_EmptyEmail""))",,,,2022-05-16 19:16:08,2022-05-16 19:16:08,0.429s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:16:08,2022-05-16 19:16:08,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""email is required"")",,,,2022-05-16 19:16:08,2022-05-16 19:16:08,0.015s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC09_LoginInvalidEmail,,,,2022-05-16 19:16:08,2022-05-16 19:16:09,0.742s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Login_UnregisteredEmail""))",,,,2022-05-16 19:16:08,2022-05-16 19:16:09,0.389s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:16:09,2022-05-16 19:16:09,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""record not found"")",,,,2022-05-16 19:16:09,2022-05-16 19:16:09,0.016s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC08_LoginEmptyPassword,,,,2022-05-16 19:16:09,2022-05-16 19:16:10,0.859s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Login_EmptyPassword""))",,,,2022-05-16 19:16:09,2022-05-16 19:16:10,0.499s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:16:10,2022-05-16 19:16:10,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""password is required"")",,,,2022-05-16 19:16:10,2022-05-16 19:16:10,0.015s,PASSED
+,,,,,,,
+Test Cases/REST_API/03_Auth/TC10_LoginUnregisteredPassword,,,,2022-05-16 19:16:10,2022-05-16 19:16:10,0.788s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/03_Auth/Login_InvalidPassword""))",,,,2022-05-16 19:16:10,2022-05-16 19:16:10,0.437s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:16:10,2022-05-16 19:16:10,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""email or password is invalid"")",,,,2022-05-16 19:16:10,2022-05-16 19:16:10,0.040s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC01_GetAllTransactions,,,,2022-05-16 19:16:10,2022-05-16 19:16:11,0.819s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/GetAllTransactions""))",,,,2022-05-16 19:16:11,2022-05-16 19:16:11,0.526s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-16 19:16:11,2022-05-16 19:16:11,0.000s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC02_CreateTransactions,,,,2022-05-16 19:16:11,2022-05-16 19:16:12,0.666s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions""))",,,,2022-05-16 19:16:12,2022-05-16 19:16:12,0.340s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-16 19:16:12,2022-05-16 19:16:12,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data[0].Product.ID"", 1468)",,,,2022-05-16 19:16:12,2022-05-16 19:16:12,0.015s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC03_CreateTransactionsInvalidId,,,,2022-05-16 19:16:12,2022-05-16 19:16:13,0.693s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions_InvalidProductID""))",,,,2022-05-16 19:16:12,2022-05-16 19:16:13,0.342s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:16:13,2022-05-16 19:16:13,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""invalid character 's' after object key:value pair"")",,,,2022-05-16 19:16:13,2022-05-16 19:16:13,0.015s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC04_CreateTransactionsInvalidQuantity,,,,2022-05-16 19:16:13,2022-05-16 19:16:13,0.757s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions_InvalidQuantity""))",,,,2022-05-16 19:16:13,2022-05-16 19:16:13,0.428s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:16:13,2022-05-16 19:16:13,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""invalid character 'I' looking for beginning of value"")",,,,2022-05-16 19:16:13,2022-05-16 19:16:13,0.031s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC05_CreateTransactionsEmptyData,,,,2022-05-16 19:16:13,2022-05-16 19:16:14,0.648s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions_EmptyData""))",,,,2022-05-16 19:16:14,2022-05-16 19:16:14,0.326s,PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-16 19:16:14,2022-05-16 19:16:14,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""EOF"")",,,,2022-05-16 19:16:14,2022-05-16 19:16:14,0.016s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC06_GetAllTransactionsInvalidToken,,,,2022-05-16 19:16:14,2022-05-16 19:16:15,0.738s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/GetAllTransactions_InvalidToken""))",,,,2022-05-16 19:16:14,2022-05-16 19:16:15,0.373s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-16 19:16:15,2022-05-16 19:16:15,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""signature is invalid"")",,,,2022-05-16 19:16:15,2022-05-16 19:16:15,0.031s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC07_CreateTransactionsInvalidToken,,,,2022-05-16 19:16:15,2022-05-16 19:16:16,0.870s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions_InvalidToken""))",,,,2022-05-16 19:16:15,2022-05-16 19:16:16,0.450s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-16 19:16:16,2022-05-16 19:16:16,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""signature is invalid"")",,,,2022-05-16 19:16:16,2022-05-16 19:16:16,0.063s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC08_CreateTransactionsEmptyToken,,,,2022-05-16 19:16:16,2022-05-16 19:16:16,0.771s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/CreateTransactions_EmptyToken""))",,,,2022-05-16 19:16:16,2022-05-16 19:16:16,0.425s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-16 19:16:16,2022-05-16 19:16:16,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""unauthorized"")",,,,2022-05-16 19:16:16,2022-05-16 19:16:16,0.015s,PASSED
+,,,,,,,
+Test Cases/REST_API/05_Ratings/TC01_GetProductRatings,,,,2022-05-16 19:16:16,2022-05-16 19:16:17,0.830s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/GetProductRatings""))",,,,2022-05-16 19:16:17,2022-05-16 19:16:17,0.368s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-16 19:16:17,2022-05-16 19:16:17,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data"", 5)",,,,2022-05-16 19:16:17,2022-05-16 19:16:17,0.031s,PASSED
+,,,,,,,
+Test Cases/REST_API/05_Ratings/TC02_GiveRatingToProduct,,,,2022-05-16 19:16:17,2022-05-16 19:16:18,0.788s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/GiveRatingToProduct""))",,,,2022-05-16 19:16:18,2022-05-16 19:16:18,0.392s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-16 19:16:18,2022-05-16 19:16:18,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data.Ratings"", 5)",,,,2022-05-16 19:16:18,2022-05-16 19:16:18,0.055s,PASSED
+,,,,,,,
+Test Cases/REST_API/05_Ratings/TC03_GiveRatingtoProductInvalidRating,,,,2022-05-16 19:16:18,2022-05-16 19:16:19,0.714s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/GiveRatingToProduct_InvalidRating""))",,,,2022-05-16 19:16:18,2022-05-16 19:16:19,0.402s,PASSED
+"verifyResponseStatusCode(Response, 500)",,,,2022-05-16 19:16:19,2022-05-16 19:16:19,0.001s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""ERROR: new row for relation ""ratings"" violates check constraint ""ratings_count_check"" (SQLSTATE 23514)"")",,,,2022-05-16 19:16:19,2022-05-16 19:16:19,0.016s,PASSED
+,,,,,,,
+Test Cases/REST_API/05_Ratings/TC04_GiveRatingToProductEmptyToken,,,,2022-05-16 19:16:19,2022-05-16 19:16:20,0.821s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/GiveRatingToProduct_EmptyToken""))",,,,2022-05-16 19:16:19,2022-05-16 19:16:20,0.401s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-16 19:16:20,2022-05-16 19:16:20,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""unauthorized"")",,,,2022-05-16 19:16:20,2022-05-16 19:16:20,0.016s,PASSED
+,,,,,,,
+Test Cases/REST_API/05_Ratings/TC05_GiveRatingToProductInvalidToken,,,,2022-05-16 19:16:20,2022-05-16 19:16:20,0.719s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/05_Ratings/GiveRatingToProduct_InvalidToken""))",,,,2022-05-16 19:16:20,2022-05-16 19:16:20,0.385s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-16 19:16:20,2022-05-16 19:16:20,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""signature is invalid"")",,,,2022-05-16 19:16:20,2022-05-16 19:16:20,0.016s,PASSED
+,,,,,,,
+Test Cases/REST_API/06_Comments/TC01_GetProductComments,,,,2022-05-16 19:16:20,2022-05-16 19:16:21,0.716s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/GetProductComments""))",,,,2022-05-16 19:16:21,2022-05-16 19:16:21,0.360s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-16 19:16:21,2022-05-16 19:16:21,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data[0].Content"", ""mantap"")",,,,2022-05-16 19:16:21,2022-05-16 19:16:21,0.031s,PASSED
+,,,,,,,
+Test Cases/REST_API/06_Comments/TC02_WriteCommentToProduct,,,,2022-05-16 19:16:21,2022-05-16 19:16:22,0.799s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/WriteCommentToProduct""))",,,,2022-05-16 19:16:21,2022-05-16 19:16:22,0.447s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-16 19:16:22,2022-05-16 19:16:22,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""data.Content"", ""mantap"")",,,,2022-05-16 19:16:22,2022-05-16 19:16:22,0.015s,PASSED
+,,,,,,,
+Test Cases/REST_API/06_Comments/TC03_WriteCommentToProductEmptyComments,,,,2022-05-16 19:16:22,2022-05-16 19:16:23,0.787s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/WriteCommentToProduct_EmptyComments""))",,,,2022-05-16 19:16:22,2022-05-16 19:16:23,0.438s,PASSED
+"verifyResponseStatusCode(Response, 500)",,,,2022-05-16 19:16:23,2022-05-16 19:16:23,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""ERROR: new row for relation ""comments"" violates check constraint ""comments_content_check"" (SQLSTATE 23514)"")",,,,2022-05-16 19:16:23,2022-05-16 19:16:23,0.031s,PASSED
+,,,,,,,
+Test Cases/REST_API/06_Comments/TC04_WriteCommentToProductEmptyToken,,,,2022-05-16 19:16:23,2022-05-16 19:16:23,0.793s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/WriteCommentToProduct_EmptyToken""))",,,,2022-05-16 19:16:23,2022-05-16 19:16:23,0.431s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-16 19:16:23,2022-05-16 19:16:23,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""unauthorized"")",,,,2022-05-16 19:16:23,2022-05-16 19:16:23,0.062s,PASSED
+,,,,,,,
+Test Cases/REST_API/06_Comments/TC05_WriteCommentToPRoductInvalidComment,,,,2022-05-16 19:16:23,2022-05-16 19:16:24,0.936s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/WriteCommentToProduct_InvalidComments""))",,,,2022-05-16 19:16:24,2022-05-16 19:16:24,0.385s,PASSED
+"verifyResponseStatusCode(Response, 500)",,,,2022-05-16 19:16:24,2022-05-16 19:16:24,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""ERROR: new row for relation ""comments"" violates check constraint ""comments_content_check"" (SQLSTATE 23514)"")",,,,2022-05-16 19:16:24,2022-05-16 19:16:24,0.015s,PASSED
+,,,,,,,
+Test Cases/REST_API/06_Comments/TC06_WriteCommentToProductInvalidToken,,,,2022-05-16 19:16:24,2022-05-16 19:16:25,0.729s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/06_Comments/WriteCommentToProduct_InvalidToken""))",,,,2022-05-16 19:16:25,2022-05-16 19:16:25,0.387s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-16 19:16:25,2022-05-16 19:16:25,0.000s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""signature is invalid"")",,,,2022-05-16 19:16:25,2022-05-16 19:16:25,0.015s,PASSED
+,,,,,,,
+Test Cases/REST_API/04_Transactions/TC09_GetAllTransactionsEmptyToken,,,,2022-05-16 19:16:25,2022-05-16 19:16:26,0.997s,PASSED
+"Response = sendRequest(findTestObject(""REST_API/04_Transactions/GetAllTransactions_EmptyToken""))",,,,2022-05-16 19:16:26,2022-05-16 19:16:26,0.410s,PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-16 19:16:26,2022-05-16 19:16:26,0.011s,PASSED
+"verifyElementPropertyValue(Response, ""error"", ""unauthorized"")",,,,2022-05-16 19:16:26,2022-05-16 19:16:26,0.016s,PASSED

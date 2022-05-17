@@ -20,7 +20,9 @@ import org.openqa.selenium.Keys as Keys
 for (int i = 1; i <= 7; i++) {
     Mobile.startExistingApplication('com.example.frontend_mobile')
 
-    Mobile.tap(findTestObject('MOBILE/Auth/Register/android.widget.Button - Login 2'), 0)
+    Mobile.delay(7, FailureHandling.CONTINUE_ON_FAILURE)
+
+    Mobile.tap(findTestObject('MOBILE/Auth/Login/android.widget.Button - Login'), 0)
 
     Mobile.tap(findTestObject('MOBILE/Auth/Login/android.widget.EditText - Email'), 0)
 
@@ -32,15 +34,20 @@ for (int i = 1; i <= 7; i++) {
     Mobile.setText(findTestObject('MOBILE/Auth/Login/android.widget.EditText - Password'), findTestData('WEB/Login').getValue(
             2, i), 0)
 
+    Mobile.pressBack()
+
     Mobile.tap(findTestObject('MOBILE/Auth/Login/android.widget.Button - Login Button'), 0)
-	
-	Mobile.pressBack()
+
+    Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
     if (findTestData('WEB/Login').getValue(3, i) == 'negative') {
-        Mobile.verifyElementExist(findTestObject('MOBILE/Auth/Login/android.widget.Button - Login Button'), 3)
+        Mobile.verifyElementVisible(findTestObject('MOBILE/Auth/Login/android.widget.EditText - Email'), 0, FailureHandling.CONTINUE_ON_FAILURE)
     } else {
-        Mobile.verifyElementExist(findTestObject('MOBILE/Auth/Logout/android.widget.Button - Logout'), 3)
+        Mobile.verifyElementVisible(findTestObject('MOBILE/Auth/Login/android.widget.Button - Logout'), 0, FailureHandling.CONTINUE_ON_FAILURE)
     }
-	Mobile.pressBack()
+    
+    Mobile.pressBack()
+
+    Mobile.closeApplication()
 }
 

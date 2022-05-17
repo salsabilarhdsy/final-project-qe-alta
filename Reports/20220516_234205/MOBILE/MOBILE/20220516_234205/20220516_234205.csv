@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MOBILE,,,,2022-05-16 23:42:13,2022-05-16 23:42:24,10.826s,FAILED
+,,,,,,,
+Test Cases/MOBILE/Auth/Register,,,,2022-05-16 23:42:17,2022-05-16 23:42:17,0.227s,FAILED
+"comment(""Register Testing"")",,,,2022-05-16 23:42:17,2022-05-16 23:42:17,0.007s,PASSED
+"for ([i = 1, i <= 7, (i++)])",,,,2022-05-16 23:42:17,2022-05-16 23:42:17,0.176s,FAILED
+,,,,,,,
+Test Cases/MOBILE/Auth/Login,,,,2022-05-16 23:42:20,2022-05-16 23:42:21,0.565s,FAILED
+"for ([i = 1, i <= 7, (i++)])",,,,2022-05-16 23:42:20,2022-05-16 23:42:21,0.535s,FAILED
+,,,,,,,
+Test Cases/MOBILE/Auth/Logout,,,,2022-05-16 23:42:23,2022-05-16 23:42:24,0.390s,FAILED
+"callTestCase(findTestCase(""MOBILE/Auth/Login_Success""), [:], CONTINUE_ON_FAILURE)",,,,2022-05-16 23:42:23,2022-05-16 23:42:24,0.235s,FAILED
+"tap(findTestObject(""MOBILE/Auth/Login/android.widget.Button - Logout""), 0)",,,,2022-05-16 23:42:24,2022-05-16 23:42:24,0.125s,PASSED

@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MOBILE" time="502.706" tests="3" failures="0" errors="0">
+   <testsuite name="MOBILE" tests="3" failures="0" errors="0" time="502.706" skipped="0" timestamp="2022-05-17 11:12:00" hostname="salsa - SALSABILA" id="Test Suites/MOBILE/MOBILE">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_111156\\MOBILE\\MOBILE\\20220517_111156"/>
+         <property name="logFiles" value="F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_111156\\MOBILE\\MOBILE\\20220517_111156\\appium.log, F:\\1. UNNES\\6. Semester 6\\2 - MSIB\\final-project-qe-alta4\\final-project-qe-alta\\Reports\\20220517_111156\\MOBILE\\MOBILE\\20220517_111156\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salsa - SALSABILA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2003J15SC"/>
+         <property name="hostAddress" value="192.168.200.173"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="aeebca410407"/>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/MOBILE/Auth/Register" time="242.203" classname="Test Cases/MOBILE/Auth/Register" status="PASSED">
+         <system-out><![CDATA[2022-05-17 11:12:01 - [TEST_CASE][PASSED] - Test Cases/MOBILE/Auth/Register: Test Cases/MOBILE/Auth/Register
+
+2022-05-17 11:12:01 - [TEST_STEP][PASSED] - for ([i = 1, i <= 7, (i++)]): Close app successfully
+
+2022-05-17 11:12:01 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:12:04 - [MESSAGE][INFO] - Appium server started on port 62,778
+
+2022-05-17 11:12:18 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:12:18 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:12:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:12:23 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:12:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:12:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:12:25 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:12:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:12:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:12:26 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:12:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:12:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:12:28 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): null
+
+2022-05-17 11:12:28 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 11:12:28 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 11:12:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:12:29 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 11:12:29 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:12:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:12:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:12:30 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): null
+
+2022-05-17 11:12:30 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 11:12:30 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 11:12:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:12:31 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 11:12:31 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:12:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:12:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:12:32 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): null
+
+2022-05-17 11:12:32 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 11:12:32 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 11:12:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:12:33 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 11:12:33 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:12:34 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:12:34 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:12:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:12:35 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Press back button successfully
+
+2022-05-17 11:12:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is visible
+
+2022-05-17 11:12:36 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is visible
+
+2022-05-17 11:12:36 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:12:36 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:12:36 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:12:37 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:12:37 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:12:38 - [MESSAGE][INFO] - Appium server started on port 62,975
+
+2022-05-17 11:12:50 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:12:50 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:12:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:12:55 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:12:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:12:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:12:57 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:12:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:12:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:12:58 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:12:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:12:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:12:59 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): null
+
+2022-05-17 11:12:59 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 11:12:59 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 11:12:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:13:00 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname' text is cleared
+
+2022-05-17 11:13:00 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:13:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:13:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:13:02 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:13:02 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:13:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:13:03 - [MESSAGE][PASSED] - Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:13:03 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:13:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:13:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:13:04 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:13:04 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:13:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:13:06 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:13:06 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:13:07 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:13:07 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:13:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:13:09 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Press back button successfully
+
+2022-05-17 11:13:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is visible
+
+2022-05-17 11:13:10 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is visible
+
+2022-05-17 11:13:10 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:13:10 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:13:10 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:13:11 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:13:11 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:13:13 - [MESSAGE][INFO] - Appium server started on port 63,164
+
+2022-05-17 11:13:25 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:13:25 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:13:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:13:30 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:13:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:13:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:13:31 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:13:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:13:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:13:33 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:13:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:13:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:13:34 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:13:34 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:13:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:13:36 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:13:36 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:13:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:13:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:13:37 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): null
+
+2022-05-17 11:13:37 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 11:13:37 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 11:13:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:13:38 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email' text is cleared
+
+2022-05-17 11:13:38 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:13:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:13:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:13:39 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:13:39 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:13:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:13:40 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:13:40 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:13:41 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:13:41 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:13:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:13:43 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Press back button successfully
+
+2022-05-17 11:13:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is visible
+
+2022-05-17 11:13:43 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is visible
+
+2022-05-17 11:13:43 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:13:43 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:13:43 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:13:44 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:13:44 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:13:46 - [MESSAGE][INFO] - Appium server started on port 63,355
+
+2022-05-17 11:13:58 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:13:58 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:14:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:14:03 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:14:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:14:04 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:14:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:14:06 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:14:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:14:06 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:14:06 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:14:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:09 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:14:09 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:14:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:14:11 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:14:11 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:14:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:11 - [MESSAGE][PASSED] - Text 'salsabila1@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:14:11 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:14:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:14:12 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): null
+
+2022-05-17 11:14:13 - [TEST_STEP][PASSED] - else: Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 11:14:13 - [TEST_STEP][PASSED] - clearText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 11:14:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:14 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password' text is cleared
+
+2022-05-17 11:14:14 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:14:14 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:14:14 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:14:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:14:15 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Press back button successfully
+
+2022-05-17 11:14:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is visible
+
+2022-05-17 11:14:17 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is visible
+
+2022-05-17 11:14:17 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:14:17 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:14:17 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:14:17 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:14:17 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:14:20 - [MESSAGE][INFO] - Appium server started on port 63,546
+
+2022-05-17 11:14:32 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:14:32 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:14:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:14:37 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:14:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:14:39 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:14:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:14:40 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:14:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:14:41 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:14:41 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:14:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:43 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:14:43 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:14:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:14:44 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'salsa@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:14:44 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'salsa@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:14:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:46 - [MESSAGE][PASSED] - Text 'salsa@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:14:46 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:14:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:14:47 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsa' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:14:47 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'salsa' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:14:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:14:49 - [MESSAGE][PASSED] - Text 'salsa' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:14:49 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:14:50 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:14:50 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:14:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:14:51 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Press back button successfully
+
+2022-05-17 11:14:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is visible
+
+2022-05-17 11:14:52 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is visible
+
+2022-05-17 11:14:52 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:14:52 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:14:52 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:14:53 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:14:53 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:14:55 - [MESSAGE][INFO] - Appium server started on port 63,738
+
+2022-05-17 11:15:07 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:15:07 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:15:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:15:12 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:15:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:15:13 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:15:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:15:15 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:15:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:15:16 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:15:16 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:15:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:18 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:15:18 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:15:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:15:20 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'halosalsa30' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:15:20 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'halosalsa30' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:15:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:21 - [MESSAGE][PASSED] - Text 'halosalsa30' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:15:21 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:15:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:15:22 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:15:22 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:15:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:23 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:15:23 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:15:24 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:15:24 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:15:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:15:26 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): Press back button successfully
+
+2022-05-17 11:15:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is visible
+
+2022-05-17 11:15:27 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button' is visible
+
+2022-05-17 11:15:27 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:15:27 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:15:27 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:15:27 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:15:27 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:15:30 - [MESSAGE][INFO] - Appium server started on port 63,930
+
+2022-05-17 11:15:42 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:15:42 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:15:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:15:47 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:15:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:15:51 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register a"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:15:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register a'
+
+2022-05-17 11:15:52 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:15:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:15:53 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(1, i) != ""): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:15:53 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Fullname"), findTestData("WEB/Register").getValue(1, i), 0): Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:15:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:54 - [MESSAGE][PASSED] - Text 'Salsabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Fullname'
+
+2022-05-17 11:15:54 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:15:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:15:55 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(2, i) != ""): Text 'halosalsa30@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:15:55 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Email"), findTestData("WEB/Register").getValue(2, i), 0): Text 'halosalsa30@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:15:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:56 - [MESSAGE][PASSED] - Text 'halosalsa30@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Email'
+
+2022-05-17 11:15:56 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:15:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:15:58 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(3, i) != ""): Text 'sabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:15:58 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Register/android.widget.EditText - Password"), findTestData("WEB/Register").getValue(3, i), 0): Text 'sabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:15:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:15:59 - [MESSAGE][PASSED] - Text 'sabila' has been set to element 'Object Repository/MOBILE/Auth/Register/android.widget.EditText - Password'
+
+2022-05-17 11:15:59 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:16:00 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:16:00 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Register button"), 1): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:16:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Register button'
+
+2022-05-17 11:16:01 - [TEST_STEP][PASSED] - if (findTestData("WEB/Register").getValue(4, i) == "negative"): null
+
+2022-05-17 11:16:01 - [TEST_STEP][PASSED] - else: Press back button successfully
+
+2022-05-17 11:16:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2' is visible
+
+2022-05-17 11:16:02 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2' is visible
+
+2022-05-17 11:16:02 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:16:03 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:16:03 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:16:03 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOBILE/Auth/Login" time="227.911" classname="Test Cases/MOBILE/Auth/Login" status="PASSED">
+         <system-out><![CDATA[2022-05-17 11:16:03 - [TEST_CASE][PASSED] - Test Cases/MOBILE/Auth/Login: Test Cases/MOBILE/Auth/Login
+
+2022-05-17 11:16:03 - [TEST_STEP][PASSED] - for ([i = 1, i <= 7, (i++)]): Close app successfully
+
+2022-05-17 11:16:03 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:16:06 - [MESSAGE][INFO] - Appium server started on port 64,121
+
+2022-05-17 11:16:18 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:16:18 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:16:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:16:23 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:16:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:16:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:16:24 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:16:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:16:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:16:25 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:16:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:16:26 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:16:26 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:16:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:16:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:16:27 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:16:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:16:28 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:16:28 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:16:28 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:16:28 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:16:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:16:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:16:29 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Press back button successfully
+
+2022-05-17 11:16:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:16:30 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:16:30 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:16:31 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:16:31 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:16:31 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:16:31 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:16:34 - [MESSAGE][INFO] - Appium server started on port 64,312
+
+2022-05-17 11:16:45 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:16:45 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:16:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:16:50 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:16:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:16:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:16:52 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:16:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:16:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:16:53 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:16:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:16:54 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:16:54 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:16:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:16:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:16:55 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:16:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:16:56 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:16:56 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:16:56 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:16:56 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:16:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:16:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:16:57 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Press back button successfully
+
+2022-05-17 11:16:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:16:58 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:16:58 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:16:59 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:16:59 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:16:59 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:16:59 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:17:01 - [MESSAGE][INFO] - Appium server started on port 64,504
+
+2022-05-17 11:17:13 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:17:13 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:17:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:17:18 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:17:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:17:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:17:19 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:17:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:17:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:17:21 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text 'salsabila@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:17:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:17:23 - [MESSAGE][PASSED] - Text 'salsabila@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:17:23 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:17:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:17:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:17:24 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:17:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:17:25 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:17:25 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:17:25 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:17:25 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:17:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:17:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:17:26 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Press back button successfully
+
+2022-05-17 11:17:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:17:27 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:17:27 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:17:27 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:17:27 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:17:28 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:17:28 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:17:30 - [MESSAGE][INFO] - Appium server started on port 64,699
+
+2022-05-17 11:17:42 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:17:42 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:17:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:17:47 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:17:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:17:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:17:49 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:17:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:17:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:17:50 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text 'salsabila@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:17:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:17:51 - [MESSAGE][PASSED] - Text 'salsabila@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:17:51 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:17:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:17:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:17:52 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text 'bila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:17:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:17:53 - [MESSAGE][PASSED] - Text 'bila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:17:53 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:17:54 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:17:54 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:17:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:17:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:17:55 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Press back button successfully
+
+2022-05-17 11:17:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:17:56 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:17:56 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:17:56 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:17:56 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:17:57 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:17:57 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:17:59 - [MESSAGE][INFO] - Appium server started on port 64,889
+
+2022-05-17 11:18:11 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:18:11 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:18:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:18:16 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:18:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:18:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:18:17 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:18:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:18:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:18:19 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text 'salsabila0123@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:18:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:18:20 - [MESSAGE][PASSED] - Text 'salsabila0123@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:18:20 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:18:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:18:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:18:21 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:18:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:18:23 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:18:23 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:18:23 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:18:23 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:18:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:18:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:18:25 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Press back button successfully
+
+2022-05-17 11:18:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:18:25 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:18:25 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:18:25 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:18:25 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:18:26 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:18:26 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:18:28 - [MESSAGE][INFO] - Appium server started on port 65,079
+
+2022-05-17 11:18:40 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:18:40 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:18:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:18:45 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:18:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:18:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:18:47 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:18:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:18:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:18:48 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text 'halosalsa' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:18:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:18:50 - [MESSAGE][PASSED] - Text 'halosalsa' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:18:50 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:18:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:18:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:18:51 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:18:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:18:52 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:18:52 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:18:52 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:18:52 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:18:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:18:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:18:54 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): Press back button successfully
+
+2022-05-17 11:18:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:18:55 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:18:55 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:18:55 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:18:55 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:18:55 - [MESSAGE][PASSED] - Close app successfully
+
+2022-05-17 11:18:55 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:18:58 - [MESSAGE][INFO] - Appium server started on port 65,269
+
+2022-05-17 11:19:10 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:19:10 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:19:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:19:15 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:19:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:19:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login'
+
+2022-05-17 11:19:17 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:19:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:19:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:19:43 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), findTestData("WEB/Login").getValue(1, i), 0): Text 'salsabila@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:19:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:19:44 - [MESSAGE][PASSED] - Text 'salsabila@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:19:44 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:19:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:19:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:19:45 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), findTestData("WEB/Login").getValue(2, i), 0): Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:19:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:19:46 - [MESSAGE][PASSED] - Text 'salsabila' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:19:46 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:19:48 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:19:48 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:19:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:19:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:19:49 - [TEST_STEP][PASSED] - if (findTestData("WEB/Login").getValue(3, i) == "negative"): null
+
+2022-05-17 11:19:49 - [TEST_STEP][PASSED] - else: Press back button successfully
+
+2022-05-17 11:19:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Logout/android.widget.Button - Logout"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/MOBILE/Auth/Logout/android.widget.Button - Logout' is visible
+
+2022-05-17 11:19:50 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Logout/android.widget.Button - Logout' is visible
+
+2022-05-17 11:19:50 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-17 11:19:50 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-17 11:19:50 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:19:51 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOBILE/Auth/Logout" time="32.177" classname="Test Cases/MOBILE/Auth/Logout" status="PASSED">
+         <system-out><![CDATA[2022-05-17 11:19:51 - [TEST_CASE][PASSED] - Test Cases/MOBILE/Auth/Logout: Test Cases/MOBILE/Auth/Logout
+
+2022-05-17 11:19:51 - [TEST_STEP][PASSED] - startExistingApplication("com.example.frontend_mobile"): Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:19:54 - [MESSAGE][INFO] - Appium server started on port 65,461
+
+2022-05-17 11:20:06 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-05-17 11:20:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("MOBILE/Auth/Login_Success"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/MOBILE/Auth/Login_Success' successfully
+
+2022-05-17 11:20:06 - [TEST_CASE][PASSED] - Test Cases/MOBILE/Auth/Login_Success: Test Cases/MOBILE/Auth/Login_Success
+
+2022-05-17 11:20:06 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-05-17 11:20:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-17 11:20:11 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Register/android.widget.Button - Login 2"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:20:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:20:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Register/android.widget.Button - Login 2'
+
+2022-05-17 11:20:12 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:20:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:20:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:20:15 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Email"), "salsa@gmail.com", 0): Text 'salsa@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:20:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:20:16 - [MESSAGE][PASSED] - Text 'salsa@gmail.com' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Email'
+
+2022-05-17 11:20:16 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:20:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:20:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:20:17 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Auth/Login/android.widget.EditText - Password"), "salsa", 0): Text 'salsa' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:20:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:20:18 - [MESSAGE][PASSED] - Text 'salsa' has been set to element 'Object Repository/MOBILE/Auth/Login/android.widget.EditText - Password'
+
+2022-05-17 11:20:18 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:20:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:20:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button'
+
+2022-05-17 11:20:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Login/android.widget.Button - Logout"), 0): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Logout' is visible
+
+2022-05-17 11:20:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:20:20 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Logout' is visible
+
+2022-05-17 11:20:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/MOBILE/Auth/Login_Success' successfully
+
+2022-05-17 11:20:20 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Auth/Login/android.widget.Button - Logout"), 5): Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Logout'
+
+2022-05-17 11:20:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Logout'
+
+2022-05-17 11:20:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MOBILE/Auth/Login/android.widget.Button - Login Button"), 0): Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:20:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-17 11:20:23 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Auth/Login/android.widget.Button - Login Button' is visible
+
+2022-05-17 11:20:23 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-17 11:20:23 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-17 11:12:00 - [TEST_SUITE][PASSED] - MOBILE: Test Cases/MOBILE/Auth/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
