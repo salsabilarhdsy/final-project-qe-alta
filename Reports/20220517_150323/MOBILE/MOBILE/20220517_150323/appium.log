@@ -1448,3 +1448,879 @@
 [debug] [35m[Instrumentation][39m 
 [debug] [35m[Instrumentation][39m OK (1 test)
 [debug] [35m[Instrumentation][39m The process has exited with code 0
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session '5744955c-9d3e-42cc-afec-00f6e9195e07' from our master session list
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 shell am force-stop com.android.settings'
+[35m[ADB][39m Error sending command, reconnecting device and retrying: shell,am,force-stop,com.android.settings
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[35m[UiAutomator2][39m Unable to force stop app: Could not find a connected Android device in 20140ms.
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[Logcat][39m Logcat already stopped
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 8215 
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 forward --remove tcp:8215'
+[35m[ADB][39m Error sending command, reconnecting device and retrying: forward,--remove,tcp:8215
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[35m[UiAutomator2][39m Unable to remove system port forward: Could not find a connected Android device in 20140ms.
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[35m[ADB][39m Error sending command, reconnecting device and retrying: shell,settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\salsa\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s aeebca410407 reconnect offline'
